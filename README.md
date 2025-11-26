@@ -1,6 +1,6 @@
 Welcome!
 
-This is the client for the Akashic life repository and planner app. This app is designed by a developer with terrible ADHD, inspired by that ADHD, to help others with ADHD handle the mayhem of managing day to day life in an organized manner. Currently the app is in early development with most of the core features implemented and working, with much of the work ahead having to do with expanding on those features and improving user experience of navigating the site. 
+This is the client for the Akashic software Mindspace life repository and declutterifier app. This app is designed by a developer with terrible ADHD, inspired by that ADHD, to help others with ADHD and other executive function challenges handle the mayhem of managing day to day life in an organized manner. Currently the app is in early development with most of the core features implemented and working, with much of the work ahead having to do with expanding on those features and improving user experience of navigating the site. 
 
 The goal for this app is to make it the easiest possible option when faced with moments in life where you must write something down, without that option being a piece of paper, or a post-it note, or a scribbling in a notebook or physical planner, or a digital note in a word document, or even a note typed into Notion or other favorite planner app of choice that is ultimately destined to vanish into the noise of all the other notes. 
 
@@ -221,14 +221,4 @@ Much of the roadmap has to do with reducing friction during usage of this app as
 -   [ ] **Landing Pages**:
     -   [ ] Create a landing page, hero, pricing page, FAQ, and about page.
     -   [ ] Brainstorm the dashboard landing page.
--   [x] **PC Components**:
-    -   [x] Get GPU + PSU.
-    -   [x] Decide on CPU + Motherboard combo.
-    -   [x] Get DDR5 RAM.
-    -   [x] Get case, fans, AIO watercooling, etc.
--   [x] **Personal**:
-    -   [x] Wipe work laptop.
-    -   [x] Hang out on VRChat later.
--   [x] **Counter-TI**:
-    -   [x] Mental health document - original
-    -   [ ] Share wiki in all communities.
+
