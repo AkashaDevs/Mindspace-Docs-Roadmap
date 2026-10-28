@@ -23,17 +23,19 @@ The aim is to make a small action easy: capture a thought, find it again, give i
 
 The inventories use **checked, struck-through items for implemented work with recorded verification**, and empty checkboxes for remaining work. A working foundation and a later improvement can both appear: having a Task board does not mean its drag performance or navigation is finished.
 
-**Current status: active pre-1.0 development.** The inventories describe the development candidate reviewed on October 26, 2026. A checked item does not mean that change is already deployed to every hosted version. Current deployment and provider acceptance remain separate release gates. Paid enrollment and some integrations remain gated.
+**Current status: active pre-1.0 development.** The inventories were updated on October 28, 2026. A checked item does not mean that change is already deployed to every hosted version. Current deployment and provider acceptance remain separate release gates. Paid enrollment and some integrations remain gated.
+
+The latest development improvement gives header notifications their own detail view, a separate related-item action and a clear route to full history. See [development progress](PROGRESS.md) for verification and remaining work.
 
 ## Current focus
 
 The next delivery pass prioritizes changes people can see and use immediately:
 
-1. Bring the public feature lists up to date for both client and server.
-2. Make the Task dashboard easier to enter, choose a view and filter by list; improve responsiveness.
-3. Simplify Planner controls and make adding an event easy to find.
-4. Make notification entries lead somewhere useful, with a clear route to history.
-5. Improve sidebar context, compact controls and consistency between dashboards.
+- [x] ~~Bring the public feature lists up to date for both client and server.~~
+- [x] ~~Give header notifications their own details, related-item action and history navigation.~~
+- [ ] Make the Task dashboard easier to enter, choose a view and filter by list; improve responsiveness.
+- [ ] Simplify Planner controls and make adding an event easy to find.
+- [ ] Improve sidebar context, compact controls and consistency between dashboards.
 
 Deeper work on Notes loading, Orion AI, charting, forms and backend release readiness follows in separate, verifiable slices. Reliability and protection of user data remain release requirements throughout.
 

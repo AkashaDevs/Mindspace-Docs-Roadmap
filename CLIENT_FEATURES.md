@@ -2,7 +2,7 @@
 
 [Overview](README.md) · [Server](SERVER_FEATURES.md) · [Progress](PROGRESS.md)
 
-Updated October 26, 2026. Checked and struck-through items have implementation and recorded development verification. Empty checkboxes remain open. New usability reports stay open even when an earlier implementation test passed. These are development statuses, not a claim about every hosted version.
+Updated October 28, 2026. Checked and struck-through items have implementation and recorded development verification. Empty checkboxes remain open. New usability reports stay open even when an earlier implementation test passed. These are development statuses, not a claim about every hosted version.
 
 ## Capture and return
 
@@ -114,9 +114,11 @@ Updated October 26, 2026. Checked and struck-through items have implementation a
 - [x] ~~Manage several reminders for one source without hiding separate identities.~~
 - [x] ~~In-app notifications, snooze and channel/device settings foundations.~~
 - [x] ~~Engagement-aware pacing foundations with inspectable timing context.~~
-- [ ] Clarify the header list → notification detail → full history journey.
-  - [ ] Give entries useful destinations and distinguish their related sources.
-  - [ ] Handle missing, unavailable or deleted sources without trapping navigation.
+- [x] ~~Connect header entries to their own notification details and full history table.~~
+  - [x] ~~Keep an explicit one-action related-item destination alongside notification details.~~
+  - [x] ~~Read scoped canonical records, show confirmed opening status and offer inline retry or history when a notification is unavailable.~~
+  - [x] ~~Preserve an unfinished Quick Jot thought when detail/history navigation is declined.~~
+  - [ ] Complete return journeys from deleted or unavailable related source items.
 - [ ] Unify reminder, delivery-status and history presentation.
 - [ ] Complete real-device delivery and repeated-use pacing acceptance.
 
