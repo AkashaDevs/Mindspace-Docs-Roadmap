@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## October 31 2026 — Task retry confirmations
+
+When Retry finds that a move is already saved, that row now leaves Sync Queue even if another row's write fails. Only the remaining change stays queued, with a refused save and a server conflict kept distinct. Reload and another successful Retry preserve the saved order without resending the confirmed row.
+
+Development acceptance covers 136 source-browser and 104 compiled-client cases across four profiles: 240 passes without retries or skips. All 2,164 client unit tests, 80 focused contracts, release lint and production/font/artifact checks pass. Captured writes shrink from two rows to one, and only that remaining row is checked on the next return. Server source is unchanged; earlier database checks remain separate evidence. Application deployment and physical-device acceptance remain open.
+
+Very fast repeated reloads can still require an unnecessary recovery-copy choice, and an early Retry can appear available before recovery persistence has settled. The verified journey completes any visible copy/save steps first. Reducing those prompts and aligning button readiness remain open work, alongside independent view settings, representative latency, larger batches and cross-device recovery.
+
 ## October 31 2026 — Task move recovery after reload
 
 Unsaved Task and column moves now have a protected copy on the device. Returning to the original account and workspace restores the pending changes for explicit Retry. Retry checks only the affected server records first; it can recognize a fully saved uncertain move without writing again. A delayed check cannot send an obsolete move or replace a newer record. Competing tabs keep separate recovery copies until the user chooses, and storage failures stay visible and retryable.
