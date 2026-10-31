@@ -2,7 +2,17 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
-## October 31 2026
+## October 31 2026 — Task Calendar views
+
+Each Calendar tab now retains its own month, timeline date, month/day mode, selected-day focus and applied text filters. The existing account preset restores those settings. Text filters now affect the visible Tasks within the selected Todo list; changing or removing a rule uses the already loaded records. Switching between mounted Calendar tabs also retains unfinished filter input.
+
+Date navigation handles month-end choices, leap years and local calendar days. Date selectors and primary actions wrap to fit the available space, keeping Day, Add Filter and Add Task visible on smaller screens. Filter chips and the editor stay within their container.
+
+Local acceptance covers 52 source-browser and 52 isolated compiled-client cases across Chromium, Firefox, tablet Safari and mobile Chrome profiles: 104 passes without retries or skips. All 2,088 client unit tests, release lint, production, font and artifact checks pass. Compiled desktop and mobile images were reviewed. This slice changes no server functionality; the earlier server settings proof remains a separate result.
+
+Table/Detailed expansion and sorting, DataTable filters/grouping, other nested settings, broader Task drag and long-session responsiveness, and compact table controls remain open. Browser profiles do not establish physical-device performance. These results describe local implementation; application deployment and provider acceptance remain separate.
+
+## October 31 2026 — Task tabs and list tools
 
 Task tabs can now hold several instances of the same view type. Each has its own name, pin and position, and Kanban instances keep separate zoom and hidden-group settings. Keyboard selection and browser history retain the selected instance. The account preset restores after browser settings are removed; failed or unconfirmed saves keep the tabs available for retry, and a delayed save does not replace newer local changes.
 

@@ -2,7 +2,7 @@
 
 [Overview](README.md) · [Server](SERVER_FEATURES.md) · [Progress](PROGRESS.md)
 
-Updated October 28, 2026. Checked and struck-through items have implementation and recorded development verification. Empty checkboxes remain open. New usability reports stay open even when an earlier implementation test passed. These are development statuses, not a claim about every hosted version.
+Updated October 31, 2026. Checked and struck-through items have implementation and recorded development verification. Empty checkboxes remain open. New usability reports stay open even when an earlier implementation test passed. These are development statuses, not a claim about every hosted version.
 
 ## Capture and return
 
@@ -81,7 +81,10 @@ Updated October 28, 2026. Checked and struck-through items have implementation a
   - [ ] Meet practical keyboard and physical-phone acceptance alongside browser tests.
 - [ ] Support several independently configured instances of the same view type.
   - [x] ~~Stable repeated instances, account preset and independent Kanban presentation.~~
-  - [ ] Persist the remaining lenses' dates, modes, expansion, sorting, filters and grouping at their current owners.
+  - [x] ~~Keep Calendar dates, display mode, selected-day focus and applied filters independent in each tab and the account preset.~~
+  - [x] ~~Apply Calendar text filters to retained Tasks locally, with removal restoring the matching list data.~~
+  - [x] ~~Keep primary Calendar actions and date controls visible as the available width changes.~~
+  - [ ] Persist Table/Detailed expansion and sorting, DataTable filters/grouping, and remaining nested options at their current owners.
 - [ ] Recheck table density and timestamp input presentation in the visual pass.
 - [ ] Finish remaining text/Markdown/JSON import/export and subtask/sidebar drag workflows.
 

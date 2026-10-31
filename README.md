@@ -25,7 +25,7 @@ The inventories use **checked, struck-through items for implemented work with re
 
 **Current status: active pre-1.0 development.** The inventories were updated on October 31, 2026. A checked item does not mean that change is already deployed to every hosted version. Current deployment and provider acceptance remain separate release gates. Paid enrollment and some integrations remain gated.
 
-Task tabs now support several instances of a view type, individual names and a saved account preset. Kanban tabs keep separate zoom and hidden-group settings. A visible Lists control opens the existing list tools on desktop and mobile. Header notifications also have their own details and history navigation. See [development progress](PROGRESS.md) for verification and remaining work.
+Task tabs now support several instances of a view type, individual names and a saved account preset. Kanban tabs keep separate zoom and hidden-group settings. Calendar tabs retain their own dates, display mode and text filters, with primary controls that adapt to the available width. A visible Lists control opens the existing list tools on desktop and mobile. Header notifications also have their own details and history navigation. See [development progress](PROGRESS.md) for verification and remaining work.
 
 ## Current focus
 
