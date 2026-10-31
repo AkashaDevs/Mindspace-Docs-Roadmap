@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## October 31 2026 — Clear recovery progress before Retry
+
+Task and column Retry now waits for the restored recovery copy to finish loading or saving. Progress and recovery-save failures explain why it is unavailable. The queue guard and visible controls use the same readiness rule, published before the controls appear. Once the exact copy is confirmed, Retry can update the pending intent without creating an unnecessary choice between older copies. Genuine independent drafts retain their protection, and immediate drag saves keep their responsive path.
+
+Development acceptance covers 152 source-browser and 120 compiled-client cases across four profiles: 272 passes without retries or skips. All 2,172 client unit tests, 88 focused contracts, release lint and production/font/artifact checks pass. Actual browser storage locks are held across two reload stages for Tasks and columns, including refused saves and conflicts. Ordinary retry journeys need no extra copy choices or recovery-save clicks. Server source and checkpoint format are unchanged; earlier database checks remain separate evidence.
+
+The preview is healthy. Application deployment, physical-device acceptance, independent Table/Detailed/Data Table settings, representative responsiveness and larger aggregate workloads remain open.
+
 ## October 31 2026 — Task retry confirmations
 
 When Retry finds that a move is already saved, that row now leaves Sync Queue even if another row's write fails. Only the remaining change stays queued, with a refused save and a server conflict kept distinct. Reload and another successful Retry preserve the saved order without resending the confirmed row.

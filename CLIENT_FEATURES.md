@@ -81,7 +81,7 @@ Updated October 31, 2026. Checked and struck-through items have implementation a
 - [x] ~~Recover refused or partially saved direct Task and column moves through Sync Queue during the current session, preserving newer edits and flagging conflicts.~~
 - [x] ~~Recover pending Task and column moves from a protected device copy after reload, for the original account and workspace, with explicit Retry and fresh server checks.~~
 - [x] ~~Clear an already confirmed recovery row when another retry write fails, retaining only refused or conflicted work.~~
-- [ ] Smooth recovery-copy choices and Retry readiness during immediate repeated reloads, preserving independent drafts.
+- [x] ~~Wait for exact recovery-copy confirmation before queued Retry, with clear progress and failure feedback while preserving independent drafts.~~
 - [ ] Verify whole-move transactions, ordering across devices and remaining drag adapters.
 - [ ] Clarify opening Tasks, choosing a view, opening list tools and selecting a list filter.
   - [x] ~~Expose Lists beside the tabs using the existing desktop tools and mobile left drawer.~~
