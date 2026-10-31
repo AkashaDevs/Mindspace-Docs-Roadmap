@@ -61,6 +61,7 @@ Updated October 31, 2026. Checked and struck-through items have implementation a
 - [x] ~~Filter loaded Tasks by list without discarding other lists' records.~~
 - [x] ~~Indexed Task lookup and shared group projection foundations.~~
 - [x] ~~Task/group drag and drop with persisted ordering and failure recovery.~~
+- [x] ~~Preserve hidden column positions and newer Task edits when column saves finish.~~
 - [x] ~~Saved custom groups show all matching Tasks in their own list.~~
   - [x] ~~Keep manual membership and overlapping card occurrences distinct.~~
   - [x] ~~Persist filter rules and identify legacy rules requiring review.~~

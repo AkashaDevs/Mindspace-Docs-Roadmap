@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## October 31 2026 — Task column ordering
+
+Moving a visible column now includes affected hidden columns in the saved order and preserves other Todo lists. Column saves send only position changes. A failed column save keeps Task edits completed while it was running. Responses to earlier column saves cannot restore data after a workspace change. Partial saves retain confirmed positions and show a message for the remaining work. Moving the first column beside Uncategorized leaves the logical order unchanged and makes no save request.
+
+Local acceptance covers 64 source-browser cases, 52 compiled regressions and 16 compiled column cases: 132 passes across four profiles without retries or skips. All 2,105 client unit tests, release lint, production, font and artifact checks pass. The public inventory records local development verification; application deployment and physical-device acceptance remain separate.
+
+Rapid repeated direct moves, retry for partially saved direct moves, transactions for a whole move, larger aggregate workloads and the older basic-list drag adapter remain open.
+
 ## October 31 2026 — Queued save recovery
 
 Background queued saves retain edits made while an earlier save is running. Discarded local queue entries stay removed. Queued Task and group batches also retain unconfirmed items after partial responses, allowing an explicit retry to send only the remaining work. Task reorder payloads preserve ungrouping and the fields required by automatic groups; the server controls completion timestamps.
