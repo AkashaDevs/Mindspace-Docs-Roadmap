@@ -37,6 +37,7 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
 - [x] ~~Preserve existing finish time and progress history when completed Task moves are retried.~~
 - [x] ~~Read only requested Task/group move metadata through an authorized, bounded endpoint, preserving schema defaults for older records.~~
 - [x] ~~Scoped Task/Reminder creation identities for duplicate-safe recovery.~~
+- [x] ~~Validate new Task list/group destinations and the canonical Group parent in the creation transaction, while preserving confirmed retry/deletion recovery.~~
 - [x] ~~Shared recovery drafts with revision, capacity and retention rules.~~
 - [x] ~~Task/Note/checklist conversion and follow-through foundations.~~
 - [x] ~~Bounded lexical search and limited spelling recovery.~~

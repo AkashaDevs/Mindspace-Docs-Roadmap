@@ -2,6 +2,20 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## October 31 2026 — Capture tasks with a clear destination
+
+Data Table New task and group Add task now open the shared editor before saving. Empty tables offer the same capture path. The editor shows the destination list and group, retains the selected status/priority/difficulty context and asks for a choice when a group allows several values. Changing the list clears the old group; choosing a real group uses its parent list.
+
+Drafts retain their destination and authored details through closing, reload, account/workspace switches and account recovery. An unconfirmed save keeps its original task details and retry identity until it is resolved; Close and keep draft preserves that attempt. Reminder timing can still be reviewed. An explicit server refusal of a destination leaves the draft editable for correction.
+
+The server validates new list/group assignments and the Group parent in the creation transaction. A confirmed retry returns the canonical task before validating a now-retired destination. Tasks remain unlimited. Broader Task relationship/update audits and the index rollout remain open.
+
+The Task editor now keeps its header and save controls visible around one scrollable form body, including recovery messages. Phone and desktop geometry checks prevent form fields from overlapping the footer.
+
+Final local acceptance includes 51 source-browser and 118 compiled-client checks, 2,223 client and 1,057 server unit checks, release lint and production/font/artifact checks. A separate real disposable-database probe passes 29 checks and leaves no records behind. Browser journeys use isolated API fixtures. Desktop and phone editor captures were reviewed.
+
+The local preview is refreshed; application source remains local and undeployed. Nested relationships, inline editing/drafts, safe Table sorting and larger workloads remain on the active phase list.
+
 ## October 31 2026 — More room for tasks and clearer controls
 
 Data Table rows now give task titles room to be read. Expansion, dragging, completion and reminders stay beside the task; pinning, notes, deletion and position commands are in More. Fields that do not fit remain in expandable details. Dates open a compact editor with Save, Cancel and Clear, and a refused save keeps the edit available. Status and other choice fields use readable labels, including older saved status names.
