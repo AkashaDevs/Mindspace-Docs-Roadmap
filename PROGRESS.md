@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## October 31 2026 — Task move recovery after reload
+
+Unsaved Task and column moves now have a protected copy on the device. Returning to the original account and workspace restores the pending changes for explicit Retry. Retry checks only the affected server records first; it can recognize a fully saved uncertain move without writing again. A delayed check cannot send an obsolete move or replace a newer record. Competing tabs keep separate recovery copies until the user chooses, and storage failures stay visible and retryable.
+
+The server metadata read is limited to 500 requested IDs, checks workspace access and excludes record bodies. It applies the same schema defaults as ordinary reads, so older records do not create false conflicts. No stored data is migrated.
+
+Local acceptance covers 180 source-browser and 164 compiled-client cases across four profiles: 344 passes without retries or skips. All 2,146 client and 1,042 server unit tests, 19 isolated database/API checks with zero residue, release lint and production/font/artifact checks pass. The preview has been refreshed to load the new endpoint.
+
+Pending recovery copies remain on this device. A mixed-result follow-up remains: when a canonical check confirms one row but another write fails, the confirmed row is still labelled failed even though it is not sent again. Larger batches, the older basic-list adapter, whole-move transactions, ordering across devices, application deployment and physical-device acceptance remain open.
+
 ## October 31 2026 — Direct drag retry
 
 Refused or partially saved Task and column moves now retain only their unconfirmed changes in the existing Sync Queue. Retry updates the board using confirmed records. A late response cannot consume a newer move, and a failed later move rolls back to the last confirmed save. Newer confirmed titles survive retry; a conflicting position stays queued for review while an unaffected row can save.
