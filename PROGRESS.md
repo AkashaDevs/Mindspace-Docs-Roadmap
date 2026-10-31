@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## October 31 2026 — Safe completion replay
+
+Retrying an already completed Task move now preserves its existing finish time and avoids artificial progress events while still saving position and criteria changes. Reopening clears the finish time; completing again gets a new server time. The mutation keeps schema validation and workspace authorization, including when its state condition changes during the write.
+
+Development acceptance includes all 1,036 server unit tests, 34 focused contracts and 14 authenticated checks against an isolated disposable database, with zero test residue. Six concurrent completed replays preserve time and progress counts. The authorization check exercises completion criteria across workspaces. Frontend source/build are unchanged; earlier browser evidence remains recorded separately. The local preview has been restarted to load this fix.
+
+Direct drag failure capture, protected persistence and explicit retry through reload remain open, along with the older adapter, larger workloads and whole-move transactions. Hosted application deployment remains a separate gate.
+
 ## October 31 2026 — Task save ordering and retry feedback
 
 Repeated Task and column moves now save in order through the shared update-queue owner. The board still responds immediately while a previous request is pending. Task reorder and group batch routes share execution order for the captured account and workspace, whether called by a drag or the background queue. Switching workspace retires waiting requests, including a switch away and back.

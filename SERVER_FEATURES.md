@@ -2,7 +2,7 @@
 
 [Overview](README.md) · [Client](CLIENT_FEATURES.md) · [Progress](PROGRESS.md)
 
-Updated October 26, 2026. Checked and struck-through items have recorded implementation verification. Empty checkboxes remain open. Controlled database and provider-fixture tests establish development behavior; current deployment and provider acceptance are separate gates.
+Updated October 31, 2026. Checked and struck-through items have recorded implementation verification. Empty checkboxes remain open. Controlled database and provider-fixture tests establish development behavior; current deployment and provider acceptance are separate gates.
 
 ## Platform and access
 
@@ -33,6 +33,7 @@ Updated October 26, 2026. Checked and struck-through items have recorded impleme
 
 - [x] ~~Workspace, Task, Todo list/group, Planner/Event, Note, Goal, Habit, Stat and Daily Log owners.~~
 - [x] ~~Persisted Task/group ordering and automatic matching group rules.~~
+- [x] ~~Preserve existing finish time and progress history when completed Task moves are retried.~~
 - [x] ~~Scoped Task/Reminder creation identities for duplicate-safe recovery.~~
 - [x] ~~Shared recovery drafts with revision, capacity and retention rules.~~
 - [x] ~~Task/Note/checklist conversion and follow-through foundations.~~
