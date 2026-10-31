@@ -2,11 +2,13 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
-## October 31 2026 — Rapid Task and column saves
+## October 31 2026 — Task save ordering and retry feedback
 
-Repeated Task and column moves now save in order through the shared update-queue owner. The board still responds immediately while a previous request is pending. Both immediate drag batches and deferred batches use the same execution order for the captured account and workspace. Switching workspace retires waiting requests, including a switch away and back.
+Repeated Task and column moves now save in order through the shared update-queue owner. The board still responds immediately while a previous request is pending. Task reorder and group batch routes share execution order for the captured account and workspace, whether called by a drag or the background queue. Switching workspace retires waiting requests, including a switch away and back.
 
-The original Task and column cases both restored obsolete positions after reload when an earlier save was delayed. Local acceptance now covers 80 source-browser and 76 compiled-browser cases across four profiles: 156 passes without retries or skips. All 2,109 client unit tests, release lint, production, font and artifact checks pass. Ten checks against an isolated disposable database verify real API persistence and leave no test records behind.
+Confirmed queued Task and column saves also update the visible board immediately after Retry. Partial responses update confirmed records while preserving other loaded data. A late response preserves newer Task edits and does not publish into a retired workspace.
+
+The original rapid-move cases restored obsolete positions after reload when an earlier save was delayed. Retry also cleared the queue without showing the confirmed changes. Latest local acceptance covers 96 source-browser and 88 compiled-browser cases across four profiles: 184 passes without retries or skips. All 2,116 client unit tests, release lint, production, font and artifact checks pass. This change adds no server code; earlier isolated database persistence checks remain recorded separately.
 
 Retained retry for partially saved direct moves, transactions for a whole move, coordination across devices, larger aggregate workloads and the older basic-list adapter remain open. Application deployment and physical-device acceptance remain separate.
 

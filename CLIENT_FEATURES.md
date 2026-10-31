@@ -77,6 +77,7 @@ Updated October 31, 2026. Checked and struck-through items have implementation a
 - [x] ~~Virtualized variable-height Task table with bounded mounted rows.~~
 - [x] ~~Shared reminder actions, due-time controls and recoverable edits.~~
 - [x] ~~Retain unconfirmed queued Task/group batch updates for retry, including ungrouping and automatic-group drop fields.~~
+- [x] ~~Show confirmed queued Task and column changes immediately after Retry while preserving newer edits.~~
 - [ ] Retain unconfirmed direct drag changes for explicit retry and verify whole-move transactions and remaining drag adapters.
 - [ ] Clarify opening Tasks, choosing a view, opening list tools and selecting a list filter.
   - [x] ~~Expose Lists beside the tabs using the existing desktop tools and mobile left drawer.~~
