@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## October 31 2026 — Rapid Task and column saves
+
+Repeated Task and column moves now save in order through the shared update-queue owner. The board still responds immediately while a previous request is pending. Both immediate drag batches and deferred batches use the same execution order for the captured account and workspace. Switching workspace retires waiting requests, including a switch away and back.
+
+The original Task and column cases both restored obsolete positions after reload when an earlier save was delayed. Local acceptance now covers 80 source-browser and 76 compiled-browser cases across four profiles: 156 passes without retries or skips. All 2,109 client unit tests, release lint, production, font and artifact checks pass. Ten checks against an isolated disposable database verify real API persistence and leave no test records behind.
+
+Retained retry for partially saved direct moves, transactions for a whole move, coordination across devices, larger aggregate workloads and the older basic-list adapter remain open. Application deployment and physical-device acceptance remain separate.
+
 ## October 31 2026 — Task column ordering
 
 Moving a visible column now includes affected hidden columns in the saved order and preserves other Todo lists. Column saves send only position changes. A failed column save keeps Task edits completed while it was running. Responses to earlier column saves cannot restore data after a workspace change. Partial saves retain confirmed positions and show a message for the remaining work. Moving the first column beside Uncategorized leaves the logical order unchanged and makes no save request.
