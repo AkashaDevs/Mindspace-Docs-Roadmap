@@ -98,9 +98,11 @@ Updated October 31, 2026. Checked and struck-through items have implementation a
   - [x] ~~Per-tab Data Table filters, selected grouping and task-order direction, with responsive row-detail expansion and real layout choices.~~
   - [x] ~~Keep working tabs through ordinary reloads and restore saved presentation from the account preset.~~
   - [ ] Add safe Table sorting while preserving drag save order.
-  - [ ] Finish reliable Data Table drag saving and recovery across filter and grouping options.
+  - [x] ~~Data Table drag saving and recovery preserve hidden Tasks, typed grouping, canonical list/group membership and ascending, descending or loaded order.~~
+    - [x] ~~Keep later Task edits behind earlier saves without blocking input, preserving newer fields when move replies arrive.~~
   - [ ] Audit List, Basic, Gantt and other nested view settings.
 - [ ] Recheck table density and timestamp input presentation in the visual pass.
+  - [ ] Finish Data Table completion, creation and nested-edit controls; its Edit button now opens existing details.
 - [ ] Finish remaining text/Markdown/JSON import/export and subtask/sidebar drag workflows.
 
 ## Planner and routines

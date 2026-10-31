@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## October 31 2026 — Reliable Data Table moves and later edits
+
+Data Table dragging now shares the existing ordered save and recovery system with the other Task views. Moves retain hidden Tasks, save the displayed order and update the real list/group relationships. Status and real group/list drops change the intended fields; ambiguous group rules offer a choice, and Cancel leaves the task alone. Other property groups remain available for browsing and within-group reordering. Failed or partly saved moves recover after reload with explicit Retry.
+
+Later task edits wait behind an earlier save while the input stays usable. An older response preserves newer field changes. The row Edit button opens its existing details instead of submitting an unchanged task. The server now validates list-only destinations and clears old group membership; a real group still determines its parent list.
+
+Development acceptance covers 156 source-browser and 80 compiled-client cases across four profiles: 236 passes without retries or skips. All 2,202 client and 1,052 server unit checks pass, along with release lint and production/font/artifact checks. A separate real disposable-database probe passes 24 checks and leaves no records behind. Source acceptance combines 148 retained cases with eight driver rechecks; compiled acceptance combines 76 retained cases with four pointer-state rechecks. Browser journeys use isolated API fixtures; they remain distinct from database acceptance.
+
+The local preview has been refreshed. Application source remains local and undeployed. Safe Table sorting, the compact action/date strip, completion/create/nested controls, larger workloads, whole-move transactions and ordering across devices remain open. Tasks remain unlimited.
+
 ## October 31 2026 — Independent Task views and usable details
 
 Table group disclosure, Detailed grouping/filtering/sorting and Data Table options now belong to each view tab. Opening another tab keeps the shared Tasks loaded and leaves the first tab's choices intact. Detailed grouping changes the displayed groups and counts. Row details have working layout choices, fit the visible area and recover safely during loading; phone fields use a single column. Ordinary reloads retain current account-bound presentation, with the saved preset available from the account.
