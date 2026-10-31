@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## October 31 2026 — Independent Task views and usable details
+
+Table group disclosure, Detailed grouping/filtering/sorting and Data Table options now belong to each view tab. Opening another tab keeps the shared Tasks loaded and leaves the first tab's choices intact. Detailed grouping changes the displayed groups and counts. Row details have working layout choices, fit the visible area and recover safely during loading; phone fields use a single column. Ordinary reloads retain current account-bound presentation, with the saved preset available from the account.
+
+Current development acceptance includes 100 compiled Task/preset cases across four browser profiles and eight Settings journeys, all without retries or skips. All 2,187 client unit tests, release lint and production/font/artifact checks pass. Earlier 100 source Task cases are retained separately; the initial wider source run contained a stale reset-test failure and 12 desktop-only skips. Account-preset browser journeys use isolated API fixtures; the backend is unchanged.
+
+The application changes are local and have not been deployed. Safe Table sorting, the older Data Table drag-saving path, other nested settings, representative latency and larger workloads remain open.
+
 ## October 31 2026 — Clear recovery progress before Retry
 
 Task and column Retry now waits for the restored recovery copy to finish loading or saving. Progress and recovery-save failures explain why it is unavailable. The queue guard and visible controls use the same readiness rule, published before the controls appear. Once the exact copy is confirmed, Retry can update the pending intent without creating an unnecessary choice between older copies. Genuine independent drafts retain their protection, and immediate drag saves keep their responsive path.

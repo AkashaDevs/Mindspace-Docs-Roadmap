@@ -94,7 +94,12 @@ Updated October 31, 2026. Checked and struck-through items have implementation a
   - [x] ~~Keep Calendar dates, display mode, selected-day focus and applied filters independent in each tab and the account preset.~~
   - [x] ~~Apply Calendar text filters to retained Tasks locally, with removal restoring the matching list data.~~
   - [x] ~~Keep primary Calendar actions and date controls visible as the available width changes.~~
-  - [ ] Persist Table/Detailed expansion and sorting, DataTable filters/grouping, and remaining nested options at their current owners.
+  - [x] ~~Independent Table group expansion and Detailed grouping, sorting, filters and group disclosure through refresh and reload.~~
+  - [x] ~~Per-tab Data Table filters, selected grouping and task-order direction, with responsive row-detail expansion and real layout choices.~~
+  - [x] ~~Keep working tabs through ordinary reloads and restore saved presentation from the account preset.~~
+  - [ ] Add safe Table sorting while preserving drag save order.
+  - [ ] Finish reliable Data Table drag saving and recovery across filter and grouping options.
+  - [ ] Audit List, Basic, Gantt and other nested view settings.
 - [ ] Recheck table density and timestamp input presentation in the visual pass.
 - [ ] Finish remaining text/Markdown/JSON import/export and subtask/sidebar drag workflows.
 
