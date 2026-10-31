@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## October 31 2026 — Queued save recovery
+
+Background queued saves retain edits made while an earlier save is running. Discarded local queue entries stay removed. Queued Task and group batches also retain unconfirmed items after partial responses, allowing an explicit retry to send only the remaining work. Task reorder payloads preserve ungrouping and the fields required by automatic groups; the server controls completion timestamps.
+
+Development acceptance includes 96 browser cases across four profiles, all 2,099 client unit tests, 21 focused server tests and ten checks against an isolated disposable database. The browser evidence captures the initial batch, refused retry and successful retry. Production, font and artifact checks pass. These are local development results; hosted deployment and physical-device acceptance remain separate.
+
+Whole-move transactions, rapid repeated direct drags, hidden-column ordering and remaining Task adapters stay open. Task dragging continues through its existing immediate batch routes.
+
 ## October 31 2026 — Task Calendar views
 
 Each Calendar tab now retains its own month, timeline date, month/day mode, selected-day focus and applied text filters. The existing account preset restores those settings. Text filters now affect the visible Tasks within the selected Todo list; changing or removing a rule uses the already loaded records. Switching between mounted Calendar tabs also retains unfinished filter input.

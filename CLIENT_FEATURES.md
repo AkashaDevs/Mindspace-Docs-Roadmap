@@ -34,6 +34,7 @@ Updated October 31, 2026. Checked and struck-through items have implementation a
   - [x] ~~Retain authored Task edits while refreshed records arrive.~~
   - [x] ~~Keep progress and retry available after closing and reopening page tools.~~
   - [x] ~~Prevent older workspace reads from undoing a confirmed workspace switch.~~
+- [x] ~~Keep newer queued edits when an earlier save finishes, while respecting discarded local work.~~
 - [ ] Make dashboard-specific left-sidebar tools easy to discover and select.
 - [ ] Redesign the right sidebar around useful compact widgets and designed tabs.
 - [ ] Complete longer keyboard, pointer and touch journeys across dashboard changes.
@@ -73,6 +74,7 @@ Updated October 31, 2026. Checked and struck-through items have implementation a
   - [x] ~~Keep tabs after failed or unconfirmed saves and preserve newer local changes during a delayed save.~~
 - [x] ~~Virtualized variable-height Task table with bounded mounted rows.~~
 - [x] ~~Shared reminder actions, due-time controls and recoverable edits.~~
+- [x] ~~Retain unconfirmed queued Task/group batch updates for retry, including ungrouping and automatic-group drop fields.~~
 - [ ] Clarify opening Tasks, choosing a view, opening list tools and selecting a list filter.
   - [x] ~~Expose Lists beside the tabs using the existing desktop tools and mobile left drawer.~~
   - [x] ~~Keep loaded Task records and shared list selection while switching views.~~
