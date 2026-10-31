@@ -102,7 +102,9 @@ Updated October 31, 2026. Checked and struck-through items have implementation a
     - [x] ~~Keep later Task edits behind earlier saves without blocking input, preserving newer fields when move replies arrive.~~
   - [ ] Audit List, Basic, Gantt and other nested view settings.
 - [ ] Recheck table density and timestamp input presentation in the visual pass.
-  - [ ] Finish Data Table completion, creation and nested-edit controls; its Edit button now opens existing details.
+  - [x] ~~Compact Data Table actions, readable task titles/labels and date editing with Save, Cancel and Clear.~~
+  - [x] ~~Confirmed completion, minimal notes edits and position commands through the shared move queue.~~
+  - [ ] Finish Data Table creation, nested relationships, inline edit focus/coalescing and longer notes draft recovery.
 - [ ] Finish remaining text/Markdown/JSON import/export and subtask/sidebar drag workflows.
 
 ## Planner and routines

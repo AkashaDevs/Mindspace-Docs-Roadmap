@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## October 31 2026 — More room for tasks and clearer controls
+
+Data Table rows now give task titles room to be read. Expansion, dragging, completion and reminders stay beside the task; pinning, notes, deletion and position commands are in More. Fields that do not fit remain in expandable details. Dates open a compact editor with Save, Cancel and Clear, and a refused save keeps the edit available. Status and other choice fields use readable labels, including older saved status names.
+
+Completion updates the matching status and remains confirmed by the server. Notes edits send only changed fields, so they do not resend an older drag position. Up, down and position commands use the same save/recovery owner as dragging and update neighboring positions. Ordinary task confirmation now updates local records once.
+
+Development acceptance covers 104 source-browser cases and 48 fresh compiled-client cases across four profiles: 152 passes without retries or skips. The source count combines 92 unchanged passing cases and 12 rechecks after the label refinement. All 2,207 client unit checks, release lint and production/font/artifact checks pass. Desktop and phone captures were reviewed. Backend code is unchanged; earlier server/database evidence is retained separately.
+
+The preview has these changes; application source remains local and undeployed. Data Table creation with the shared editor, nested relationships, inline editing/drafts, safe Table sorting and larger workloads remain open.
+
 ## October 31 2026 — Reliable Data Table moves and later edits
 
 Data Table dragging now shares the existing ordered save and recovery system with the other Task views. Moves retain hidden Tasks, save the displayed order and update the real list/group relationships. Status and real group/list drops change the intended fields; ambiguous group rules offer a choice, and Cancel leaves the task alone. Other property groups remain available for browsing and within-group reordering. Failed or partly saved moves recover after reload with explicit Retry.
