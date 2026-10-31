@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## October 31 2026 — Direct drag retry
+
+Refused or partially saved Task and column moves now retain only their unconfirmed changes in the existing Sync Queue. Retry updates the board using confirmed records. A late response cannot consume a newer move, and a failed later move rolls back to the last confirmed save. Newer confirmed titles survive retry; a conflicting position stays queued for review while an unaffected row can save.
+
+Local acceptance includes 128 source-browser and 112 compiled-client cases across four profiles: 240 passes without retries or skips. All 2,127 client unit tests, 34 focused contracts, release lint and production/font/artifact checks pass. Captured writes confirm that only unconfirmed rows are retried. The batch endpoints and server source are unchanged; earlier isolated database results remain separate evidence.
+
+This recovery currently lasts for the open session. Protected recovery through reload and account/workspace return, the older basic-list adapter, larger aggregate workloads and whole-move/cross-device concurrency remain open. Application deployment and physical-device acceptance remain separate gates.
+
 ## October 31 2026 — Safe completion replay
 
 Retrying an already completed Task move now preserves its existing finish time and avoids artificial progress events while still saving position and criteria changes. Reopening clears the finish time; completing again gets a new server time. The mutation keeps schema validation and workspace authorization, including when its state condition changes during the write.
