@@ -67,13 +67,21 @@ Updated October 28, 2026. Checked and struck-through items have implementation a
 - [x] ~~Drop space below Add Task and collapsed, fit-height and full-height columns.~~
 - [x] ~~Configurable tabs with add, close, rename, pin, reorder and move actions.~~
   - [x] ~~Save and restore one account-backed tab preset.~~
+  - [x] ~~Open several instances of a view type with stable identities and individual names.~~
+  - [x] ~~Keep Kanban zoom and hidden groups independent for each tab.~~
+  - [x] ~~Recover the saved arrangement from the account without relying on browser settings.~~
+  - [x] ~~Keep tabs after failed or unconfirmed saves and preserve newer local changes during a delayed save.~~
 - [x] ~~Virtualized variable-height Task table with bounded mounted rows.~~
 - [x] ~~Shared reminder actions, due-time controls and recoverable edits.~~
 - [ ] Clarify opening Tasks, choosing a view, opening list tools and selecting a list filter.
+  - [x] ~~Expose Lists beside the tabs using the existing desktop tools and mobile left drawer.~~
+  - [x] ~~Keep loaded Task records and shared list selection while switching views.~~
 - [ ] Finish measured list-toggle and drag pickup responsiveness on representative data.
   - [ ] Recheck zoomed dragging, long boards and interactions after extended use.
   - [ ] Meet practical keyboard and physical-phone acceptance alongside browser tests.
 - [ ] Support several independently configured instances of the same view type.
+  - [x] ~~Stable repeated instances, account preset and independent Kanban presentation.~~
+  - [ ] Persist the remaining lenses' dates, modes, expansion, sorting, filters and grouping at their current owners.
 - [ ] Recheck table density and timestamp input presentation in the visual pass.
 - [ ] Finish remaining text/Markdown/JSON import/export and subtask/sidebar drag workflows.
 

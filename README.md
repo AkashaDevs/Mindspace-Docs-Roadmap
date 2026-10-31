@@ -23,9 +23,9 @@ The aim is to make a small action easy: capture a thought, find it again, give i
 
 The inventories use **checked, struck-through items for implemented work with recorded verification**, and empty checkboxes for remaining work. A working foundation and a later improvement can both appear: having a Task board does not mean its drag performance or navigation is finished.
 
-**Current status: active pre-1.0 development.** The inventories were updated on October 28, 2026. A checked item does not mean that change is already deployed to every hosted version. Current deployment and provider acceptance remain separate release gates. Paid enrollment and some integrations remain gated.
+**Current status: active pre-1.0 development.** The inventories were updated on October 31, 2026. A checked item does not mean that change is already deployed to every hosted version. Current deployment and provider acceptance remain separate release gates. Paid enrollment and some integrations remain gated.
 
-The latest development improvement gives header notifications their own detail view, a separate related-item action and a clear route to full history. See [development progress](PROGRESS.md) for verification and remaining work.
+Task tabs now support several instances of a view type, individual names and a saved account preset. Kanban tabs keep separate zoom and hidden-group settings. A visible Lists control opens the existing list tools on desktop and mobile. Header notifications also have their own details and history navigation. See [development progress](PROGRESS.md) for verification and remaining work.
 
 ## Current focus
 
@@ -34,6 +34,8 @@ The next delivery pass prioritizes changes people can see and use immediately:
 - [x] ~~Bring the public feature lists up to date for both client and server.~~
 - [x] ~~Give header notifications their own details, related-item action and history navigation.~~
 - [ ] Make the Task dashboard easier to enter, choose a view and filter by list; improve responsiveness.
+  - [x] ~~Add stable repeated tabs, separate Kanban presentation and a visible Lists control.~~
+  - [ ] Complete independent presentation settings for the remaining view types and broader interaction acceptance.
 - [ ] Simplify Planner controls and make adding an event easy to find.
 - [ ] Improve sidebar context, compact controls and consistency between dashboards.
 

@@ -39,6 +39,9 @@ Updated October 26, 2026. Checked and struck-through items have recorded impleme
 - [x] ~~Bounded lexical search and limited spelling recovery.~~
 - [x] ~~Registered workspace cleanup and transaction-backed admission for verified writers.~~
 - [x] ~~Bulk workspace summaries.~~
+- [x] ~~Account settings updates preserve unrelated categories, including concurrent distinct-category saves.~~
+  - [x] ~~Persist stable Task-tab identities, presentation and one saved preset through the existing settings owner.~~
+  - [x] ~~Retain bounded request validation, literal JSON values and explicit whole-settings reset.~~
 - [ ] Add minimal-metadata, location-based Notes explorer reads.
   - [ ] Return names, IDs, parents, order and required summaries without full note bodies.
   - [ ] Fetch authorized detail on opening; bound folder and ancestor queries.
