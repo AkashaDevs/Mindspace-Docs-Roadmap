@@ -140,6 +140,8 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [ ] Finish nested relationships and audit remaining inline/shared plain-text consumers.
     - [x] ~~Open Data Table subtask capture in the canonical editor with the actual parent/list/group prefilled, without saving a sentinel or blank Task.~~
     - [x] ~~Attach an existing Task from Data Table through one minimal queued child-parent patch while retaining its actual list, group and position.~~
+    - [x] ~~Create a child through the canonical editor and resume independent parent-specific drafts after reload, parent movement or parent removal, including account-only long-context drafts.~~
+    - [x] ~~Preserve the current thought before switching drafts, checkpoint rapid page interruptions through the protected draft owner, and recover a lost reparent response with direct Retry without repeating the move.~~
     - [x] ~~Publish related Task graph confirmations through shared mutation services without a full collection reload, preserving newer fields and retired scopes.~~
     - [x] ~~Provide minimal parent/mirror move payloads, protected recovery contracts and version-aware queue rollback baselines; retain pending intent across related confirmations.~~
 - [ ] Finish remaining text/Markdown/JSON import/export and subtask/sidebar drag workflows.

@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 1 2026 - Return to unfinished child thoughts
+
+Child capture now has a compact Unfinished task drafts picker in the existing editor. A unique unfinished child thought returns when its parent has moved between lists. If the parent has disappeared, New task provides a return path and the existing parent field can make the thought a standalone Task. Switching drafts saves the current thought first. Each copy keeps its original device and account identity, including older long account keys; the picker does not merge or overwrite independent copies. The protected draft owner also checkpoints a rapid page interruption before the normal autosave delay.
+
+Direct Retry now reads canonical graph state for a failed hierarchy move even without reloading the page. If the server already committed the move, the queue restores both parent mirrors and settles without sending another move.
+
+Local verification passes 2,381 client checks, release lint with no errors or added warnings, and production/font/artifact audits. The 88 current browser cases include 40 child-capture/draft/Retry journeys, 12 initial subtask controls, 12 graph-confirmation cases and 24 existing capture/queue regressions. Of these, 78 run against the isolated production build. The new journeys cover Chromium, Firefox, tablet Safari and phone Chrome; four compiled draft-picker screenshots were reviewed. Server sources are unchanged from the prior checkpoint, retaining the earlier 1,110 server checks and native graph/reorder evidence.
+
+Mounted detach/reparent/refusal and uncertain child-creation journeys, legacy cycles, concurrent-copy/scope-retirement picker races, native hierarchy migration and other graph-writer audits remain open. Browser-to-real-isolated-API proof, larger workload admission, physical-device checks, deployment and the wider product phase also remain open. Application source remains local; existing-user authored data is untouched.
+
 ## November 1 2026 - First subtask controls through shared saves
 
 Data Table's Add New Task entry now opens the existing canonical editor with the actual parent, list and group prefilled. It no longer writes the literal new into a parent mirror. Attaching an existing Task sends one minimal queued child-parent change, preserving that Task's list, group and position. The subtask panel has aligned action headers, a clear empty state and shared relationship choices. The page-level parent-change callback uses the existing save/recovery owner.
