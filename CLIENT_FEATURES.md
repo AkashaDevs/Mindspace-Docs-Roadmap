@@ -113,7 +113,11 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
     - [x] ~~Preserve full native row-move batches and reload order; retire held drags on tab/list/filter/scope changes while allowing dispatched saves to finish.~~
     - [x] ~~Open List details explicitly without shifting controls on focus; use the existing details dialog on narrow screens.~~
     - [x] ~~Keep Basic search, filters and actions inside the dashboard across narrow and wide layouts.~~
-    - [ ] Connect Basic's grouping selector to shared typed-group projections and matching native drop semantics.
+    - [x] ~~Group Basic Tasks by saved groups, status, priority, difficulty, tags, assignee, due date or completion through shared projections.~~
+    - [x] ~~Retain each Basic tab's grouping through reload and account presets; update due-date groups when the day changes.~~
+    - [x] ~~Save supported field-group drops through the shared queue and Retry, preserving actual list/group membership and subtask relationships.~~
+    - [x] ~~Capture Tasks with explicit field-group defaults and create saved groups through the existing confirmed page save owners.~~
+    - [x] ~~Cancel released touch holds across menus so a quick selection cannot open a delayed context menu.~~
     - [ ] Finish remaining Gantt/nested projections and larger preset/workload acceptance.
 - [ ] Recheck table density and timestamp input presentation in the visual pass.
   - [x] ~~Create Tasks from the Table header, a group or an empty workspace through the shared editor, with explicit destinations and protected drafts.~~

@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 1 2026 - Basic grouping that changes the view
+
+Basic's grouping menu now renders saved groups, status, priority, difficulty, tags, assignee, due date and completion. Grouping belongs to each view tab and survives reload and account presets. Date groups follow the current day, and filters keep using loaded Tasks.
+
+Dragging between supported field groups saves through the existing scoped queue, including explicit Retry after a refused save. Actual list/group membership and subtask parent/order references stay intact. Other grouping lenses explain their available actions. Quick touch selections also cancel their context-menu holds across portals, while intentional holds retain their behavior. Tasks can be added with supported group defaults, and Create Group now waits for a confirmed save through the shared page owner.
+
+Local acceptance covers 202 distinct browser cases (72 source and 130 production-build), including four-profile grouping journeys and existing capture/view/layout regressions. All 2,335 client unit checks, release lint and production/font/artifact audits pass. Production-build requests are isolated to the intended compiled app; desktop and phone screenshots were reviewed. Browser API fixtures and pure server settings-bound checks are separate from live database/provider acceptance.
+
+Backend code is unchanged. Broader hierarchy transactions, creation placement/index allocation, larger and zoomed workloads, physical LG V60 checks, deployment and the remaining product phase stay open.
+
 ## November 1 2026 - Keep List and Basic views ready to resume
 
 Basic's toolbar now wraps its search, filters and actions within the dashboard. Search, applied filters and group collapse belong to each view tab. List and Basic keep separate detail/subtask expansion through reload and account presets. Filters use retained Tasks, provide a clear way back from empty results, and follow the local day for due dates.
