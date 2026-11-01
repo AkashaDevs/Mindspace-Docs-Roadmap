@@ -36,6 +36,7 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
 - [x] ~~Validate Task reorder list destinations, clear old group membership and retain the canonical parent of group destinations without transferring workspace ownership.~~
 - [x] ~~Preserve existing finish time and progress history when completed Task moves are retried.~~
 - [x] ~~Read only requested Task/group move metadata through an authorized, bounded endpoint, preserving schema defaults for older records.~~
+  - [x] ~~Recover both baseline and current parent mirrors with requested Task move fields in one authorized read-only snapshot after a lost hierarchy-save response.~~
 - [x] ~~Scoped Task/Reminder creation identities for duplicate-safe recovery.~~
 - [x] ~~Validate new Task list/group destinations and the canonical Group parent in the creation transaction, while preserving confirmed retry/deletion recovery.~~
 - [x] ~~Coordinate Task parent changes and canonical child mirrors in transactions across creation, single/bulk updates and hierarchy reorder.~~

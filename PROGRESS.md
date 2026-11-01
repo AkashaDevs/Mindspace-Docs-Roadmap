@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 1 2026 - First subtask controls through shared saves
+
+Data Table's Add New Task entry now opens the existing canonical editor with the actual parent, list and group prefilled. It no longer writes the literal new into a parent mirror. Attaching an existing Task sends one minimal queued child-parent change, preserving that Task's list, group and position. The subtask panel has aligned action headers, a clear empty state and shared relationship choices. The page-level parent-change callback uses the existing save/recovery owner.
+
+Interrupted hierarchy recovery also checks both parents. The bounded authorized endpoint returns requested move fields and graph-only metadata from one read-only snapshot. An already committed reparent can restore both mirrors and settle its queued intent without replaying another write. Ordinary move reads retain their existing fast path.
+
+Local verification passes 2,369 client and 1,110 server checks, release lint and production/font/artifact audits. The 60 current browser cases comprise 24 initial subtask-control cases across four profiles, 12 graph-confirmation cases and 24 existing queue/capture regressions: 14 source and 46 isolated production-build cases. Exact minimal attachment requests, parent prefill and viewport containment pass; four deliberate compiled capture screenshots were reviewed. Native probes pass 14 graph scenarios and 29 reorder compatibility checks, with both owned databases cleared. The development preview was refreshed and its API/database health verified.
+
+This closes the initial capture-launch and attachment defects. Actual child submission and parent-specific draft journeys, mounted detach/reparent/refusal/uncertain recovery, legacy cycles and native hierarchy migration remain open, together with other graph-writer audits. Larger workloads, physical-device checks, deployment and the wider product phase remain open. Application source remains local; existing-user authored data is untouched.
+
 ## November 1 2026 - Dependable Task relationship saves
 
 Task relationship APIs now coordinate children and both parent mirrors in the existing transaction owner. They reject cycles and unavailable or cross-workspace parents, and roll accompanying content and positions back together on failure. Creation retries, completed-task finish times and no-op versions stay stable. Permanent deletion detaches surviving children while coordinating the existing creation-retirement receipt; injected failure rolls both back.
