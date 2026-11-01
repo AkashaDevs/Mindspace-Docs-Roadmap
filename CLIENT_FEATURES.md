@@ -99,10 +99,15 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Keep working tabs through ordinary reloads and restore saved presentation from the account preset.~~
   - [x] ~~Sort the top-level rows in each Table tab using loaded Tasks; retain field and direction through reload and account presets.~~
   - [x] ~~Keep automatic sorting separate from Manual order drag, cancel held drags on view changes and preserve the existing batch save.~~
+  - [x] ~~Apply top-level Table text filters locally, retaining hidden Tasks and independent tab preferences through reload and account presets.~~
+  - [x] ~~Preserve hidden Task positions and real list/group membership through filtered drag, queued Retry and reload.~~
+  - [x] ~~Show matching Table counts and a clear way to recover when filters hide every row.~~
+  - [x] ~~Keep sorted-row controls usable and avoid repeating large collection sorts when a row expands.~~
   - [x] ~~Data Table drag saving and recovery preserve hidden Tasks, typed grouping, canonical list/group membership and ascending, descending or loaded order.~~
     - [x] ~~Keep later Task edits behind earlier saves without blocking input, preserving newer fields when move replies arrive.~~
   - [ ] Audit List, Basic, Gantt and other nested view settings.
 - [ ] Recheck table density and timestamp input presentation in the visual pass.
+  - [ ] Repair Table header/group task creation and verify a clear return path when active filters hide the new record.
   - [x] ~~Compact Data Table actions, readable task titles/labels and date editing with Save, Cancel and Clear.~~
   - [x] ~~Confirmed completion, minimal notes edits and position commands through the shared move queue.~~
   - [x] ~~Create from empty Data Tables and actual list/group or status/priority/difficulty contexts through the shared Task editor, with explicit destination controls and group-rule choices.~~

@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 1 2026 - Filter a Task table without losing hidden tasks
+
+Table filters now use the Tasks already loaded in the browser. Each tab keeps its own filters through reload and account presets. Matching counts and Clear filters explain how to return when nothing matches; removing filters restores the retained Tasks.
+
+Dragging filtered rows preserves hidden neighbours, saved positions and actual list/group membership. Failed saves retain their complete batch for Retry. Reload checks confirm the saved order and membership. Changing a filter cancels a held drag while allowing an already sent save to finish. Sorted rows keep their ordinary controls usable, and expanding a row avoids sorting the collection again.
+
+Local acceptance covers 320 distinct source and production-build browser cases across four profiles and all 2,302 client unit checks, plus release lint and production/font/artifact checks. Browser journeys use isolated API fixtures. Backend code is unchanged; earlier database evidence remains separate. A separate check reproduced a Table creation problem, which is next for repair. Physical LG V60 checks, deployment, remaining Task views and the wider phase stay open.
+
 ## November 1 2026 - Sort a Task table without changing saved order
 
 Each Table tab now offers field and direction controls for its top-level rows using Tasks already loaded in the browser. Changing sort does not fetch or rewrite Tasks. Tabs retain separate preferences through reload and account presets, and an explicit refresh re-sorts updated saved values.
