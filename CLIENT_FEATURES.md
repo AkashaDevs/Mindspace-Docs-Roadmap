@@ -114,6 +114,8 @@ Updated October 31, 2026. Checked and struck-through items have implementation a
   - [x] ~~Save or clear only authored Task fields, preserve multiline literal text, and retain newer typing while older saves or recovery cleanup finish.~~
   - [x] ~~Review competing recovery copies or changed saved fields, discard a local edit without changing the Task, and finish matching recovery cleanup without replaying an update.~~
   - [x] ~~Keep compact Task notes actions visible around a scrollable writing area, with shared dictation and touch-sized controls.~~
+  - [x] ~~Preserve literal tags, entities and whitespace in plain-text editor drafts, commits and saves using format-aware normalization.~~
+  - [x] ~~Render plain-text previews as text and keep rich HTML previews on the shared sanitizer, including read-only and live modes.~~
   - [ ] Finish nested relationships and audit remaining inline/shared plain-text consumers.
 - [ ] Finish remaining text/Markdown/JSON import/export and subtask/sidebar drag workflows.
 

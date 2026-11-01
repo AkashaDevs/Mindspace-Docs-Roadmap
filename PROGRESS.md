@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## October 31 2026 — Keep literal writing as text
+
+The shared editor was treating literal tags, entities and whitespace-only text as empty HTML. Those entries now remain text through drafting, committing and saving. The real Task notes journey preserves them through closing, reloading, saving and further typing.
+
+Read-only and live text previews show literal text with its spacing. Rich HTML previews retain their formatting through the existing sanitizer. Switching the editor's configured format re-evaluates the content using the appropriate rules.
+
+Local validation passes 184 product-browser checks across source and compiled clients, plus 12 source-only component probes, across four browser profiles. All 2,295 client unit checks, release lint and production/font/artifact checks pass. Browser product journeys use isolated API fixtures. Backend code is unchanged, and the component probe is excluded from the production artifact. Deployment, physical phone checks and the wider phase remain separate.
+
 ## October 31 2026 — Keep Task notes through interruptions
 
 Task notes now keep an unfinished title and writing together. Closing the drawer, reloading or returning in another browser can restore the draft; uploading account recovery remains separate from saving the Task itself. Save and Clear send only the fields the user changed through the existing ordered Task save system. Discard leaves the saved Task alone.
