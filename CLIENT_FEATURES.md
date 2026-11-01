@@ -138,6 +138,8 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Preserve literal tags, entities and whitespace in plain-text editor drafts, commits and saves using format-aware normalization.~~
   - [x] ~~Render plain-text previews as text and keep rich HTML previews on the shared sanitizer, including read-only and live modes.~~
   - [ ] Finish nested relationships and audit remaining inline/shared plain-text consumers.
+    - [x] ~~Publish related Task graph confirmations through shared mutation services without a full collection reload, preserving newer fields and retired scopes.~~
+    - [x] ~~Provide minimal parent/mirror move payloads, protected recovery contracts and version-aware queue rollback baselines; retain pending intent across related confirmations.~~
 - [ ] Finish remaining text/Markdown/JSON import/export and subtask/sidebar drag workflows.
 
 ## Planner and routines

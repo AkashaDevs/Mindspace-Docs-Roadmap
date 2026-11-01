@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 1 2026 - Dependable Task relationship saves
+
+Task relationship APIs now coordinate children and both parent mirrors in the existing transaction owner. They reject cycles and unavailable or cross-workspace parents, and roll accompanying content and positions back together on failure. Creation retries, completed-task finish times and no-op versions stay stable. Permanent deletion detaches surviving children while coordinating the existing creation-retirement receipt; injected failure rolls both back.
+
+The shared client save services now publish related graph confirmations without reloading every Task. Newer text and pending graph intent survive late responses, and older full responses cannot restore stale relationships. Shared move payloads and protected recovery copies can retain parent/mirror intent. Version-aware queue baselines preserve a newer related confirmation when a pending move fails, without consuming that pending revision.
+
+Local acceptance covers 2,356 client and 1,107 server checks, release lint and production/font/artifact audits. The 48 current browser cases include 24 graph-receipt cases across four profiles and 24 existing queue/capture regressions: 14 source and 34 isolated production-build cases. Two older regression tests require development modules and are verified in source. Native API probes pass 13 graph scenarios and 29 existing reorder checks in owned disposable databases; both databases are cleared. Browser transport fixtures remain distinct from the real database API probes.
+
+Native hierarchy callers and visible subtask capture/attach/detach controls still need migration to the shared path. Parent-specific drafts, legacy-cycle rendering, remaining clone/Trash/erasure writers and actual graph UI-to-API acceptance remain open. Creation placement, larger/zoomed workloads, physical-device checks, deployment and the wider product phase remain open. Application source is local and existing-user data is untouched.
+
 ## November 1 2026 - Basic grouping that changes the view
 
 Basic's grouping menu now renders saved groups, status, priority, difficulty, tags, assignee, due date and completion. Grouping belongs to each view tab and survives reload and account presets. Date groups follow the current day, and filters keep using loaded Tasks.

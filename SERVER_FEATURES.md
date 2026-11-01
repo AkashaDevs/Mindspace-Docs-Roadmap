@@ -38,6 +38,10 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
 - [x] ~~Read only requested Task/group move metadata through an authorized, bounded endpoint, preserving schema defaults for older records.~~
 - [x] ~~Scoped Task/Reminder creation identities for duplicate-safe recovery.~~
 - [x] ~~Validate new Task list/group destinations and the canonical Group parent in the creation transaction, while preserving confirmed retry/deletion recovery.~~
+- [x] ~~Coordinate Task parent changes and canonical child mirrors in transactions across creation, single/bulk updates and hierarchy reorder.~~
+- [x] ~~Reject cycles and unavailable or cross-workspace parents; roll graph, content and positions back together while preserving exact retry and completion behavior.~~
+- [x] ~~Detach surviving children during permanent Task deletion, coordinate creation-retirement recovery, and return bounded graph confirmation/recovery metadata.~~
+- [ ] Complete remaining clone, Trash and account/Workspace erasure graph-writer audits and end-to-end client graph acceptance.
 - [x] ~~Shared recovery drafts with revision, capacity and retention rules.~~
 - [x] ~~Task/Note/checklist conversion and follow-through foundations.~~
 - [x] ~~Bounded lexical search and limited spelling recovery.~~
