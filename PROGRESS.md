@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 1 2026 - Sort a Task table without changing saved order
+
+Each Table tab now offers field and direction controls for its top-level rows using Tasks already loaded in the browser. Changing sort does not fetch or rewrite Tasks. Tabs retain separate preferences through reload and account presets, and an explicit refresh re-sorts updated saved values.
+
+Manual order returns to positional drag reordering. Automatic sorting explains that mode and prevents ambiguous top-level positional drops; changing the tab, list or sort cancels a held drag. Manual drops retain the existing ordered batch save, including affected neighboring positions and intact list/group membership after reload.
+
+Local validation covers 216 distinct source and production-build browser cases across four profiles, covering sorting and existing Task regressions. All 2,297 client unit checks, release lint and production/font/artifact checks pass. Browser journeys use isolated API fixtures. Backend code is unchanged; application deployment, physical phone checks, remaining Task views and the wider phase stay separate.
+
 ## October 31 2026 — Keep literal writing as text
 
 The shared editor was treating literal tags, entities and whitespace-only text as empty HTML. Those entries now remain text through drafting, committing and saving. The real Task notes journey preserves them through closing, reloading, saving and further typing.

@@ -2,7 +2,7 @@
 
 [Overview](README.md) · [Server](SERVER_FEATURES.md) · [Progress](PROGRESS.md)
 
-Updated October 31, 2026. Checked and struck-through items have implementation and recorded development verification. Empty checkboxes remain open. New usability reports stay open even when an earlier implementation test passed. These are development statuses, not a claim about every hosted version.
+Updated November 1, 2026. Checked and struck-through items have implementation and recorded development verification. Empty checkboxes remain open. New usability reports stay open even when an earlier implementation test passed. These are development statuses, not a claim about every hosted version.
 
 ## Capture and return
 
@@ -97,7 +97,8 @@ Updated October 31, 2026. Checked and struck-through items have implementation a
   - [x] ~~Independent Table group expansion and Detailed grouping, sorting, filters and group disclosure through refresh and reload.~~
   - [x] ~~Per-tab Data Table filters, selected grouping and task-order direction, with responsive row-detail expansion and real layout choices.~~
   - [x] ~~Keep working tabs through ordinary reloads and restore saved presentation from the account preset.~~
-  - [ ] Add safe Table sorting while preserving drag save order.
+  - [x] ~~Sort the top-level rows in each Table tab using loaded Tasks; retain field and direction through reload and account presets.~~
+  - [x] ~~Keep automatic sorting separate from Manual order drag, cancel held drags on view changes and preserve the existing batch save.~~
   - [x] ~~Data Table drag saving and recovery preserve hidden Tasks, typed grouping, canonical list/group membership and ascending, descending or loaded order.~~
     - [x] ~~Keep later Task edits behind earlier saves without blocking input, preserving newer fields when move replies arrive.~~
   - [ ] Audit List, Basic, Gantt and other nested view settings.
