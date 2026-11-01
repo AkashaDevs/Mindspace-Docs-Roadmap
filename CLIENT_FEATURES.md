@@ -106,6 +106,15 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Data Table drag saving and recovery preserve hidden Tasks, typed grouping, canonical list/group membership and ascending, descending or loaded order.~~
     - [x] ~~Keep later Task edits behind earlier saves without blocking input, preserving newer fields when move replies arrive.~~
   - [ ] Audit List, Basic, Gantt and other nested view settings.
+    - [x] ~~Keep Basic search and applied category/text filters independent in each tab, through reload and account presets, using retained Tasks.~~
+    - [x] ~~Provide Clear filters recovery and advance active due-date filters when the local day changes.~~
+    - [x] ~~Keep List/Basic row details and subtask expansion independent, alongside Basic group collapse preferences.~~
+    - [x] ~~Refresh Basic saved/automatic groups from current Task fields and render structured tags through the shared normalizer.~~
+    - [x] ~~Preserve full native row-move batches and reload order; retire held drags on tab/list/filter/scope changes while allowing dispatched saves to finish.~~
+    - [x] ~~Open List details explicitly without shifting controls on focus; use the existing details dialog on narrow screens.~~
+    - [x] ~~Keep Basic search, filters and actions inside the dashboard across narrow and wide layouts.~~
+    - [ ] Connect Basic's grouping selector to shared typed-group projections and matching native drop semantics.
+    - [ ] Finish remaining Gantt/nested projections and larger preset/workload acceptance.
 - [ ] Recheck table density and timestamp input presentation in the visual pass.
   - [x] ~~Create Tasks from the Table header, a group or an empty workspace through the shared editor, with explicit destinations and protected drafts.~~
   - [x] ~~Open the current saved Task from compact feedback even when filters hide it, retaining the selected filters, list and tab.~~

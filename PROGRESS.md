@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 1 2026 - Keep List and Basic views ready to resume
+
+Basic's toolbar now wraps its search, filters and actions within the dashboard. Search, applied filters and group collapse belong to each view tab. List and Basic keep separate detail/subtask expansion through reload and account presets. Filters use retained Tasks, provide a clear way back from empty results, and follow the local day for due dates.
+
+Basic groups now render current saved Task values, including automatic group membership. Structured tags use the shared normalizer. List details open through an explicit action, keeping controls stable during focus and drag pickup; narrow screens use the existing details dialog.
+
+Dragging rows saves the complete position batch and retains list/group membership after reload. A held drag ends when its view or filter context changes; a save already sent can still finish. Local acceptance covers 224 distinct source and production-build browser cases across four profiles, all 2,314 client unit checks, release lint and production/font/artifact audits. Browser journeys use isolated API fixtures; current preset payloads also pass the unchanged pure server settings bounds.
+
+Basic's grouping selector and typed drops, nested relationships, larger workloads, physical LG V60 checks, deployment and the wider phase remain open. Backend code is unchanged; earlier database evidence remains separate.
+
 ## November 1 2026 - Capture a Task and find it again
 
 The Table header and group buttons now open the shared new-Task editor with the intended destination. Empty workspaces can capture a first Task without creating a list. Group defaults and required choices use the same editor, and existing Task edits remain ordinary updates.
