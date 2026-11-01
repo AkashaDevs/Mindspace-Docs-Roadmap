@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 1 2026 - Capture a Task and find it again
+
+The Table header and group buttons now open the shared new-Task editor with the intended destination. Empty workspaces can capture a first Task without creating a list. Group defaults and required choices use the same editor, and existing Task edits remain ordinary updates.
+
+A compact saved-Task message provides Open task even when the current filters hide the new record. It opens the latest saved values without changing the selected filters, list or view. Drafts survive closing and reloading; uncertain saves retry their original request. If a refresh already loaded a newer version of that Task, the retry preserves it and avoids a duplicate row.
+
+Local acceptance covers 248 distinct source and production-build browser cases across four profiles, all 2,306 client unit checks, release lint and production/font/artifact checks. Existing filtered dragging still saves complete position batches and retains failed batches for Retry. Browser journeys use isolated API fixtures. Backend code is unchanged; physical LG V60 checks, deployment, remaining Task projections and relationships, and the wider phase stay open.
+
 ## November 1 2026 - Filter a Task table without losing hidden tasks
 
 Table filters now use the Tasks already loaded in the browser. Each tab keeps its own filters through reload and account presets. Matching counts and Clear filters explain how to return when nothing matches; removing filters restores the retained Tasks.

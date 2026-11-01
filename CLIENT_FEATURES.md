@@ -107,7 +107,9 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
     - [x] ~~Keep later Task edits behind earlier saves without blocking input, preserving newer fields when move replies arrive.~~
   - [ ] Audit List, Basic, Gantt and other nested view settings.
 - [ ] Recheck table density and timestamp input presentation in the visual pass.
-  - [ ] Repair Table header/group task creation and verify a clear return path when active filters hide the new record.
+  - [x] ~~Create Tasks from the Table header, a group or an empty workspace through the shared editor, with explicit destinations and protected drafts.~~
+  - [x] ~~Open the current saved Task from compact feedback even when filters hide it, retaining the selected filters, list and tab.~~
+  - [x] ~~Keep newer loaded Task fields and one visible record when retrying a creation whose original response was lost.~~
   - [x] ~~Compact Data Table actions, readable task titles/labels and date editing with Save, Cancel and Clear.~~
   - [x] ~~Confirmed completion, minimal notes edits and position commands through the shared move queue.~~
   - [x] ~~Create from empty Data Tables and actual list/group or status/priority/difficulty contexts through the shared Task editor, with explicit destination controls and group-rule choices.~~
