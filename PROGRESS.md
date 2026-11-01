@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## October 31 2026 — Keep Task notes through interruptions
+
+Task notes now keep an unfinished title and writing together. Closing the drawer, reloading or returning in another browser can restore the draft; uploading account recovery remains separate from saving the Task itself. Save and Clear send only the fields the user changed through the existing ordered Task save system. Discard leaves the saved Task alone.
+
+Older saves and recovery cleanup preserve newer typing. A confirmed Task receipt finishes its local recovery checkpoint before cleanup begins. Changes to another Task field are retained, and replacing a changed field or a competing recovery copy requires review. If an uncertain save already reached the server, matching recovery can be cleared without sending the Task update again.
+
+The drawer has compact fixed action areas and a scrollable writing area, shared voice input, and 44px controls for coarse pointers. Multiline writing retains its line breaks and spacing through save, reload and further typing. Viewport resizing preserves the draft and keeps the full action buttons visible.
+
+Local acceptance covers 144 source-browser and 220 compiled-client checks across Chrome, Firefox, tablet Safari and phone profiles: 364 passes without retries or skips. All 2,289 client unit checks, release lint and production/font/artifact checks pass. Browser journeys use isolated API fixtures; backend source is unchanged. Deployment, physical LG V60 testing and the wider release gates remain separate. Nested Task relationships, remaining inline consumers, safe table sorting and larger-board admission remain open.
+
 ## October 31 2026 — Edit tasks without losing your place
 
 Task titles and text details now respond immediately while typing. Enter or leaving a field sends one small update; multiline fields use Ctrl/Cmd+Enter so ordinary Enter can add a new line. Grouping by the edited field keeps the input in place while it is focused. Later edits continue through the existing ordered save system behind earlier drag saves.

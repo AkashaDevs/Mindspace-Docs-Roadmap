@@ -110,7 +110,11 @@ Updated October 31, 2026. Checked and struck-through items have implementation a
   - [x] ~~Type Task titles and multiline details without a server request per character; commit on Enter or leaving the field and keep focus stable while grouping changes.~~
   - [x] ~~Keep unfinished field edits on the current device through refused saves, reloads and view changes, preserving newer typing while older saves finish.~~
   - [x] ~~Review competing tab copies or changed saved values before overwriting; retry storage/cleanup failures and retain invalid structured text for correction.~~
-  - [ ] Finish nested relationships and longer notes draft recovery.
+  - [x] ~~Keep unfinished Task titles and notes on the device across closing and reloads; recover uploaded account drafts in a fresh browser.~~
+  - [x] ~~Save or clear only authored Task fields, preserve multiline literal text, and retain newer typing while older saves or recovery cleanup finish.~~
+  - [x] ~~Review competing recovery copies or changed saved fields, discard a local edit without changing the Task, and finish matching recovery cleanup without replaying an update.~~
+  - [x] ~~Keep compact Task notes actions visible around a scrollable writing area, with shared dictation and touch-sized controls.~~
+  - [ ] Finish nested relationships and audit remaining inline/shared plain-text consumers.
 - [ ] Finish remaining text/Markdown/JSON import/export and subtask/sidebar drag workflows.
 
 ## Planner and routines
