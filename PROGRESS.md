@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## October 31 2026 — Edit tasks without losing your place
+
+Task titles and text details now respond immediately while typing. Enter or leaving a field sends one small update; multiline fields use Ctrl/Cmd+Enter so ordinary Enter can add a new line. Grouping by the edited field keeps the input in place while it is focused. Later edits continue through the existing ordered save system behind earlier drag saves.
+
+Unfinished edits use the existing protected device recovery system. Failed saves, reloads and changing view tabs retain the text. Escape preserves the cancellation before cleanup, and a failed recovery save can be retried without retyping. Older confirmations keep newer typing. Separate tabs and saved values that changed elsewhere require an explicit choice before overwriting. Structured fields retain invalid JSON for correction and preserve zero and false values.
+
+Local acceptance covers 68 source-browser and 148 compiled-client checks across desktop, Firefox, tablet and phone profiles: 216 passes without retries or skips. This combines 200 unchanged cases from the full browser matrix with 16 fresh storage/cleanup checks after a final recovery-button correction. All 2,263 client unit checks, release lint and production/font/artifact checks pass. Compiled checks also cover existing capture, completion, dates, notes, position and drag controls. Browser journeys use isolated API fixtures. Backend code is unchanged; earlier database checks remain separate evidence.
+
+The changes are in the local preview and remain undeployed. Nested Task relationships, longer notes drafts, safe Table sorting, larger workloads, whole-move transactions and ordering across devices remain open.
+
 ## October 31 2026 — Capture tasks with a clear destination
 
 Data Table New task and group Add task now open the shared editor before saving. Empty tables offer the same capture path. The editor shows the destination list and group, retains the selected status/priority/difficulty context and asks for a choice when a group allows several values. Changing the list clears the old group; choosing a real group uses its parent list.

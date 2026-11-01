@@ -107,7 +107,10 @@ Updated October 31, 2026. Checked and struck-through items have implementation a
   - [x] ~~Create from empty Data Tables and actual list/group or status/priority/difficulty contexts through the shared Task editor, with explicit destination controls and group-rule choices.~~
   - [x] ~~Keep capture drafts and the original unconfirmed save through close/reload; retry with one stable creation identity, keep uncertain details read-only and allow correction after an explicit destination refusal.~~
   - [x] ~~Keep Task editor header and save controls visible around one scrollable form body, with phone-sized controls and viewport/overlap checks.~~
-  - [ ] Finish nested relationships, inline edit focus/coalescing and longer notes draft recovery.
+  - [x] ~~Type Task titles and multiline details without a server request per character; commit on Enter or leaving the field and keep focus stable while grouping changes.~~
+  - [x] ~~Keep unfinished field edits on the current device through refused saves, reloads and view changes, preserving newer typing while older saves finish.~~
+  - [x] ~~Review competing tab copies or changed saved values before overwriting; retry storage/cleanup failures and retain invalid structured text for correction.~~
+  - [ ] Finish nested relationships and longer notes draft recovery.
 - [ ] Finish remaining text/Markdown/JSON import/export and subtask/sidebar drag workflows.
 
 ## Planner and routines
