@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 1 2026 - Draft comparison and responsive local recovery
+
+Task draft conflict notices now show compact previews of both copies' titles, descriptions and notes before the user chooses. Authored markup remains literal text. The comparison uses the already loaded drafts and the existing recovery notice.
+
+Both local choices now finish if another tab saves a competing copy during an account/workspace change. They stay bound to the original device identity without restarting retired account work. Choosing an unfinished draft during a protected device save now queues the selection rather than dropping it. Untouched blank captures and unchanged drafts no longer send recurring autosaves; explicitly clearing an earlier thought is still protected.
+
+Local verification passes 2,388 client checks, release lint with no errors or added warnings, and production/font/artifact audits. The 116 accepted browser cases comprise 22 source and 94 isolated production-build cases. Comparison, conflict choice, confirmed cleanup and idle-save behavior pass across four profiles; synchronous scope/local-writer and pending-save cases use the source harness. Eight final compiled comparison/picker screenshots were reviewed. The earlier tablet cleanup failure now passes. A browser-cleanup error required a fresh complete Firefox group, which passed; the failed run is preserved. Server sources are unchanged, retaining the previous 1,110 server checks and native graph/reorder evidence.
+
+Mounted detach/reparent/refusal and uncertain child creation, legacy cycles, native hierarchy migration, other graph writers and browser-to-real-isolated-API proof remain open. Creation placement, larger workloads, physical-device acceptance, deployment and the wider product phase remain open. Application source remains local; existing-user authored data is untouched.
+
 ## November 1 2026 - Draft choices and interrupted saves
 
 The unfinished Task draft picker preserves different device and account copies until the user chooses one. Both choosing the account version and keeping the device version are verified. Reopening a confirmed child Task's recovery copy finishes cleanup without creating another Task.
