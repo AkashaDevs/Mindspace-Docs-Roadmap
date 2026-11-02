@@ -147,6 +147,11 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
     - [x] ~~Show compact device/account draft text comparisons before choosing a recovery copy.~~
     - [x] ~~Resolve a competing device draft after account/workspace retirement through explicit local choices while account work stays stopped.~~
     - [x] ~~Keep draft selection responsive through pending device saves and avoid repeated blank or unchanged account autosaves while preserving explicit clears.~~
+    - [x] ~~Verify mounted detach/reparent with both parent mirrors, minimal queued patches and unchanged actual list/group membership.~~
+    - [x] ~~Recover refused or lost Task-graph and child-create responses through explicit copy choices and exact replay, confirming one saved result.~~
+    - [x] ~~Render and repair legacy circular Task links within a finite path and prevent invalid ancestor choices.~~
+    - [ ] Move native List/Basic hierarchy drags onto minimal shared queue batches while retaining affected parent order.
+    - [ ] Verify graph UI journeys against an isolated real API and audit remaining clone/Trash/account-erasure graph writers.
     - [x] ~~Publish related Task graph confirmations through shared mutation services without a full collection reload, preserving newer fields and retired scopes.~~
     - [x] ~~Provide minimal parent/mirror move payloads, protected recovery contracts and version-aware queue rollback baselines; retain pending intent across related confirmations.~~
 - [ ] Finish remaining text/Markdown/JSON import/export and subtask/sidebar drag workflows.

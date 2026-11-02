@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 1 2026 - Task graph recovery journeys
+
+Data Table detach and reparent journeys now have mounted verification of minimal queued child patches, both canonical parent mirrors, and unchanged actual list/group assignment and content. Refused moves retain their exact queued intent. A committed move whose response was lost is confirmed from saved graph records without sending it again, after an explicit copy choice or recovery-save retry when an immediate reload leaves interrupted protected copies.
+
+A known parent refusal preserves the thought and permits a corrected standalone capture. An uncertain child capture reopens read-only and repeats its exact logical identity and payload, confirming one child and its parent mirror. Legacy reciprocal links render within a finite path, can be detached for repair, and are excluded from invalid ancestor choices.
+
+There are 48 fresh local browser checks: 16 source and 32 isolated compiled cases across Chrome, Firefox, tablet Safari and mobile Chrome. They include the eight new graph journeys and existing capture/draft regressions. All report zero page errors. Earlier failed test assumptions, tablet copy-choice and recovery-save omissions, and Firefox cleanup failures are preserved separately. The complete fresh tablet group replaces the earlier tablet profile; the failed whole run is retained. Test syntax and two controlled-fixture unit checks pass. Application/server sources and all 516 compiled files are byte-identical to the previous verified checkpoint; its 2,388 client and 1,110 server checks, release lint/build and native API evidence are retained rather than claimed as rerun.
+
+Native hierarchy drags still need migration from full-snapshot bulk updates to the shared minimal queued path, including parent-order intent. Other graph writers, browser-to-real-isolated-API proof, creation placement, larger workloads, physical-device acceptance, deployment and the wider product phase remain open. Application source remains local and existing-user authored data is untouched.
+
 ## November 1 2026 - Draft comparison and responsive local recovery
 
 Task draft conflict notices now show compact previews of both copies' titles, descriptions and notes before the user chooses. Authored markup remains literal text. The comparison uses the already loaded drafts and the existing recovery notice.
