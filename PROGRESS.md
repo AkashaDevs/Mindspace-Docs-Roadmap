@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 1 2026 - Native Task saves verified against the real API
+
+The compiled Task UI now has a positive native parent/position save verified through actual signup/login, the normal mounted server and Mongo. Desktop and phone Chrome each use a fresh, initially empty owned database. The browser sends one minimal child/affected-parent batch, reloads and explicitly refreshes canonical Tasks; independent database checks confirm parent/mirror, positions, list/group membership and preserved authored text/completion date. Both databases are cleared afterward. No frontend Task seed or synthesized API payload is used.
+
+Those runs exposed a startup health defect: an unmounted fallback could return 404, and HTTP 200 could incorrectly imply that a disconnected database was online. The shared HTTP probe now reads API/database status together from the mounted /api/health route, uses the configured API origin, preserves maintenance state and aborts a stalled request after five seconds. The old archived build fails the same canonical-health assertion; the new build passes both real-API journeys with 97 API responses, no HTTP failures and no page errors.
+
+Current validation passes 2,404 client checks, 237 focused checks, release lint with zero errors and the existing 21 warnings, plus production/font/artifact audits. Native hierarchy regressions pass 8 source and 32 compiled browser cases across four compiled profiles; two source connectivity cases and 12 separate compiled isolation controls also pass. The skipped source-only isolation invocation is excluded. Earlier failed pilots and their corrected test assumptions remain recorded. The candidate freezes 2,885 client inputs, 574 server inputs and 516 build files. Existing server runtime modules are unchanged; prior 1,110 server checks are retained, not claimed as rerun.
+
+The compiled UI reaches the owned real server through an explicit loopback forwarding bridge. Production-origin/CORS, Socket.IO/provider acceptance, physical LG V60/touch testing, real Data Table/capture/refused/lost-response journeys, clone/Trash/erasure writers, placement, larger workloads and the wider product/release phase remain open. Application source remains local and existing-user authored data is untouched.
+
 ## November 1 2026 - Native Task hierarchy uses the shared save queue
 
 Basic and List hierarchy drags now use minimal batched reorder intent through the existing scoped queue. Changed positions, actual list/group assignment and affected parent order travel together. Hidden children in other lists/groups remain in the parent order; unrelated Task text and completion dates are preserved. The held appearance clears before the network response, so rapid moves can continue and save in order.

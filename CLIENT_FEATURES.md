@@ -154,6 +154,8 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
     - [x] ~~Preserve hidden children and real list/group assignment without sending unrelated Task text or completion dates in hierarchy moves.~~
     - [x] ~~Recover refused or lost native hierarchy saves and queue rapid moves in order while releasing the held appearance before confirmation.~~
     - [ ] Verify graph UI journeys against an isolated real API and audit remaining clone/Trash/account-erasure graph writers.
+      - [x] ~~Verify a compiled native parent/position move through real login, mounted APIs, reload and independent Mongo inspection on desktop and phone layouts.~~
+      - [x] ~~Use one bounded canonical HTTP health request at the configured API origin, preserving explicit database and maintenance state without unmounted fallbacks.~~
     - [x] ~~Publish related Task graph confirmations through shared mutation services without a full collection reload, preserving newer fields and retired scopes.~~
     - [x] ~~Provide minimal parent/mirror move payloads, protected recovery contracts and version-aware queue rollback baselines; retain pending intent across related confirmations.~~
 - [ ] Finish remaining text/Markdown/JSON import/export and subtask/sidebar drag workflows.
