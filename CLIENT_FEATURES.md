@@ -150,7 +150,9 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
     - [x] ~~Verify mounted detach/reparent with both parent mirrors, minimal queued patches and unchanged actual list/group membership.~~
     - [x] ~~Recover refused or lost Task-graph and child-create responses through explicit copy choices and exact replay, confirming one saved result.~~
     - [x] ~~Render and repair legacy circular Task links within a finite path and prevent invalid ancestor choices.~~
-    - [ ] Move native List/Basic hierarchy drags onto minimal shared queue batches while retaining affected parent order.
+    - [x] ~~Move native List/Basic hierarchy drags onto minimal shared queue batches while retaining affected parent order.~~
+    - [x] ~~Preserve hidden children and real list/group assignment without sending unrelated Task text or completion dates in hierarchy moves.~~
+    - [x] ~~Recover refused or lost native hierarchy saves and queue rapid moves in order while releasing the held appearance before confirmation.~~
     - [ ] Verify graph UI journeys against an isolated real API and audit remaining clone/Trash/account-erasure graph writers.
     - [x] ~~Publish related Task graph confirmations through shared mutation services without a full collection reload, preserving newer fields and retired scopes.~~
     - [x] ~~Provide minimal parent/mirror move payloads, protected recovery contracts and version-aware queue rollback baselines; retain pending intent across related confirmations.~~

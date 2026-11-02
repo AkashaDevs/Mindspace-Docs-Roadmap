@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 1 2026 - Native Task hierarchy uses the shared save queue
+
+Basic and List hierarchy drags now use minimal batched reorder intent through the existing scoped queue. Changed positions, actual list/group assignment and affected parent order travel together. Hidden children in other lists/groups remain in the parent order; unrelated Task text and completion dates are preserved. The held appearance clears before the network response, so rapid moves can continue and save in order.
+
+Real group drops reuse the existing filter-choice dialog, including cancellation without a save. Empty-group drops, refused-save reload/retry and already-committed lost-response recovery have mounted proof. The shared planner isolates position buckets by list, group and parent, and replaces repeated ancestor scans with indexed lookup. Selected/detail displays resolve current Task records.
+
+The old mounted full-snapshot baseline fails both views as expected. The final candidate passes 2,397 client checks, 227 focused checks, release lint with zero errors and the original 21 warnings, plus production/font/artifact audits. There are 97 distinct accepted browser cases: 27 source and 70 isolated compiled, all with explicit zero-page-error observations. The 40 native hierarchy cases include source and all four compiled profiles. Data Table graph regressions use source plus compiled Chrome/tablet; adjacent List/Basic controls use source plus compiled Chrome/phone. Four additional source recovery rechecks pass with the final test helper. A transient tablet recovery-button race is preserved; the complete fresh tablet graph group supersedes that earlier profile. Saved-state assertions and production bytes remain unchanged. Earlier scope-key, test-target and obsolete-contract failures remain preserved. The frozen candidate has 2,881 client inputs, 573 unchanged server inputs and 516 build files.
+
+Server code is unchanged; prior 1,110 server checks and native graph/reorder transaction evidence are retained rather than claimed as rerun. Browser-to-isolated-real-API proof, other graph writers, creation placement, larger workloads, physical-device acceptance, deployment and the wider product phase remain open. Application source remains local and existing-user authored data is untouched.
+
 ## November 1 2026 - Task graph recovery journeys
 
 Data Table detach and reparent journeys now have mounted verification of minimal queued child patches, both canonical parent mirrors, and unchanged actual list/group assignment and content. Refused moves retain their exact queued intent. A committed move whose response was lost is confirmed from saved graph records without sending it again, after an explicit copy choice or recovery-save retry when an immediate reload leaves interrupted protected copies.
