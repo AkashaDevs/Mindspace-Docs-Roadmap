@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 1 2026 - Draft choices and interrupted saves
+
+The unfinished Task draft picker preserves different device and account copies until the user chooses one. Both choosing the account version and keeping the device version are verified. Reopening a confirmed child Task's recovery copy finishes cleanup without creating another Task.
+
+An account or workspace change during a draft switch now retires the old account work immediately, even if the user returns to the same IDs before the page renders again. Mindspace finishes protecting the original device copy and closes the interrupted editor. If that device checkpoint fails, its explicit retry stays on the device and does not restart the retired account save. Reopening the protected draft starts a fresh owner.
+
+Local verification passes 2,381 client checks, release lint with no errors or added warnings, and production/font/artifact audits. The 106 current browser cases comprise 16 source and 90 isolated production-build cases. Both conflict choices and confirmed cleanup pass on four profiles; the three synchronous scope/device-storage cases use the source browser harness. Eight compiled conflict/picker screenshots were reviewed. Server sources remain unchanged, retaining the prior 1,110 server checks and native graph/reorder evidence.
+
+Scope retirement combined with a competing local writer still needs a dedicated check. Mounted detach/reparent/refusal and uncertain child creation, legacy cycles, native hierarchy migration, other graph writers and browser-to-real-isolated-API proof remain open. Larger workloads, physical-device acceptance, deployment and the wider product phase also remain open. Application source remains local; existing-user authored data is untouched.
+
 ## November 1 2026 - Return to unfinished child thoughts
 
 Child capture now has a compact Unfinished task drafts picker in the existing editor. A unique unfinished child thought returns when its parent has moved between lists. If the parent has disappeared, New task provides a return path and the existing parent field can make the thought a standalone Task. Switching drafts saves the current thought first. Each copy keeps its original device and account identity, including older long account keys; the picker does not merge or overwrite independent copies. The protected draft owner also checkpoints a rapid page interruption before the normal autosave delay.
