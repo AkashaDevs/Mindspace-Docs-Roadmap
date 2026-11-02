@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 1 2026 - Compact Basic Task controls on phones
+
+The Basic phone toolbar now measures about 115 pixels rather than 235 at the reviewed width. Search and Add Task stay visible; grouping and advanced filters open from a labeled button with an active-filter count. Each tab retains its own disclosure choice, filters and unfinished filter text. Fields stay mounted while hidden, and opening the panel reuses the existing compiled filter state. Desktop/tablet filter actions and capture share one row. Empty writable groups combine their message and Add task action while keeping the existing drop zone. The simple List lens keeps its toolbar-free presentation.
+
+Current validation passes 2,411 client checks, release lint with zero errors and the existing 21 warnings, and production/font/artifact audits. There are 70 current browser cases: 16 source and 54 compiled, including four-profile compact controls and native queued-drag regressions, plus two fresh real-API desktop/phone saves with independent Mongo confirmation and cleared owned databases. Four source/compiled desktop, tablet and phone screenshots were reviewed.
+
+The earlier broad 86-case run remains failed at 80/86; six older journeys needed explicit open-panel steps before using now-collapsed controls. Their original data, draft and fit/hit assertions are unchanged, and fresh source/compiled rechecks pass. A tablet failure against an introduced blanket height cap is retained; the final check measures desktop/tablet action-row alignment directly while preserving strict phone height limits. These narrower current checks do not turn the old broad run into a pass.
+
+The frozen candidate has 2,890 client inputs, 574 unchanged server inputs and 516 build files. Existing server runtime is unchanged; prior server checks are retained, not rerun. Application changes remain local. Broader real Task capture/refusal/lost-response recovery, clone/Trash/erasure writers, placement, larger workloads, physical LG V60/touch and the wider product/release phase remain open.
+
 ## November 1 2026 - Selected Task tabs stay visible on phones
 
 Opening Basic directly could show the Kanban label because the correctly selected Basic tab was entirely clipped inside the horizontal strip. The tab owner now reveals the active chip when selection, arrangement or available width changes, while preserving manual scrolling and keyboard focus. A reusable ContentHeader option gives Task navigation its own row on mobile; desktop retains one row. This keeps the selected label readable even at 320 pixels without refetching or discarding loaded Tasks.
