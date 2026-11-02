@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 2 2026 - Real refused saves and lost Task moves verified
+
+A refused child-task save keeps the original thought available to correct. When its parent becomes unavailable after the form opens, the real server rejects that placement; choosing a valid placement saves the thought once under the same capture identity. A refused reparent similarly keeps its exact change in the shared queue. After reload, Retry checks current server state and saves the same minimal change, preserving the task's list, group, content, completion and date.
+
+Desktop and phone checks also let the server commit a detach or reparent before deliberately withholding its response in the owned test bridge. Recovery reads the canonical task and both affected parents, confirms the saved result and clears the queue without sending another move. Independent Mongo checks confirm one task and the correct parent lists, with no second version increment from recovery.
+
+Nine current real-API journeys pass, including native-save compatibility. All nine initially empty owned databases are cleared. There are 406 actual API responses, four expected server refusals, four deliberately lost committed responses and nine zero-page-error observations. Four focused safeguards pass for the private fixture control, which accepts only fixed actions in its owned database and is never mounted in the app.
+
+Only test/probe code changed; the compiled app and production server remain unchanged. Earlier positive Data Table, interrupted capture and exact child-create replay proofs remain retained, alongside 2,411 client checks, 1,110 server checks, 70 UI browser cases and twelve isolation controls; those earlier suites are not claimed as rerun. These checks complete this bounded local API recovery item. Other graph writers, creation placement, larger workloads, production-origin/CORS, providers, physical LG V60/touch and the wider phase remain open. Application source remains local.
+
 ## November 2 2026 - Real Task graph and capture recovery verified
 
 Data Table attach, reparent and detach now have desktop/phone proof through real login, the normal mounted API and Mongo. Each journey sends three minimal child-parent patches, receives the canonical parent updates, reloads and explicitly refreshes Tasks. Independent database checks confirm both parent mirrors and preserved title, description, completion date, list, group and position.
