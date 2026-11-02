@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 2 2026 - Real Task graph and capture recovery verified
+
+Data Table attach, reparent and detach now have desktop/phone proof through real login, the normal mounted API and Mongo. Each journey sends three minimal child-parent patches, receives the canonical parent updates, reloads and explicitly refreshes Tasks. Independent database checks confirm both parent mirrors and preserved title, description, completion date, list, group and position.
+
+Child capture also passes after the editor is closed and the page reloaded: the original thought resumes, creates once with its parent/list/group context and appears immediately without a collection reload. A separate test lets the real server commit a child, then deliberately drops that response in the loopback forwarding bridge. After interruption, replaying the exact creation key and body receives the existing Task. Both desktop and phone retain one saved child and one parent link; replay does not advance the committed parent/child versions again.
+
+Seven real-API journeys pass, including native-save compatibility, with seven cleared owned databases, seven zero-page-error observations and 492 actual API responses without HTTP failures. Two committed responses were intentionally not delivered to exercise recovery. The seven journeys make only fourteen Task collection reads: initial loading plus explicit canonical refresh. Twelve separate compiled isolation controls pass across four profiles, including guards that keep response dropping opt-in. No Task store seed or synthesized API response is used in the real journeys.
+
+Only test/probe code changed. The same production artifact and existing 2,411 client checks, 1,110 server checks and 70 UI browser cases are retained, not claimed as rerun. The failed first independent capture check assumed null for a field the seed leaves unset; it remains failed, and final probes require exact original-field/version preservation. Application source remains local. Actual server-refused saves, lost move-response recovery, other graph writers, creation placement, larger workloads, production-origin/CORS, providers, physical LG V60/touch and the wider phase remain open.
+
 ## November 1 2026 - Compact Basic Task controls on phones
 
 The Basic phone toolbar now measures about 115 pixels rather than 235 at the reviewed width. Search and Add Task stay visible; grouping and advanced filters open from a labeled button with an active-filter count. Each tab retains its own disclosure choice, filters and unfinished filter text. Fields stay mounted while hidden, and opening the panel reuses the existing compiled filter state. Desktop/tablet filter actions and capture share one row. Empty writable groups combine their message and Add task action while keeping the existing drop zone. The simple List lens keeps its toolbar-free presentation.

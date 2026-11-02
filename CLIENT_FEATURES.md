@@ -157,6 +157,9 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
     - [x] ~~Recover refused or lost native hierarchy saves and queue rapid moves in order while releasing the held appearance before confirmation.~~
     - [ ] Verify graph UI journeys against an isolated real API and audit remaining clone/Trash/account-erasure graph writers.
       - [x] ~~Verify a compiled native parent/position move through real login, mounted APIs, reload and independent Mongo inspection on desktop and phone layouts.~~
+      - [x] ~~Verify Data Table attach, reparent and detach through real APIs, canonical parent receipts, reload and independent Mongo preservation checks on desktop and phone.~~
+      - [x] ~~Resume an interrupted child thought after editor close/reload and create exactly one linked Task through the real API on desktop and phone.~~
+      - [x] ~~Recover a deliberately lost committed child-create response by replaying the exact key and payload, confirming one Task and parent link on desktop and phone.~~
       - [x] ~~Use one bounded canonical HTTP health request at the configured API origin, preserving explicit database and maintenance state without unmounted fallbacks.~~
     - [x] ~~Publish related Task graph confirmations through shared mutation services without a full collection reload, preserving newer fields and retired scopes.~~
     - [x] ~~Provide minimal parent/mirror move payloads, protected recovery contracts and version-aware queue rollback baselines; retain pending intent across related confirmations.~~
