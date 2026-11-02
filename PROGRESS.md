@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 1 2026 - Selected Task tabs stay visible on phones
+
+Opening Basic directly could show the Kanban label because the correctly selected Basic tab was entirely clipped inside the horizontal strip. The tab owner now reveals the active chip when selection, arrangement or available width changes, while preserving manual scrolling and keyboard focus. A reusable ContentHeader option gives Task navigation its own row on mobile; desktop retains one row. This keeps the selected label readable even at 320 pixels without refetching or discarding loaded Tasks.
+
+The old compiled baseline fails the visibility check. An initial reveal-only attempt exposed insufficient room at 320 pixels; that failed run is preserved. The final candidate passes 6 source and 12 compiled tab-continuity cases, including direct entry, reload, resize, focus/data retention, close and preset restore. All 32 compiled native drag/recovery regressions pass across four browser profiles. Two fresh desktop/phone journeys also save through real login/mounted APIs, confirm Mongo state after reload and clear their owned databases; 98 API responses have no HTTP errors. Four source/compiled phone screenshots were reviewed.
+
+Current checks: 2,408 full client checks, 241 focused checks, zero lint errors with the existing 21 warnings, and production/font/artifact audits. The frozen candidate has 2,887 client inputs, 574 unchanged server inputs and 516 build files. Prior 1,110 server checks are retained, not rerun. Application changes remain local. Phone filter-toolbar/empty-group density, broader real Task capture/refusal/recovery, other graph writers, physical LG V60 testing and the wider product/release phase remain open.
+
 ## November 1 2026 - Native Task saves verified against the real API
 
 The compiled Task UI now has a positive native parent/position save verified through actual signup/login, the normal mounted server and Mongo. Desktop and phone Chrome each use a fresh, initially empty owned database. The browser sends one minimal child/affected-parent batch, reloads and explicitly refreshes canonical Tasks; independent database checks confirm parent/mirror, positions, list/group membership and preserved authored text/completion date. Both databases are cleared afterward. No frontend Task seed or synthesized API payload is used.

@@ -85,6 +85,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Verify whole-move transactions, ordering across devices and remaining drag adapters.
 - [ ] Clarify opening Tasks, choosing a view, opening list tools and selecting a list filter.
   - [x] ~~Expose Lists beside the tabs using the existing desktop tools and mobile left drawer.~~
+  - [x] ~~Reveal the selected Task tab on direct entry, reload and resize, with a readable mobile navigation row that preserves focus and loaded Tasks.~~
   - [x] ~~Keep loaded Task records and shared list selection while switching views.~~
 - [ ] Finish measured list-toggle and drag pickup responsiveness on representative data.
   - [ ] Recheck zoomed dragging, long boards and interactions after extended use.
