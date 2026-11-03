@@ -164,6 +164,8 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
       - [x] ~~Retain a real refused reparent in the shared queue and retry the same minimal change after reload on desktop and phone.~~
       - [x] ~~Confirm a saved detach after its response is lost without sending a second move on desktop and phone.~~
       - [x] ~~Recover both parent lists after a saved reparent response is lost without sending a second move on desktop and phone.~~
+      - [x] ~~Use one fresh-copy contract for Task clone actions, resetting completion, Done status, progress and completion dates while preserving reusable context and intended parent.~~
+      - [x] ~~Clone parents and completed children through full/nested Data Table row menus and Basic context actions, preserving originals and saved relationships on desktop and phone.~~
       - [x] ~~Use one bounded canonical HTTP health request at the configured API origin, preserving explicit database and maintenance state without unmounted fallbacks.~~
     - [x] ~~Publish related Task graph confirmations through shared mutation services without a full collection reload, preserving newer fields and retired scopes.~~
     - [x] ~~Provide minimal parent/mirror move payloads, protected recovery contracts and version-aware queue rollback baselines; retain pending intent across related confirmations.~~

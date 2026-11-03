@@ -2,6 +2,18 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 3 2026 - Fresh Task copies and Data Table clone actions
+
+Task copies now share one fresh-task contract. Copying a completed task clears completion, Done status, progress and completion dates while keeping its description, list, group and intended parent. A copied parent starts with an empty child list; it does not borrow the original parent's children. The original records and relationships stay intact.
+
+Data Table now offers Clone Task in both full and nested row menus. Those actions, Basic/List context actions and the existing sidebar actions use the same confirmed-save owner; the global command's default service uses the shared copy builder. Confirmed local insertion is tied to the account and workspace that started the action. Direct desktop/phone proof covers the full and nested Data Table menus and Basic context menu, including switching views without another Task collection fetch, refresh and reload.
+
+Seven real-API journeys pass against the current compiled app, including clone, native-save, Data Table, exact child-create replay, refused move and lost-reparent recovery. All seven owned databases are cleared. Independent Mongo checks confirm three fresh copies per clone journey, reset fields, correct parent mirrors and preserved original content, completion, date, list, group and position. Thirty-two fresh compiled native regression cases also pass across four browser profiles. The current API journeys observed 378 actual responses, one expected refusal and two deliberately withheld committed responses.
+
+All 2,413 client checks, 35 focused checks, release lint and production/font/artifact checks pass. Four settled desktop/phone screenshots were reviewed. Earlier failed runs remain failed; test-only reporting now preserves initial disposable ownership and cleanup diagnostics through shutdown failures. The production server is unchanged, with its earlier 1,110 checks retained rather than claimed as rerun.
+
+Application source remains local. Remaining Task work includes compact meaningful expanded details, clone interruption/recovery, Trash/restore and erasure graph writers, creation placement and larger workloads. Physical LG V60/touch, production-origin/CORS, providers and the wider phase remain open.
+
 ## November 2 2026 - Real refused saves and lost Task moves verified
 
 A refused child-task save keeps the original thought available to correct. When its parent becomes unavailable after the form opens, the real server rejects that placement; choosing a valid placement saves the thought once under the same capture identity. A refused reparent similarly keeps its exact change in the shared queue. After reload, Retry checks current server state and saves the same minimal change, preserving the task's list, group, content, completion and date.
