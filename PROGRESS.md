@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 6 2026 - Clear recovery choices for Task copies
+
+An old copy error message now stays bound to the attempt that produced it. If that attempt has already been handled, its button cannot silently create another task or act on a newer pending copy.
+
+If the server finds the saved copy in Trash, recovery offers to restore and check that same copy. If the copy was permanently deleted, recovery offers an explicit replacement using the kept details. Cancelling keeps the attempt for later; creating a replacement retains its new identity before sending it.
+
+Eighty focused source/compiled browser checks and six real API journeys pass. The real journeys cover restoration, cancelled and accepted replacement, and response loss on desktop and phone. Independent database checks confirm one active copy, unchanged originals and parent links, and cleanup of all six disposable databases. All 2,437 client and 1,114 server checks, release lint and the production build pass. Eight recovery screens were reviewed.
+
+Device-kept intent erasure, remaining graph writers, scale, physical LG V60 checks and release work remain open. These application changes are local; this update publishes documentation only.
+
 ## November 6 2026 - Real copy replay and scope retirement
 
 Desktop and phone journeys now verify copy recovery through the real mounted API and Mongo. Each deliberately loses a committed creation response, reloads and explicitly checks the same saved copy. The retry uses the same payload/key and receives the existing copy. Independent checks confirm one copy, one parent update, preserved originals and cleanup of both owned databases.

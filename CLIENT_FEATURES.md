@@ -143,7 +143,9 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Keep the exact Task copy attempt on the device before sending, explicitly check refused or uncertain copies after reload, and join repeated clicks while a copy is pending.~~
   - [x] ~~Recover a real committed child-copy response after reload by replaying the same key and payload on desktop and phone, preserving one copy and one parent update.~~
   - [x] ~~Retire old clone work across account/workspace changes while allowing a fresh explicit recovery check before an old response arrives.~~
-  - [ ] Finish identity-bound stale retry feedback and recovery for saved copies that are Trashed or permanently deleted.
+  - [x] ~~Keep old copy-recovery actions bound to their original attempt so they cannot create an accidental second copy or interfere with newer work.~~
+  - [x] ~~Restore the same saved copy from Trash, or explicitly create a replacement with the kept details after confirmed permanent deletion.~~
+  - [ ] Verify removal of device-kept copy attempts through scoped local-data erasure.
   - [ ] Finish nested relationships and audit remaining inline/shared plain-text consumers.
     - [x] ~~Open Data Table subtask capture in the canonical editor with the actual parent/list/group prefilled, without saving a sentinel or blank Task.~~
     - [x] ~~Attach an existing Task from Data Table through one minimal queued child-parent patch while retaining its actual list, group and position.~~
