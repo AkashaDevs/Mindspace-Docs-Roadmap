@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 6 2026 - Real copy replay and scope retirement
+
+Desktop and phone journeys now verify copy recovery through the real mounted API and Mongo. Each deliberately loses a committed creation response, reloads and explicitly checks the same saved copy. The retry uses the same payload/key and receives the existing copy. Independent checks confirm one copy, one parent update, preserved originals and cleanup of both owned databases.
+
+Scope checks found another responsiveness issue: a fresh recovery click could keep waiting on an old request after an account/workspace round trip. The shared runner now joins pending work only while its lease remains current. A fresh explicit check can use the retained key while the retired response is still held; the old response cannot publish or clear the newer work.
+
+Twenty-four mounted source checks across four browser profiles cover retirement at the device checkpoint, while the response is held and during a recovery choice. Sixteen current compiled clone checks, two current real-API replay journeys, all 2,424 client checks, release lint and production/font/artifact checks pass. The current API journeys observed 127 responses, including two committed 201 responses deliberately withheld and two delivered 200 replays. Earlier nonclone regressions and unchanged UI frame reviews are retained.
+
+The broader clone item remains open. Stale retry feedback must stay bound to its original saved attempt after cleanup, and saved copies in Trash or permanently deleted copies need explicit recovery choices. Wider erasure, placement, scale, physical LG V60/provider/release work also remains open. Application changes remain local.
+
 ## November 6 2026 - Safer Task copy recovery
 
 Task copy actions now keep their exact payload and replay key on the current device before sending a request. A refused or uncertain save keeps that attempt. After reload, choosing Clone again offers an explicit check of the same saved copy, with an option to keep it for later. Repeated clicks during a pending copy join that operation; a deliberate later copy gets a fresh key after confirmation.
