@@ -139,6 +139,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Keep compact Task notes actions visible around a scrollable writing area, with shared dictation and touch-sized controls.~~
   - [x] ~~Preserve literal tags, entities and whitespace in plain-text editor drafts, commits and saves using format-aware normalization.~~
   - [x] ~~Render plain-text previews as text and keep rich HTML previews on the shared sanitizer, including read-only and live modes.~~
+  - [x] ~~Keep expanded Task details focused on description, subtasks and useful fields, with labeled pin state, compact sections and access to the full editor.~~
   - [ ] Finish nested relationships and audit remaining inline/shared plain-text consumers.
     - [x] ~~Open Data Table subtask capture in the canonical editor with the actual parent/list/group prefilled, without saving a sentinel or blank Task.~~
     - [x] ~~Attach an existing Task from Data Table through one minimal queued child-parent patch while retaining its actual list, group and position.~~

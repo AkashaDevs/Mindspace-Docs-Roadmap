@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 6 2026 - Clearer expanded Task details
+
+Expanded Data Table rows now put description and subtask actions first. Internal user/list/relationship IDs, mirror arrays and raw system settings no longer appear as everyday editable fields. Categories and tags show readable labels with access to the existing Task editor, and the pin switch has an explicit label and controlled saved state. Minute estimates are available alongside the other useful Task fields.
+
+Details use the existing per-view layout preferences. Narrow screens keep a readable single column; wider layouts retain their two-column, three-column and adaptive choices. Grouping and filters still use the complete field registry. Existing inline draft and queued-save owners remain in place.
+
+Seventy-two compiled browser checks pass across Chrome, Firefox, tablet Safari and mobile Chrome, covering controls, independent layouts, grouping, filters, subtask capture, attachment and minimal field updates. A phone source regression also passes. All 2,417 client checks, release lint and production/font/artifact checks pass, and four final screenshots were reviewed. This client presentation slice uses isolated browser fixtures; the earlier real-API/Mongo evidence is retained, not claimed as rerun.
+
+The full goal is restored after the desktop app reinstall. Application source remains local. Clone interruption/refusal/replay, Trash/restore and erasure writers, placement, larger workloads, physical LG V60 testing and the rest of the consolidation phase remain open.
+
 ## November 3 2026 - Fresh Task copies and Data Table clone actions
 
 Task copies now share one fresh-task contract. Copying a completed task clears completion, Done status, progress and completion dates while keeping its description, list, group and intended parent. A copied parent starts with an empty child list; it does not borrow the original parent's children. The original records and relationships stay intact.
