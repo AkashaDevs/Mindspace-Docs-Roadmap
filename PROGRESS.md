@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 6 2026 - Workspace deletion clears kept copy attempts
+
+Deleting a Workspace now clears its kept Task copy attempts on the device after the server confirms the exact Workspace and owner. Only content-free retirement metadata remains. Open recovery choices and late copy responses cannot bring those details back, while other accounts and Workspaces keep their recovery data.
+
+A failed server deletion preserves the attempt. If server deletion succeeds but device storage blocks cleanup, the mounted Workspace screen explains what remains and supports retry through the server's deletion receipt.
+
+The current candidate passes 104 source/compiled browser checks, eight real API journeys, all 2,450 client checks, release lint and production/font/artifact checks. Desktop and phone API journeys independently confirm two Workspace Task graphs erased and six ordinary copy-recovery graphs preserved. All eight disposable databases were cleaned up. Server runtime is unchanged; the prior 1,114 server checks are retained.
+
+Account-wide device cleanup, other draft namespaces and returning after a full app restart while device cleanup remains blocked are still open. Application changes remain local.
+
 ## November 6 2026 - Clear recovery choices for Task copies
 
 An old copy error message now stays bound to the attempt that produced it. If that attempt has already been handled, its button cannot silently create another task or act on a newer pending copy.
