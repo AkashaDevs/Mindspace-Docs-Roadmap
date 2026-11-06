@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 6 2026 - Safer Task copy recovery
+
+Task copy actions now keep their exact payload and replay key on the current device before sending a request. A refused or uncertain save keeps that attempt. After reload, choosing Clone again offers an explicit check of the same saved copy, with an option to keep it for later. Repeated clicks during a pending copy join that operation; a deliberate later copy gets a fresh key after confirmation.
+
+The UI and global default actions share the recovery service, existing protected scoped draft transactions, confirmation dialog and canonical Task receipt owners. Eight source browser checks and 68 compiled checks across four profiles pass, including exact replay, refused-save cancellation/retry, deliberate new copies, held clicks and existing editing/subtask controls. All 2,423 client checks, release lint and production/font/artifact checks pass. Four recovery dialogs were reviewed.
+
+The current real-API compatibility journey also passes: three ordinary copies use three distinct keys, preserve the originals and parent relationships through reload, and pass independent Mongo checks. Its owned database is cleared. That journey does not yet prove real response-loss replay; the lost-response cases above use isolated browser fixtures.
+
+The wider clone recovery item remains open for mounted account/workspace retirement and actual API/Mongo replay after a lost response. Trash/restore, erasure including the new local recovery records, placement, scale and physical-device/provider/release work also remain open. Application changes remain local.
+
 ## November 6 2026 - Clearer expanded Task details
 
 Expanded Data Table rows now put description and subtask actions first. Internal user/list/relationship IDs, mirror arrays and raw system settings no longer appear as everyday editable fields. Categories and tags show readable labels with access to the existing Task editor, and the pin switch has an explicit label and controlled saved state. Minute estimates are available alongside the other useful Task fields.
