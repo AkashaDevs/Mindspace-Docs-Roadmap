@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Save Notes Explorer moves atomically
+
+The server now saves a folder move and its descendant paths together. A folder cannot be moved into itself or one of its children. A stale request cannot overwrite a later move, and a retry to the confirmed destination leaves the saved item alone.
+
+The local mounted API passed rollback, concurrent-move and restart checks against disposable MongoDB. Drag-and-drop and the keyboard Move action are still open in the client inventory.
+
 ## November 7 2026 - Rename in Notes Explorer
 
 The tree and folder listing now share an inline rename field. F2 selects the existing name, and a deliberate second mouse click starts editing. A quick double-click still opens the file.
