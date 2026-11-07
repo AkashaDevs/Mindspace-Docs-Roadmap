@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Keep Journal quick entries through interruptions
+
+Journal Page tools now offers a compact form for today's entry, with an optional Planner link. Reloading the same tab restores the draft. When a save response is lost, Retry checks for a saved entry before sending another create.
+
+The local compiled checks cover desktop, phone and tablet. More generic form migrations remain open.
+
 ## November 7 2026 - Group and validate Planner detail fields
 
 Planner Details groups the title, workspace, description and Active controls. The description supports multiple lines. Save shows a field error when the title is empty, and an arriving workspace label preserves the current draft.
