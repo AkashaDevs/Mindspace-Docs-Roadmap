@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Keep Events in the chosen Planner
+
+The Add event button, timeline actions and Scheduler dates now use one destination rule. Planner-only capture uses its sole active Calendar when there is one. Otherwise the form can save directly to the Planner or use a Calendar the user chooses. Changing the Calendar updates its Planner and shows that destination in the form.
+
+A missing or conflicting focus gives the user a way back before capture. An interrupted draft keeps its chosen destination when focus changes. If its Calendar disappears, the title and dates stay in the form while the user picks a new destination or saves without a Calendar.
+
+A recovered device draft is ready to use while its account copy uploads.
+
+The local build passed 80 browser checks across desktop, tablet and phone profiles, plus 2,487 client checks. Broader all-day editing, time zones and recurrence remain open.
+
 ## November 7 2026 - Open and return from saved Planner Events
 
 Open a saved Event from Today, Agenda or Scheduler, or choose View Event after capture. The detail page reads the exact Event within the active workspace, including when it falls outside the loaded Planner collection. A failed read offers Retry. An unavailable record still offers a way back.
