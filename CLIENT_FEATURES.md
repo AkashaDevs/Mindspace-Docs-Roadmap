@@ -258,7 +258,8 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Reduce granular hourly and large-range chart latency.
 - [ ] Make continuous lines deliberate and readable across missing samples.
 - [x] ~~Create the typed Stats key from the Data Table or global capture, with an explicit plus action and exact history matches.~~
-- [ ] Improve control density and discovery of existing global Stat entry.
+- [x] ~~Keep the Stats Data Table compact with visible Search, Quick Add and paging at phone widths.~~
+- [ ] Make the existing global Stat capture easier to find.
 - [ ] Add practical chart range navigation inspired by financial charts.
 - [ ] Design complex-value charts, trend lines and useful analysis.
 

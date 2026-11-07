@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Compact the Stats Data Table
+
+Search, Quick Add and paging stay within reach at phone widths. Rows adapt to the available table space when the sidebars open, and Options keeps filters, entry settings and import and export together.
+
+The local production build passed 20 browser cases. A direct global Stat shortcut remains on the checklist.
+
 ## November 7 2026 - Keep the Stats key you type
 
 Enter adds the typed key when the only matches are partial. An exact key still reuses its existing type. The picker also labels the plus action Create data key. The same controls work in the Data Table and global capture.
