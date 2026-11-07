@@ -297,6 +297,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Streamline form configuration for data types, input variants and validation.
   - [ ] Configure size, placement, grouping, appearance and behavior consistently.
   - [ ] Use generated forms where a bespoke form does not serve a specific need.
+  - [x] ~~Verify generated Planner row append, removal, select state and failed-save retry.~~
   - [ ] Verify select initialization and repeatable-array entry in migrated consumers.
 - [ ] Recheck shared update-queue batching, deduplication and clear failure feedback in retained consumers.
 - [ ] Prepare Fluxkit UI: inventory, package boundary, examples and release checks.

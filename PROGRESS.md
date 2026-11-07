@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Keep generated Planner edits attached to the right row
+
+Adding and removing repeatable rows now preserves the surviving text, selections and switches. A failed Planner Save leaves the form open with the draft intact. A confirmed retry returns to Planner Details.
+
+The local browser checks cover desktop, phone and tablet. Field configuration and migration to additional generated forms remain open.
+
 ## November 7 2026 - Save the order of Notes Explorer items
 
 Use the top or bottom of a row to position an item on desktop. The Move picker also offers Within this folder and lets you place an item before or after a sibling. The order survives a reload and works across directory pages.
