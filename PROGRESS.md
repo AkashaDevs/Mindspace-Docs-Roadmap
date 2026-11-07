@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Group and validate Planner detail fields
+
+Planner Details groups the title, workspace, description and Active controls. The description supports multiple lines. Save shows a field error when the title is empty, and an arriving workspace label preserves the current draft.
+
+Twelve local compiled browser checks passed on desktop, phone and tablet. Additional generic forms still need to adopt the shared configuration.
+
 ## November 7 2026 - Keep generated Planner edits attached to the right row
 
 Adding and removing repeatable rows now preserves the surviving text, selections and switches. A failed Planner Save leaves the form open with the draft intact. A confirmed retry returns to Planner Details.
