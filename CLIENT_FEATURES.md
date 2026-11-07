@@ -218,6 +218,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Clearer capture and note containers with restrained borders and shadows.~~
 - [x] ~~Journal grid, larger grid and list views with formatted Markdown previews.~~
 - [x] ~~Journal date navigation and recent-entry sidebar.~~
+- [x] ~~Keep floating Daily Log drafts tied to the day they were started, including across timezone changes.~~
 - [x] ~~Load the Notes explorer by location and minimal metadata.~~
   - [x] ~~Fetch the selected file separately and page folder metadata.~~
   - [x] ~~Restore the last folder, expanded branches and selected file on the same device within the workspace.~~

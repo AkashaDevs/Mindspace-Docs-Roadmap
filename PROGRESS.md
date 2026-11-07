@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Keep Daily Log drafts on their original day
+
+The floating Daily Log keeps the date you started writing on when your device changes timezones. You can switch to the new day and return to the original draft. If you were editing a saved entry, Save still updates that same entry.
+
+Local checks cover a timezone change across midnight, a daylight-saving change, and reopening the original draft.
+
 ## November 7 2026 - Open Journal entries by date
 
 Journal Browse offers an Edit or Write action for the selected day. Saved entries open in the full editor. An empty day opens with the selected date, and the draft can recover if the page reloads while someone is writing.
