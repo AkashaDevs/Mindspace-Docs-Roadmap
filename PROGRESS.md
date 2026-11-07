@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Keep the Stats key you type
+
+Enter adds the typed key when the only matches are partial. An exact key still reuses its existing type. The picker also labels the plus action Create data key. The same controls work in the Data Table and global capture.
+
+The local build passed 40 compiled browser cases, eight source cases and 2,508 client checks. The compact table and global capture discovery are the next improvements.
+
 ## November 7 2026 - Customize the right sidebar
 
 The right sidebar starts with Today, Tasks, Notes and Stats. Use Customize tools to add, hide or reorder built-in widgets. The device remembers the layout. Today shows open tasks due on the current date, and Stats loads when its tab is opened. The phone drawer has named controls and returns focus to its launcher.

@@ -257,7 +257,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Verify persisted statistical Insights presentations alongside the Orion restoration.
 - [ ] Reduce granular hourly and large-range chart latency.
 - [ ] Make continuous lines deliberate and readable across missing samples.
-- [ ] Restore and verify new data-key creation from the data table.
+- [x] ~~Create the typed Stats key from the Data Table or global capture, with an explicit plus action and exact history matches.~~
 - [ ] Improve control density and discovery of existing global Stat entry.
 - [ ] Add practical chart range navigation inspired by financial charts.
 - [ ] Design complex-value charts, trend lines and useful analysis.
