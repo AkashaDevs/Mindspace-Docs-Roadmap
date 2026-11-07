@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Move items in Notes Explorer
+
+Drag a file or folder to a folder row or breadcrumb on desktop, or use Move with a keyboard or touch. A confirmed move refreshes the affected folders, keeps a selected file open and preserves unfinished creates.
+
+The local production checks cover lost confirmations, invalid destinations and the location after reload. Manual order within one folder is still open.
+
 ## November 7 2026 - Save Notes Explorer moves atomically
 
 The server now saves a folder move and its descendant paths together. A folder cannot be moved into itself or one of its children. A stale request cannot overwrite a later move, and a retry to the confirmed destination leaves the saved item alone.
