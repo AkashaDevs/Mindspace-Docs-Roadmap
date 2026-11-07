@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 7 2026 - Recover unfinished Planner edits
+
+An interrupted Planner edit can reopen with its changed fields and Habit rows. The editor loads the latest saved Planner first, so unrelated updates from another view stay visible. If the Planner saves before its recovery copy is removed, finishing cleanup does not send another update.
+
+Local browser checks cover reload, retry, repeatable Habit fields and recovery cleanup.
+
 ## November 7 2026 - Keep Daily Log drafts on their original day
 
 The floating Daily Log keeps the date you started writing on when your device changes timezones. You can switch to the new day and return to the original draft. If you were editing a saved entry, Save still updates that same entry.
