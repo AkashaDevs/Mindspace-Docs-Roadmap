@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Capture an Event from the Planner calendar
+
+Tap a date or time slot, or drag across a range, to open the same compact form as Add event. The selected date, time and focused Calendar carry into the form. The timeline now leaves space for its timed rows even when the all-day row is empty.
+
+Typing a title and immediately closing or reloading keeps the draft, including its original date. A refused save keeps the form ready to retry. Edits update the saved Event without creating a duplicate, and closing an unchanged Event leaves no draft. A linked Reminder opens after a successful Event creation when requested.
+
+The local candidate passed 165 browser checks across the capture, draft, layout and viewport journeys, plus 2,487 client checks and production artifact checks. Browser profiles include desktop, phone and tablet emulation. The live service has not been updated. The saved Event detail and return journey, broader date and recurrence behavior, and provider verification remain open.
+
 ## November 7 2026 - Stable startup viewport and native calendar zoom
 
 The shared document containers now use consistent percentage widths. The compiled phone regression keeps the expected layout and visual viewport through startup, responsive-boundary changes, year navigation and Event dialog dismissal. The header and scheduler controls remain fully onscreen. Short-screen login/signup controls and long public reading retain their interior scrolling.
