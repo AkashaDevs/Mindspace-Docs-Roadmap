@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Reuse loaded Planner Events
+
+Planner uses its confirmed Event collection to build the upcoming date window. This removes the second range request from the full load. Standalone date-window callers can request overlapping Events and recurring series, then apply the exact selected dates on the client.
+
+The local build passed 64 compiled browser checks, 2,500 client checks and 1,121 server checks. Live verification of the new backend remains open.
+
 ## November 7 2026 - Show the right dates in Planner Page tools
 
 Upcoming Events shows later recurring occurrences and Events that continue into the selected dates. Search and sort use the loaded records. Each row shows its schedule and opens the saved Event or series. Returning from that detail keeps the originating Planner page.
