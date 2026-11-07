@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Edit all-day Events by occupied date
+
+The Planner now shows the last occupied date in shared editors and saved Event details. Moving the start preserves the number of calendar days through daylight-saving changes. The form leaves a backwards range open for correction.
+
+An unsaved draft remembers the earlier clock times when a timed Event switches to all day, including after a reload. Switching back restores those times on the chosen dates. The saved Event stores its date range without the draft metadata.
+
+The local build passed 92 compiled browser checks across desktop, tablet and phone profiles and 2,489 client checks. Named timezones and recurrence remain open.
+
 ## November 7 2026 - Keep Events in the chosen Planner
 
 The Add event button, timeline actions and Scheduler dates now use one destination rule. Planner-only capture uses its sole active Calendar when there is one. Otherwise the form can save directly to the Planner or use a Calendar the user chooses. Changing the Calendar updates its Planner and shows that destination in the form.

@@ -203,7 +203,8 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Preserve interrupted drafts and retry, edit the saved Event without duplicating it, and open a linked Reminder after confirmed creation.~~
 - [x] ~~Open saved Event details from Today, Agenda, Scheduler and confirmed capture, with a clear return to the original Planner view.~~
 - [x] ~~Keep the chosen Planner and Calendar consistent across Event capture and draft recovery.~~
-- [ ] Verify broader date and day detail behavior, all-day editing, time zones and recurrence.
+- [x] ~~Show the last occupied day and preserve the Event range during all-day editing.~~
+- [ ] Verify broader date and day detail behavior, time zones and recurrence.
 - [ ] Verify external calendar providers and read/write behavior before claiming full integration.
 
 ## Notes and Journal
