@@ -224,8 +224,8 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Keep folder and file loading, empty and retry states local to the Explorer.~~
 - [ ] Add familiar explorer reorganization and inline rename interactions.
   - [ ] Drag/drop files and folders with safe move feedback.
-  - [ ] Rename from the keyboard or delayed second click, selecting the existing name.
-  - [ ] Save with Enter, blur or checkmark; cancel with X; allow Shift+Enter for newline.
+  - [x] ~~Start inline rename with F2, a deliberate second mouse click or the row menu and select the existing name.~~
+  - [x] ~~Save with Enter, blur or the checkmark. Cancel with X or Escape. Use Shift+Enter for a newline.~~
 - [ ] Recheck editor switching, wider layouts and compact file details.
 - [ ] Finish supported note imports and grouped sticky-note workflows.
 

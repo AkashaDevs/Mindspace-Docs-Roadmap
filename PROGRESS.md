@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Rename in Notes Explorer
+
+The tree and folder listing now share an inline rename field. F2 selects the existing name, and a deliberate second mouse click starts editing. A quick double-click still opens the file.
+
+Save with Enter, by leaving the field, or with the checkmark. Cancel with Escape or X. Shift+Enter adds a line. An unconfirmed save keeps the typed name available to retry. The local production checks cover the tablet touch cancellation race and the adjacent Explorer journeys.
+
 ## November 7 2026 - Load Notes Explorer by folder
 
 The local Explorer opens a page of folder metadata and reads the selected file separately. It restores the last folder, open branches and selected file on the same device. The root and first folder page used 7,149 bytes in a 256-file browser fixture.
