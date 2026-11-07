@@ -205,7 +205,8 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Keep the chosen Planner and Calendar consistent across Event capture and draft recovery.~~
 - [x] ~~Show the last occupied day and preserve the Event range during all-day editing.~~
 - [x] ~~Keep all-day Event dates across timezones and edit timed Events in their named zone.~~
-- [ ] Verify remaining date and day detail behavior and Event recurrence.
+- [x] ~~Author and recover recurring Planner Events, and show their occurrences in Scheduler and Planner timelines.~~
+- [ ] Verify recurring Events through the updated running backend and review date-range consumers and day detail.
 - [ ] Verify external calendar providers and read/write behavior before claiming full integration.
 
 ## Notes and Journal

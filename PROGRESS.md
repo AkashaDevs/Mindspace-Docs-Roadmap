@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Schedule recurring Planner Events
+
+The candidate saves daily, weekly, monthly and yearly Event series. The shared editor keeps the repeat schedule in an interrupted draft. Scheduler and Planner timelines show occurrences for their current date windows and link back to the saved series. The editor makes it clear that changes apply to the whole series.
+
+The local build passed 84 compiled browser checks, 2,496 client checks and 1,120 server checks. The preview still needs the updated backend before recurrence can be enabled there.
+
 ## November 7 2026 - Keep Planner Event dates across timezones
 
 The Planner keeps an all-day Event on its occupied dates when viewed from another timezone. The shared editor uses the Event's timezone for its clock fields. Changing the timezone on a timed Event keeps its scheduled moment. Changing it on an all-day Event keeps its dates.
