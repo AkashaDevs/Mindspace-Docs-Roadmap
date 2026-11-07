@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 6 2026 - Notes work from nested Task menus
+
+Task notes now opens from nested Data Table rows, including grandchildren. The menu had been visible while the recursive row boundary dropped its opening handler. Both recursive boundaries now pass the existing shared notes action through to the normal drawer.
+
+Unfinished notes survive closing and reopening. Saving changes only that Task's notes; a refused save keeps the draft through reload and retries the same patch. Parent relationships, list/group assignments, completion, tags and other Tasks stay intact.
+
+The local candidate passes 68 current browser checks: source and compiled details across four profiles, existing compiled subtask controls, and adjacent desktop/phone notes recovery. The original missing-drawer failure is preserved. All 2,463 client checks, release lint and production/font/artifact checks pass. Backend bytes are unchanged and the prior 1,118 server checks are retained. This is fixture-based browser acceptance; application changes remain local.
+
+Other nested/structured view projections, Task graph writers, creation placement, larger workloads and device/release acceptance remain open.
+
 ## November 6 2026 - Workspace cleanup resumes after a browser restart
 
 If server deletion succeeds while device storage blocks cleanup, Mindspace now checks again after a fresh browser sign-in and clears the kept copy attempt. It keeps only content-free retirement metadata. Startup manifest and account-draft reads wait for the same scoped confirmation, avoiding stale requests against the deleted Workspace.
