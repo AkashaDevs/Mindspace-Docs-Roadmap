@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Open relevant dashboard sidebar tools
+
+Todo opens its list tools and Planner opens its Page tools by default. Each dashboard remembers the tab a user chooses. On phones the drawer stays closed until opened. Routes without sidebar content leave out the Page tools tab.
+
+The local build passed 28 production browser cases, 15 source regressions and 2,503 client checks. The right-sidebar widget redesign and compact Stats controls remain open.
+
 ## November 7 2026 - Reuse loaded Planner Events
 
 Planner uses its confirmed Event collection to build the upcoming date window. This removes the second range request from the full load. Standalone date-window callers can request overlapping Events and recurring series, then apply the exact selected dates on the client.

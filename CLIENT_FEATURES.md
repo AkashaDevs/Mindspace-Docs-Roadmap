@@ -35,7 +35,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Keep progress and retry available after closing and reopening page tools.~~
   - [x] ~~Prevent older workspace reads from undoing a confirmed workspace switch.~~
 - [x] ~~Keep newer queued edits when an earlier save finishes, while respecting discarded local work.~~
-- [ ] Make dashboard-specific left-sidebar tools easy to discover and select.
+- [x] ~~Open Todo list tools and Planner Page tools by default, with per-dashboard tab choices.~~
 - [ ] Redesign the right sidebar around useful compact widgets and designed tabs.
 - [ ] Complete longer keyboard, pointer and touch journeys across dashboard changes.
 - [ ] Verify global roster refresh before workspace selection.
