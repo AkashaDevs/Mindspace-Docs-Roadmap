@@ -149,6 +149,8 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Resume blocked Workspace copy-attempt cleanup after a full browser restart, and hold dependent reads until authenticated scoped confirmation.~~
   - [ ] Verify removal of device-kept copy attempts through scoped local-data erasure.
   - [ ] Finish nested relationships and audit remaining inline/shared plain-text consumers.
+    - [x] ~~Group stored Subtask/Prerequisite reference arrays by identity and filter using loaded Task names, keeping stored links, order and hidden Tasks intact.~~
+    - [x] ~~Reach long Data Table field menus by touch and keyboard, retaining focus through grouping changes and into a newly added filter query.~~
     - [x] ~~Open nested Task notes in the shared drawer, retain unfinished text and retry refused saves without changing relationships or other Task fields.~~
     - [x] ~~Open Data Table subtask capture in the canonical editor with the actual parent/list/group prefilled, without saving a sentinel or blank Task.~~
     - [x] ~~Attach an existing Task from Data Table through one minimal queued child-parent patch while retaining its actual list, group and position.~~

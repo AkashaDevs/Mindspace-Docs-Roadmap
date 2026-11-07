@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 6 2026 - Linked Task fields and usable field menus
+
+Data Table groups for stored Subtask and Prerequisite links now resolve loaded Task names and normalize plain/populated references by identity. Name filtering works locally, returns after reload and clears without fetching the collection or discarding hidden Tasks. Stored links and their order remain unchanged. Structured display metadata also stays readable without passing an object into the rendered heading.
+
+The long field menus now use a shared native-scroll option. This repairs a phone scrolling reset that could leave later fields unreachable. Grouping and Add filter controls remain mounted after selection, so keyboard focus returns correctly and Tab reaches the new filter query.
+
+The current local candidate passes 52 browser checks across four profiles, including compiled linked-field journeys and existing drag/hidden-task/default-select persistence checks. All 2,467 client checks, release lint and production/font/artifact checks pass. Backend bytes are unchanged; prior 1,118 server checks are retained. Failed name/heading, touch-scroll and keyboard-focus runs remain recorded.
+
+Other structured/nested presentation, capture policies, larger workloads, Task graph writers, placement and physical-device/release acceptance remain open. Application changes remain local.
+
 ## November 6 2026 - Notes work from nested Task menus
 
 Task notes now opens from nested Data Table rows, including grandchildren. The menu had been visible while the recursive row boundary dropped its opening handler. Both recursive boundaries now pass the existing shared notes action through to the normal drawer.
