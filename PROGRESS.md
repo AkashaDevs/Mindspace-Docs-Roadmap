@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Use one Todo list editor
+
+The Todo list context menu and sidebar use the same editor. A rejected save keeps the form open, and an unfinished new list can be reopened from either entry point. The active filter reflects a confirmed rename and switches between already loaded records.
+
+Local checks cover desktop, phone and tablet, including plan-limit feedback and recovery.
+
 ## November 7 2026 - Validate repeatable Planner rows before saving
 
 Planner shows a field error for each blank Habit row, including rows that were collapsed. Errors follow the surviving rows after removal. Editing an older single-Habit record keeps its completion state and saves it as a row.
