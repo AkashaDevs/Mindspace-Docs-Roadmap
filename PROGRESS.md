@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Log a Stat from any dashboard
+
+Open the Stat form directly from the desktop header or choose Log a stat in the phone's More dashboard actions menu. The form keeps your place on the current dashboard, and unfinished input can be resumed on the same device. The dashboard shortcut strip also stays behind open dialogs.
+
+The local production build passed 92 browser cases covering Stat capture, the Data Table, sidebar tools and modal actions.
+
 ## November 7 2026 - Compact the Stats Data Table
 
 Search, Quick Add and paging stay within reach at phone widths. Rows adapt to the available table space when the sidebars open, and Options keeps filters, entry settings and import and export together.

@@ -259,7 +259,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Make continuous lines deliberate and readable across missing samples.
 - [x] ~~Create the typed Stats key from the Data Table or global capture, with an explicit plus action and exact history matches.~~
 - [x] ~~Keep the Stats Data Table compact with visible Search, Quick Add and paging at phone widths.~~
-- [ ] Make the existing global Stat capture easier to find.
+- [x] ~~Log a Stat from any dashboard through the header and resume an unfinished Stat on the same device.~~
 - [ ] Add practical chart range navigation inspired by financial charts.
 - [ ] Design complex-value charts, trend lines and useful analysis.
 
