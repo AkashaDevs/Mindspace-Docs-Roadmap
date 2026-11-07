@@ -194,7 +194,10 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Make Add event the primary header action, keeping Calendar and Planner creation in a secondary menu.~~
 - [x] ~~Provide an obvious compact quick-add Event form with progressive detail.~~
   - [x] ~~Preserve a freshly typed Event on immediate close or reload, and retain details through refused-save retry and confirmed cleanup.~~
-- [ ] Improve compact calendar-cell spacing and shared shell geometry after resizing or dialogs.
+- [x] ~~Improve compact calendar-cell spacing and preserve native overflow access and Event actions.~~
+  - [x] ~~Wrap time/title previews and separate week/date links at narrow widths and enlarged text.~~
+- [x] ~~Hide collapsed dashboard shortcuts and keep their expanded panel within narrow screens.~~
+- [ ] Resolve compiled phone viewport zoom/pan after startup, resizing and dialogs.
 - [ ] Recheck date selection, day detail and return-to-plan journeys.
 - [ ] Verify external calendar providers and read/write behavior before claiming full integration.
 

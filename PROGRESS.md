@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 6 2026 - Readable compact calendar cells and contained shortcuts
+
+Planner month cells separate week-number and day links, wrap Event times and title previews, and retain the full title in the existing editor. Crowded days use FullCalendar's native more popup; selecting one of twelve same-day Events opens the correct record. Native week/day navigation, timelines and event lists remain available without extra collection reads or writes.
+
+The scheduler now has a consistent finite-height contract. A conflicting automatic content-height setting had disabled the library's height-based Event limits. The shared dashboard shortcut panel also hides its collapsed contents from display and keyboard navigation, expands above its toggle within a narrow screen, and labels its controls.
+
+The bounded scope passes 123 browser checks: 24 source and 24 compiled cell/shortcut checks across four browser profiles, 24 compiled scheduler controls, 36 compiled capture checks and 15 existing draft checks. Five original phone-profile recovery skips remain. All 2,473 client checks, release lint and production/font/artifact audits pass. Backend inputs are unchanged; prior 1,118 server checks are retained. Application changes remain local.
+
+A separate compiled phone geometry regression remains open: an initial oversized layout viewport leads to zoom/pan and header clipping after resize/dialog interactions. The shortcut repair does not resolve that symptom. Diagnostic animation-frame reads changed its timing, so that experiment is not acceptance evidence. Shared-shell investigation, saved-Event/detail/return context, scope/time/recurrence journeys, and device/provider/release acceptance continue.
+
 ## November 6 2026 - Clearer scheduler controls and date headings
 
 The Planner scheduler now has one compact toolbar with a readable date range, one Today action and Previous/Next period controls. A grouped selector retains all eleven previously exposed layouts and makes three already-configured day/week variants reachable. Go To Date and year jumps remain in secondary controls.
