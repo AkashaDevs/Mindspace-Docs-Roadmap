@@ -224,7 +224,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Keep folder and file loading, empty and retry states local to the Explorer.~~
 - [ ] Add familiar explorer reorganization and inline rename interactions.
   - [x] ~~Move files and folders between folders by desktop drag or a keyboard and touch picker, with confirmed feedback and retry.~~
-  - [ ] Persist manual order within a folder.
+  - [x] ~~Persist manual order within a folder using desktop row-edge drops or the Before and After picker.~~
   - [x] ~~Start inline rename with F2, a deliberate second mouse click or the row menu and select the existing name.~~
   - [x] ~~Save with Enter, blur or the checkmark. Cancel with X or Escape. Use Shift+Enter for a newline.~~
 - [ ] Recheck editor switching, wider layouts and compact file details.

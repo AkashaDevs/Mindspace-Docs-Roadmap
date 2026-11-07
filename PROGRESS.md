@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Save the order of Notes Explorer items
+
+Use the top or bottom of a row to position an item on desktop. The Move picker also offers Within this folder and lets you place an item before or after a sibling. The order survives a reload and works across directory pages.
+
+The compiled browser checks and mounted disposable MongoDB probe passed. The development index rollout still needs a separate database target.
+
 ## November 7 2026 - Move items in Notes Explorer
 
 Drag a file or folder to a folder row or breadcrumb on desktop, or use Move with a keyboard or touch. A confirmed move refreshes the affected folders, keeps a selected file open and preserves unfinished creates.

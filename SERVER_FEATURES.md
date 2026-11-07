@@ -55,7 +55,8 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
 - [ ] Add minimal-metadata, location-based Notes explorer reads.
   - [x] ~~Return projected note metadata with parent IDs and a stable cursor.~~
   - [x] ~~Scope selected-file reads and bound authorized folder pages and ancestor chains.~~
-  - [ ] Install the compound directory index and verify first-page and cursor-page plans.
+  - [x] ~~Persist one scoped sibling rank per reordered item and page it alongside older notes.~~
+  - [ ] Install the ranked directory index on a dedicated development database and verify both cursor streams.
   - [x] ~~Persist file and folder moves in an authorized transaction, update descendant paths, and verify rollback and reload.~~
 - [ ] Complete versioned export/restore coverage and unsupported-type guidance.
 - [ ] Measure high-volume Stats aggregation and define complex-value chart contracts.
