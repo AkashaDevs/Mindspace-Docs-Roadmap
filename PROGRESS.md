@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Keep Planner Event dates across timezones
+
+The Planner keeps an all-day Event on its occupied dates when viewed from another timezone. The shared editor uses the Event's timezone for its clock fields. Changing the timezone on a timed Event keeps its scheduled moment. Changing it on an all-day Event keeps its dates.
+
+The editor keeps an invalid timezone or a time skipped by daylight saving available for correction before saving. Scheduler moves keep the all-day Event in its named zone.
+
+The local build passed 114 compiled browser checks and 2,491 client checks. Event recurrence remains open.
+
 ## November 7 2026 - Edit all-day Events by occupied date
 
 The Planner now shows the last occupied date in shared editors and saved Event details. Moving the start preserves the number of calendar days through daylight-saving changes. The form leaves a backwards range open for correction.
