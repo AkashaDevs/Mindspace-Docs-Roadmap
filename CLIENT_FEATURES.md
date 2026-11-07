@@ -206,7 +206,8 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Show the last occupied day and preserve the Event range during all-day editing.~~
 - [x] ~~Keep all-day Event dates across timezones and edit timed Events in their named zone.~~
 - [x] ~~Author and recover recurring Planner Events, and show their occurrences in Scheduler and Planner timelines.~~
-- [ ] Verify recurring Events through the updated running backend and review date-range consumers and day detail.
+- [x] ~~Show recurring and overlapping Events in the Planner upcoming list for the selected dates.~~
+- [ ] Verify recurring Events through the updated running backend and review remaining date-range consumers and day detail.
 - [ ] Verify external calendar providers and read/write behavior before claiming full integration.
 
 ## Notes and Journal

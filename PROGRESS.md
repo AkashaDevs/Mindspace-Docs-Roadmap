@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Show the right dates in Planner Page tools
+
+Upcoming Events shows later recurring occurrences and Events that continue into the selected dates. Search and sort use the loaded records. Each row shows its schedule and opens the saved Event or series. Returning from that detail keeps the originating Planner page.
+
+The local build passed 56 compiled browser checks and 2,499 client checks. The remaining range API and live recurrence persistence checks are open.
+
 ## November 7 2026 - Schedule recurring Planner Events
 
 The candidate saves daily, weekly, monthly and yearly Event series. The shared editor keeps the repeat schedule in an interrupted draft. Scheduler and Planner timelines show occurrences for their current date windows and link back to the saved series. The editor makes it clear that changes apply to the whole series.
