@@ -146,6 +146,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Keep old copy-recovery actions bound to their original attempt so they cannot create an accidental second copy or interfere with newer work.~~
   - [x] ~~Restore the same saved copy from Trash, or explicitly create a replacement with the kept details after confirmed permanent deletion.~~
   - [x] ~~Erase kept Task copy attempts after confirmed Workspace deletion, block late copy work, preserve other scopes and offer explicit retry if device cleanup fails.~~
+  - [x] ~~Resume blocked Workspace copy-attempt cleanup after a full browser restart, and hold dependent reads until authenticated scoped confirmation.~~
   - [ ] Verify removal of device-kept copy attempts through scoped local-data erasure.
   - [ ] Finish nested relationships and audit remaining inline/shared plain-text consumers.
     - [x] ~~Open Data Table subtask capture in the canonical editor with the actual parent/list/group prefilled, without saving a sentinel or blank Task.~~

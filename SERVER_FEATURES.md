@@ -47,6 +47,7 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
 - [x] ~~Task/Note/checklist conversion and follow-through foundations.~~
 - [x] ~~Bounded lexical search and limited spelling recovery.~~
 - [x] ~~Registered workspace cleanup and transaction-backed admission for verified writers.~~
+- [x] ~~Read bounded Workspace retirement confirmations for the authenticated owner, returning IDs only and excluding unfinished or foreign deletions.~~
 - [x] ~~Bulk workspace summaries.~~
 - [x] ~~Account settings updates preserve unrelated categories, including concurrent distinct-category saves.~~
   - [x] ~~Persist stable Task-tab identities, presentation and one saved preset through the existing settings owner.~~

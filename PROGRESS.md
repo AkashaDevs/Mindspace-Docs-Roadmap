@@ -2,6 +2,16 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 6 2026 - Workspace cleanup resumes after a browser restart
+
+If server deletion succeeds while device storage blocks cleanup, Mindspace now checks again after a fresh browser sign-in and clears the kept copy attempt. It keeps only content-free retirement metadata. Startup manifest and account-draft reads wait for the same scoped confirmation, avoiding stale requests against the deleted Workspace.
+
+The server lookup is authenticated and read-only. It accepts at most 100 explicit Workspace IDs, returns only IDs confirmed deleted for the signed-in owner, and excludes other owners and unfinished deletions. Authored recovery content stays on the device.
+
+The current local candidate passes 128 source/compiled browser checks across four profiles, 16 adjacent account-draft journeys, ten real API journeys, all 2,463 client checks, release lint and production/font/artifact checks. The unchanged server candidate retains 1,118 full server checks. Desktop and phone fresh-process checks start with empty sessionStorage, verify sign-in and scoped retirement, make no stale reads or new authoring, and leave their owned disposable databases empty.
+
+Other device namespaces, account-wide erasure, remaining Task graph writers, scale, physical-device and production/provider acceptance remain open. Application changes remain local.
+
 ## November 6 2026 - Workspace deletion clears kept copy attempts
 
 Deleting a Workspace now clears its kept Task copy attempts on the device after the server confirms the exact Workspace and owner. Only content-free retirement metadata remains. Open recovery choices and late copy responses cannot bring those details back, while other accounts and Workspaces keep their recovery data.
