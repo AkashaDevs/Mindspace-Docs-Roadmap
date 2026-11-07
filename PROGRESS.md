@@ -2,6 +2,18 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Stable startup viewport and native calendar zoom
+
+The shared document containers now use consistent percentage widths. The compiled phone regression keeps the expected layout and visual viewport through startup, responsive-boundary changes, year navigation and Event dialog dismissal. The header and scheduler controls remain fully onscreen. Short-screen login/signup controls and long public reading retain their interior scrolling.
+
+Planner permits vertical panning and native pinch zoom. A shared multi-pointer activation guard prevents a pinch from opening an Event form or becoming a selection, edit, drop or resize save. Fresh pointer gestures and keyboard/programmatic actions remain available. The native phone input check retains user zoom through real Tab/Enter period navigation, opens no incidental dialog and makes no Event writes. Ordinary one-finger date taps still open the selected day's form.
+
+The final bounded validation passes 144 browser checks: 28 source and 28 compiled layout checks, 14 source and 14 compiled boundary cases, 24 compiled scheduler controls and 36 compiled capture cases. Twelve explicit profile skips reserve the two native-touch cases for the Chromium phone profile. All 2,480 client checks, release lint and production/font/artifact audits pass. There are 102 current-main compiled isolation observations and thirteen current stylesheet observations; no forbidden requests. Backend inputs remain unchanged.
+
+The original viewport and pinch-policy failures are retained. Native gesture checks use a neutral input control and browser-frame-spaced two-finger events; startup layout instrumentation and scroll/zoom resets are absent from the repaired geometry journey. Application changes remain local; physical-device acceptance remains open.
+
+The next Planner work is to unify older day-cell capture with the compact shared Event form and consistent clicked-day/date fields, verify saved Event/detail/return context, and complete broader scope/time/all-day/recurrence journeys. The full consolidation phase remains active.
+
 ## November 6 2026 - Readable compact calendar cells and contained shortcuts
 
 Planner month cells separate week-number and day links, wrap Event times and title previews, and retain the full title in the existing editor. Crowded days use FullCalendar's native more popup; selecting one of twelve same-day Events opens the correct record. Native week/day navigation, timelines and event lists remain available without extra collection reads or writes.
