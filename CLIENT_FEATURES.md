@@ -201,7 +201,8 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Keep native pinch zoom available without accidental Event activation, while preserving fresh taps and keyboard navigation.~~
 - [x] ~~Use the compact Event form for day taps, timed slots and dragged date ranges, keeping the selected date and focused Calendar.~~
   - [x] ~~Preserve interrupted drafts and retry, edit the saved Event without duplicating it, and open a linked Reminder after confirmed creation.~~
-- [ ] Recheck date selection, day detail and return-to-plan journeys.
+- [x] ~~Open saved Event details from Today, Agenda, Scheduler and confirmed capture, with a clear return to the original Planner view.~~
+- [ ] Verify broader date and day detail behavior, all-day editing, time zones and recurrence.
 - [ ] Verify external calendar providers and read/write behavior before claiming full integration.
 
 ## Notes and Journal

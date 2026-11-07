@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Open and return from saved Planner Events
+
+Open a saved Event from Today, Agenda or Scheduler, or choose View Event after capture. The detail page reads the exact Event within the active workspace, including when it falls outside the loaded Planner collection. A failed read offers Retry. An unavailable record still offers a way back.
+
+The detail view shows one schedule line, names the Calendar and Planner when available, and keeps Reminder, edit and delete actions together. The return action restores the Planner page and Calendar focus. Scheduler also keeps the selected day and view.
+
+The local build passed 34 current browser cases and 2,487 client checks. Broader Event authoring for all-day dates, time zones, recurrence and destination scope remains open. The app changes are available in the local preview.
+
 ## November 7 2026 - Capture an Event from the Planner calendar
 
 Tap a date or time slot, or drag across a range, to open the same compact form as Add event. The selected date, time and focused Calendar carry into the form. The timeline now leaves space for its timed rows even when the all-day row is empty.
