@@ -218,10 +218,10 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Clearer capture and note containers with restrained borders and shadows.~~
 - [x] ~~Journal grid, larger grid and list views with formatted Markdown previews.~~
 - [x] ~~Journal date navigation and recent-entry sidebar.~~
-- [ ] Load the Notes explorer by location and minimal metadata.
-  - [ ] Fetch note bodies on opening and folder contents only when needed.
-  - [ ] Restore the last folder, expanded hierarchy and selected record.
-  - [ ] Keep loading, empty, retry and missing-record states understandable.
+- [x] ~~Load the Notes explorer by location and minimal metadata.~~
+  - [x] ~~Fetch the selected file separately and page folder metadata.~~
+  - [x] ~~Restore the last folder, expanded branches and selected file on the same device within the workspace.~~
+  - [x] ~~Keep folder and file loading, empty and retry states local to the Explorer.~~
 - [ ] Add familiar explorer reorganization and inline rename interactions.
   - [ ] Drag/drop files and folders with safe move feedback.
   - [ ] Rename from the keyboard or delayed second click, selecting the existing name.

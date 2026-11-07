@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Load Notes Explorer by folder
+
+The local Explorer opens a page of folder metadata and reads the selected file separately. It restores the last folder, open branches and selected file on the same device. The root and first folder page used 7,149 bytes in a 256-file browser fixture.
+
+The browser and production build checks passed locally. The development directory index rollout and the broader drag/drop and rename work remain on the checklist.
+
 ## November 7 2026 - Log a Stat from any dashboard
 
 Open the Stat form directly from the desktop header or choose Log a stat in the phone's More dashboard actions menu. The form keeps your place on the current dashboard, and unfinished input can be resumed on the same device. The dashboard shortcut strip also stays behind open dialogs.

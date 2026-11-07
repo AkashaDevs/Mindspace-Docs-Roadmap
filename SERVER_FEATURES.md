@@ -53,8 +53,8 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
   - [x] ~~Persist stable Task-tab identities, presentation and one saved preset through the existing settings owner.~~
   - [x] ~~Retain bounded request validation, literal JSON values and explicit whole-settings reset.~~
 - [ ] Add minimal-metadata, location-based Notes explorer reads.
-  - [ ] Return names, IDs, parents, order and required summaries without full note bodies.
-  - [ ] Fetch authorized detail on opening; bound folder and ancestor queries.
+  - [x] ~~Return projected note metadata with parent IDs and a stable cursor.~~
+  - [x] ~~Scope selected-file reads and bound authorized folder pages and ancestor chains.~~
   - [ ] Add meaningful indexes and prove paging, access and large-hierarchy moves.
 - [ ] Complete versioned export/restore coverage and unsupported-type guidance.
 - [ ] Measure high-volume Stats aggregation and define complex-value chart contracts.
