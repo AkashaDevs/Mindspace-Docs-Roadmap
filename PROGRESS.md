@@ -2,6 +2,18 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 6 2026 - Clearer scheduler controls and date headings
+
+The Planner scheduler now has one compact toolbar with a readable date range, one Today action and Previous/Next period controls. A grouped selector retains all eleven previously exposed layouts and makes three already-configured day/week variants reachable. Go To Date and year jumps remain in secondary controls.
+
+The toolbar uses stable controls and native menu items. Keyboard focus stays on a period button after navigation and returns to the view selector after selection. The calendar and selector use the same view registry. Switching all fourteen layouts makes no extra Planner collection reads or writes.
+
+Visual review found an additional built-in toolbar and month columns displaying misleading January dates. Both have explicit browser regressions: the duplicate vendor header is disabled, month/year/multi-month layouts use weekday headings, and weekly layouts retain their actual dates.
+
+The final local candidate passes 147 browser checks: 24 source and 24 compiled scheduler cases, 36 source and 36 compiled capture cases, 15 existing draft checks, eight readiness checks and four geometry checks. Five existing Chromium-only recovery cases remain skipped in the phone profile. All 2,473 client checks, release lint and production/font/artifact checks pass. Backend bytes are unchanged; prior 1,118 server checks are retained.
+
+A long whole-app Tab path and outer header geometry after resize/dialog transitions are tracked separately. Compact calendar-cell week numbers/event text, saved-Event navigation and return context, wider scope/time/recurrence journeys, and physical-device/provider/release acceptance remain open. Application changes remain local.
+
 ## November 6 2026 - Quicker Planner Event capture and interruption recovery
 
 Planner now presents a labelled Add event action, with Calendar and Planner creation in a secondary menu. The hosted dialog uses the same Event form as routed creation and the shared editor. Title, timing, all-day status and Calendar are visible first; location and other details remain available in a disclosure.

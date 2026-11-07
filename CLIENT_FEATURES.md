@@ -189,10 +189,12 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Calendar visibility filters use retained data.~~
 - [x] ~~Shared Event entry and Task-to-Time scheduling actions.~~
 - [x] ~~Routine, focus, day, week and cycle planning foundations.~~
-- [ ] Reduce Planner toolbar clutter and clarify primary actions.
+- [x] ~~Reduce Planner toolbar clutter and clarify primary actions.~~
+  - [x] ~~Use one scheduler toolbar with truthful period/day headings, stable keyboard focus and a grouped selector for all 14 supported layouts.~~
   - [x] ~~Make Add event the primary header action, keeping Calendar and Planner creation in a secondary menu.~~
 - [x] ~~Provide an obvious compact quick-add Event form with progressive detail.~~
   - [x] ~~Preserve a freshly typed Event on immediate close or reload, and retain details through refused-save retry and confirmed cleanup.~~
+- [ ] Improve compact calendar-cell spacing and shared shell geometry after resizing or dialogs.
 - [ ] Recheck date selection, day detail and return-to-plan journeys.
 - [ ] Verify external calendar providers and read/write behavior before claiming full integration.
 
