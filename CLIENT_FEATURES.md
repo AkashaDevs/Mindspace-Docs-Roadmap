@@ -302,6 +302,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Use the shared generator in Journal Quick entry and verify editable Planner links and draft recovery.~~
   - [x] ~~Validate generated repeatable Planner fields and preserve older Habit data during edits.~~
   - [x] ~~Share Todo list editing across the context menu and sidebar with draft recovery and confirmed filter updates.~~
+  - [x] ~~Jump to a Journal date and open its entry or start writing for that day, with draft recovery.~~
   - [ ] Verify select initialization and repeatable-array entry in migrated consumers.
 - [ ] Recheck shared update-queue batching, deduplication and clear failure feedback in retained consumers.
 - [ ] Prepare Fluxkit UI: inventory, package boundary, examples and release checks.

@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Open Journal entries by date
+
+Journal Browse offers an Edit or Write action for the selected day. Saved entries open in the full editor. An empty day opens with the selected date, and the draft can recover if the page reloads while someone is writing.
+
+Local browser checks cover keyboard and touch navigation, save retry, and reload.
+
 ## November 7 2026 - Use one Todo list editor
 
 The Todo list context menu and sidebar use the same editor. A rejected save keeps the form open, and an unfinished new list can be reopened from either entry point. The active filter reflects a confirmed rename and switches between already loaded records.
