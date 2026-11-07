@@ -2,6 +2,18 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 6 2026 - Quicker Planner Event capture and interruption recovery
+
+Planner now presents a labelled Add event action, with Calendar and Planner creation in a secondary menu. The hosted dialog uses the same Event form as routed creation and the shared editor. Title, timing, all-day status and Calendar are visible first; location and other details remain available in a disclosure.
+
+Capture keeps the selected local day and loaded Calendar context. Scheduler month navigation also updates the date used by the header action. An unavailable focused Calendar produces an explanation instead of silently creating in the first Calendar. Validation stays in the dialog and failed saves retain the entered values.
+
+Testing found that an Event typed and immediately closed could miss the autosave delay. The hosted dialog now checkpoints that close through the protected draft owner and uses the existing interruption helper for reload/background recovery. Account synchronization remains debounced. Existing cross-device conflict and confirmed-cleanup behavior is retained.
+
+The final local candidate passes 95 browser checks: 36 source and 36 compiled capture/consumer cases across four profiles, 15 existing draft checks and eight readiness checks. Four additional settled-animation captures were checked against that same compiled build. Five existing Chromium-only recovery cases remain skipped in the phone profile. All 2,471 client checks, release lint and production/font/artifact checks pass. Backend bytes are unchanged; prior 1,118 server checks are retained.
+
+The broader scheduler toolbar cleanup, saved-record/return-to-plan discovery, additional scope/recurrence journeys and physical-device/provider/release acceptance remain open. Application changes remain local.
+
 ## November 6 2026 - Linked Task fields and usable field menus
 
 Data Table groups for stored Subtask and Prerequisite links now resolve loaded Task names and normalize plain/populated references by identity. Name filtering works locally, returns after reload and clears without fetching the collection or discarding hidden Tasks. Stored links and their order remain unchanged. Structured display metadata also stays readable without passing an object into the rendered heading.
