@@ -36,7 +36,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Prevent older workspace reads from undoing a confirmed workspace switch.~~
 - [x] ~~Keep newer queued edits when an earlier save finishes, while respecting discarded local work.~~
 - [x] ~~Open Todo list tools and Planner Page tools by default, with per-dashboard tab choices.~~
-- [ ] Redesign the right sidebar around useful compact widgets and designed tabs.
+- [x] ~~Choose and reorder compact right-sidebar widgets, with a labelled phone drawer and a separate Today task view.~~
 - [ ] Complete longer keyboard, pointer and touch journeys across dashboard changes.
 - [ ] Verify global roster refresh before workspace selection.
 - [ ] Continue measured visual consistency, spacing and accessibility improvements.

@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Customize the right sidebar
+
+The right sidebar starts with Today, Tasks, Notes and Stats. Use Customize tools to add, hide or reorder built-in widgets. The device remembers the layout. Today shows open tasks due on the current date, and Stats loads when its tab is opened. The phone drawer has named controls and returns focus to its launcher.
+
+The local build passed the widget checks across four browser profiles. Compact Stats entry and table improvements remain open.
+
 ## November 7 2026 - Open relevant dashboard sidebar tools
 
 Todo opens its list tools and Planner opens its Page tools by default. Each dashboard remembers the tab a user chooses. On phones the drawer stays closed until opened. Routes without sidebar content leave out the Page tools tab.
