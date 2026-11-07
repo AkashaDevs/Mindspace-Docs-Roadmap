@@ -236,6 +236,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~One-off and flexible recurrence, including selected weekdays and multi-week rules.~~
 - [x] ~~Fast capture followed by later timing, context and delivery enrichment.~~
 - [x] ~~Linked Reminder actions from Tasks, Notes, Goals and Daily Logs.~~
+- [x] ~~Create a linked record from inside a Reminder while keeping its draft, and attach it after a confirmed save.~~
 - [x] ~~Manage several reminders for one source without hiding separate identities.~~
 - [x] ~~In-app notifications, snooze and channel/device settings foundations.~~
 - [x] ~~Engagement-aware pacing foundations with inspectable timing context.~~

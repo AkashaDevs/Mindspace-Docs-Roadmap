@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Create a source while writing a Reminder
+
+Add New opens the same editor you would use elsewhere in Mindspace. When the source saves, the Reminder links to it and keeps your title, message and timing. Closing the source editor returns to the Reminder. A Daily Log already written for the selected day remains available to link.
+
+Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
+
 ## November 7 2026 - Keep Daily Log drafts on their original day
 
 The floating Daily Log keeps the date you started writing on when your device changes timezones. You can switch to the new day and return to the original draft. If you were editing a saved entry, Save still updates that same entry.
