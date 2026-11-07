@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 7 2026 - Validate repeatable Planner rows before saving
+
+Planner shows a field error for each blank Habit row, including rows that were collapsed. Errors follow the surviving rows after removal. Editing an older single-Habit record keeps its completion state and saves it as a row.
+
+Planner field labels stack above their inputs for narrow layouts. The verified local browser checks cover desktop, phone and tablet.
+
 ## November 7 2026 - Keep Journal quick entries through interruptions
 
 Journal Page tools now offers a compact form for today's entry, with an optional Planner link. Reloading the same tab restores the draft. When a save response is lost, Retry checks for a saved entry before sending another create.
