@@ -265,6 +265,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Keep the Stats Data Table compact with visible Search, Quick Add and paging at phone widths.~~
 - [x] ~~Log a Stat from any dashboard through the header and resume an unfinished Stat on the same device.~~
 - [ ] Add practical chart range navigation inspired by financial charts.
+  - [x] ~~Choose common or custom chart dates, keep custom dates through a refresh, and fit the main controls above the chart on phones.~~
 - [ ] Design complex-value charts, trend lines and useful analysis.
 
 ## Orion AI

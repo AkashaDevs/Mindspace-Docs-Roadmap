@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 8 2026 - Choose Stats ranges without crowding the chart
+
+Stats Analysis offers one-week, one-month, three-month, one-year and all-date views. Presets use the selected Stat's recorded dates. Custom dates include the full local end day and stay in place during a refresh. The chart format, time step and aggregation sit behind Chart options.
+
+Local browser checks covered the custom date boundary, refresh, presets and phone layout.
+
 ## November 8 2026 - Connect Stats readings across time
 
 The Stats line chart connects recorded periods and spaces points by elapsed time. A two-year hourly view can draw every reading without preparing a chart point for each empty hour. Count and Sum still include zero periods.
