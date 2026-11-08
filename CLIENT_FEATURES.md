@@ -260,6 +260,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Verify persisted statistical Insights presentations alongside the Orion restoration.
 - [ ] Reduce granular hourly and large-range chart latency.
   - [x] ~~Build ordinary hourly lines from recorded periods and avoid drawing a dot for every point in long ranges.~~
+  - [x] ~~Draw hourly Count and Sum lines from the edges of empty stretches while keeping exact hourly values available for inspection.~~
 - [x] ~~Connect recorded periods on the line chart with spacing based on elapsed time.~~
 - [x] ~~Create the typed Stats key from the Data Table or global capture, with an explicit plus action and exact history matches.~~
 - [x] ~~Keep the Stats Data Table compact with visible Search, Quick Add and paging at phone widths.~~

@@ -8,6 +8,10 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 8 2026 - Draw fewer points for empty hours
+
+Hourly Count and Sum lines keep the shape of zero stretches by drawing their edges. The tooltip can still inspect an individual hour. A two-year local browser fixture drew 4,384 points instead of 17,544. Hourly buckets also distinguish the two repeated hours when clocks fall back.
+
 ## November 8 2026 - Chart durations and fields inside Stats values
 
 A Time Range Stat can be captured and charted in minutes. Stats Analysis also lets you choose a numeric field from a saved object or array. Count is available for text and mixed histories.
