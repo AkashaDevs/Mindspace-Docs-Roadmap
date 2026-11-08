@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 8 2026 - Draw hourly Bar and Area charts from the readings
+
+Hourly bars keep their actual time positions and positive and negative values share a zero baseline. Area charts keep zero stretches for Count and Sum and visible breaks for missing readings. The tooltip can still inspect the exact hour.
+
+A 180-day local fixture drew 360 bars and 1,078 Area points, down from 4,320 each.
+
 ## November 8 2026 - Draw fewer points for empty hours
 
 Hourly Count and Sum lines keep the shape of zero stretches by drawing their edges. The tooltip can still inspect an individual hour. A two-year local browser fixture drew 4,384 points instead of 17,544. Hourly buckets also distinguish the two repeated hours when clocks fall back.
