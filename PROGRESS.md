@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 8 2026 - Page Notification History cards
+
+The inbox and Notifications board now show 24 cards at a time. Search still reaches older notifications, and returning from a notification detail keeps the page and filters. The local build passed the large-history case on four browser profiles, including a 360px phone viewport.
+
+The card list mounts fewer records. The collection response still carries the full history.
+
 ## November 8 2026 - Recover unfinished Event edits
 
 The Planner Event editor restores changes after a reload and saves only the fields you edited. A failed save leaves the edit available for retry. After a confirmed save, interrupted recovery cleanup resumes without sending the update twice.

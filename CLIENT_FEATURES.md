@@ -246,6 +246,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Preserve an unfinished Quick Jot thought when detail/history navigation is declined.~~
   - [ ] Complete return journeys from deleted or unavailable related source items.
 - [ ] Unify reminder, delivery-status and history presentation.
+  - [x] ~~Page Notification History cards and return from details to the same page and filters.~~
 - [ ] Complete real-device delivery and repeated-use pacing acceptance.
 
 ## Habits, Goals and Stats
