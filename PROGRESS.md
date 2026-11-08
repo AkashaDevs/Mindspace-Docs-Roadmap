@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 8 2026 - Connect Stats readings across time
+
+The Stats line chart connects recorded periods and spaces points by elapsed time. A two-year hourly view can draw every reading without preparing a chart point for each empty hour. Count and Sum still include zero periods.
+
+Local checks covered the continuous line, uneven time intervals and a two-year hourly chart on four desktop and mobile profiles.
+
 ## November 8 2026 - Recover new Event and Planner drafts
 
 New Events and Planners keep the latest draft if the page reloads before its regular autosave. Opening the form restores those fields. The Event or Planner is created when you press Save.
