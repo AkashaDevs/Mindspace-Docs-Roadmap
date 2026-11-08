@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 8 2026 - Recover unfinished Event edits
+
+The Planner Event editor restores changes after a reload and saves only the fields you edited. A failed save leaves the edit available for retry. After a confirmed save, interrupted recovery cleanup resumes without sending the update twice.
+
+The local production build passed the recovery journeys on desktop Chromium, Firefox, phone Chrome and tablet Safari.
+
 ## November 8 2026 - Draw hourly Bar and Area charts from the readings
 
 Hourly bars keep their actual time positions and positive and negative values share a zero baseline. Area charts keep zero stretches for Count and Sum and visible breaks for missing readings. The tooltip can still inspect the exact hour.
