@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 8 2026 - Chart durations and fields inside Stats values
+
+A Time Range Stat can be captured and charted in minutes. Stats Analysis also lets you choose a numeric field from a saved object or array. Count is available for text and mixed histories.
+
+Local checks covered capture, analysis and the authenticated save and read path with a disposable database.
+
 ## November 8 2026 - Choose Stats ranges without crowding the chart
 
 Stats Analysis offers one-week, one-month, three-month, one-year and all-date views. Presets use the selected Stat's recorded dates. Custom dates include the full local end day and stay in place during a refresh. The chart format, time step and aggregation sit behind Chart options.

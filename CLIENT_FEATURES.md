@@ -267,6 +267,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Add practical chart range navigation inspired by financial charts.
   - [x] ~~Choose common or custom chart dates, keep custom dates through a refresh, and fit the main controls above the chart on phones.~~
 - [ ] Design complex-value charts, trend lines and useful analysis.
+  - [x] ~~Chart same-day Time Range values in minutes and select numeric fields inside saved objects and arrays.~~
 
 ## Orion AI
 
