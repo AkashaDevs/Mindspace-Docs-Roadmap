@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 8 2026 - Recover new Event and Planner drafts
+
+New Events and Planners keep the latest draft if the page reloads before its regular autosave. Opening the form restores those fields. The Event or Planner is created when you press Save.
+
+Local browser checks covered both forms across four desktop and mobile profiles.
+
 ## November 7 2026 - Recover unfinished Planner edits
 
 An interrupted Planner edit can reopen with its changed fields and Habit rows. The editor loads the latest saved Planner first, so unrelated updates from another view stay visible. If the Planner saves before its recovery copy is removed, finishing cleanup does not send another update.
