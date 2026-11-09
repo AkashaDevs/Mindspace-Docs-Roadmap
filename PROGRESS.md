@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 9 2026 - Scope Time notification windows
+
+Time reads the dates it displays, including adjacent comparisons and the floating Day Circle. Availability waits for the relevant notification rows before offering a Task or Reminder opening. Deliveries that cross midnight remain part of the schedule.
+
+Local browser and disposable database checks passed. The shared indexes and remaining complete-cache consumers are still open.
+
 ## November 9 2026 - Scope Home notification agenda reads
 
 Home loads rows for the selected day and calendar markers for the browsed month. A failed calendar read can be retried while the selected day's rows stay visible. Live updates refresh the scoped data.
