@@ -248,6 +248,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Unify reminder, delivery-status and history presentation.
   - [x] ~~Page Notification History cards and return from details to the same page and filters.~~
   - [x] ~~Read the Notification History inbox in scoped cursor pages and preserve the exact unread badge.~~
+  - [x] ~~Load 12 header notifications at a time with exact tab counts, retry and a restore path.~~
 - [ ] Complete real-device delivery and repeated-use pacing acceptance.
 
 ## Habits, Goals and Stats

@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 9 2026 - Page the header notification menu
+
+The header menu loads 12 notifications at a time with exact tab counts. Read, unread and dismiss actions are saved across the workspace. Clearing dismissed entries hides them from the menu while preserving their history and the option to restore them from the Notifications board.
+
+The local browser matrix passed across four profiles. The manager and Reminder timing views still use full notification records.
+
 ## November 9 2026 - Switch the inbox to cursor pages
 
 The Notification History inbox and individual details now use scoped reads. The inbox requests up to 24 records, keeps search and page context, and can mark the entire workspace history as read. The header gets its exact unread count separately.
