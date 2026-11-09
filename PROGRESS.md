@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 9 2026 - Add a bounded notification history API
+
+The authenticated server route returns 24 projected records by default. It searches the full text and keeps the order stable across tied and legacy dates.
+
+In a disposable MongoDB fixture, the first page used about 19 KB compared with 487 KB for the full collection. The browser cutover and shared index rollout are still open.
+
 ## November 8 2026 - Page Notification History cards
 
 The inbox and Notifications board now show 24 cards at a time. Search still reaches older notifications, and returning from a notification detail keeps the page and filters. The local build passed the large-history case on four browser profiles, including a 360px phone viewport.
