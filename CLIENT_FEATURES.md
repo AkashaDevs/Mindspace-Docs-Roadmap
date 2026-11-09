@@ -252,6 +252,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Page the Notifications Board and its rated deliveries while preserving the Table filters and sort.~~
   - [x] ~~Load Notifications Table pages with global filters, sort and retryable inline edits.~~
   - [x] ~~Use scoped Reminder timing evidence on the dashboard, in the editor and in the record summary.~~
+  - [x] ~~Open the exact notification from Today’s Agenda and the Time timeline.~~
 - [ ] Complete real-device delivery and repeated-use pacing acceptance.
 
 ## Habits, Goals and Stats

@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 9 2026 - Open the selected notification from Home and Time
+
+Today’s Agenda and the Time timeline now open the selected delivery record. The detail confirms the open and keeps separate actions for Notification History and the related item.
+
+The local compiled notification suite passed across four browser profiles. Date-window reads and Setup delivery-probe verification are still open.
+
 ## November 9 2026 - Scope Reminder timing evidence
 
 The Reminder dashboard, editor and record summary read delivery counts and grouped timing ratings. The app still distinguishes current, earlier and unattributed ratings. A failed read can be retried while keeping the selected review filter.
