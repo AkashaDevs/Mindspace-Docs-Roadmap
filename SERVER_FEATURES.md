@@ -79,6 +79,7 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
   - [x] ~~Scope the Notifications Table query, apply its filters and sort before paging, and return exact match counts.~~
   - [x] ~~Group delivery response counts and saved timing ratings by Reminder inside the personal workspace.~~
   - [x] ~~Read exact mobile Setup probe status within the authenticated account and workspace.~~
+  - [x] ~~Project day rows and month markers through authenticated, time-zone-aware agenda reads.~~
 - [ ] Audit history pagination, retention, indexes and payload size for production scale.
 - [ ] Verify queued delivery against retirement at execution time.
 - [ ] Complete device, timezone, long-interruption and repeated-use acceptance.

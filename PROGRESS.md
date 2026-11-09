@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 9 2026 - Scope Home notification agenda reads
+
+Home loads rows for the selected day and calendar markers for the browsed month. A failed calendar read can be retried while the selected day's rows stay visible. Live updates refresh the scoped data.
+
+The local compiled browser and disposable database checks passed. Time date windows and the shared index rollout remain open.
+
 ## November 9 2026 - Verify the exact mobile Setup probe
 
 Setup saves the probe ID before sending and checks its server receipt after reload. Unrelated activity and receipts from replaced probes cannot complete the check. The Setup page no longer loads the full notification history for verification.

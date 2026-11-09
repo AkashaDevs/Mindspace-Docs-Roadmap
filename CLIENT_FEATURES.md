@@ -254,6 +254,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Use scoped Reminder timing evidence on the dashboard, in the editor and in the record summary.~~
   - [x] ~~Open the exact notification from Today’s Agenda and the Time timeline.~~
   - [x] ~~Verify the matching mobile Setup probe and recover its receipt after reload.~~
+  - [x] ~~Read Home notification rows for the selected day and calendar markers for the browsed month.~~
 - [ ] Complete real-device delivery and repeated-use pacing acceptance.
 
 ## Habits, Goals and Stats
