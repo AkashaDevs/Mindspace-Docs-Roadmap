@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 9 2026 - Page the Notifications Table
+
+The Table loads 20 rows by default. Column filters and sorting cover the whole workspace history, including records on later pages. Inline edits keep the typed value if a save fails, and retry sends only the changed field. Mark all read is confirmed by the server.
+
+The local four-browser build and disposable database replay passed. Reminder timing summaries still read the full delivery collection.
+
 ## November 9 2026 - Page the Notifications Board and rated deliveries
 
 The Notifications Board loads up to 24 cards at a time. Its counts still cover the workspace, and the rated-delivery view keeps the exact Reminder and filter. The Table loads the full collection when opened so its column filters and sorting keep their existing scope.
