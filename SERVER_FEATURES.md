@@ -77,6 +77,7 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
   - [x] ~~Confirm workspace notification bulk actions and clear dismissed from the menu while keeping history.~~
   - [x] ~~Count manager notifications and page rated adaptive or combined deliveries within the personal workspace.~~
   - [x] ~~Scope the Notifications Table query, apply its filters and sort before paging, and return exact match counts.~~
+  - [x] ~~Group delivery response counts and saved timing ratings by Reminder inside the personal workspace.~~
 - [ ] Audit history pagination, retention, indexes and payload size for production scale.
 - [ ] Verify queued delivery against retirement at execution time.
 - [ ] Complete device, timezone, long-interruption and repeated-use acceptance.

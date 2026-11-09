@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 9 2026 - Scope Reminder timing evidence
+
+The Reminder dashboard, editor and record summary read delivery counts and grouped timing ratings. The app still distinguishes current, earlier and unattributed ratings. A failed read can be retried while keeping the selected review filter.
+
+The disposable database returned 755 JSON bytes of evidence for a Reminder with 1,200 deliveries. The local browser matrix passed. Home, Time and Setup keep their existing notification reads for their separate views.
+
 ## November 9 2026 - Page the Notifications Table
 
 The Table loads 20 rows by default. Column filters and sorting cover the whole workspace history, including records on later pages. Inline edits keep the typed value if a save fails, and retry sends only the changed field. Mark all read is confirmed by the server.
