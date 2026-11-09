@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 9 2026 - Page the Notifications Board and rated deliveries
+
+The Notifications Board loads up to 24 cards at a time. Its counts still cover the workspace, and the rated-delivery view keeps the exact Reminder and filter. The Table loads the full collection when opened so its column filters and sorting keep their existing scope.
+
+The local browser matrix and the disposable database replay passed. Table reads and Reminder timing summaries still have unbounded inputs.
+
 ## November 9 2026 - Page the header notification menu
 
 The header menu loads 12 notifications at a time with exact tab counts. Read, unread and dismiss actions are saved across the workspace. Clearing dismissed entries hides them from the menu while preserving their history and the option to restore them from the Notifications board.
