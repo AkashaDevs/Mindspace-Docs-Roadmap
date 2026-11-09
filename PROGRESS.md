@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 9 2026 - Switch the inbox to cursor pages
+
+The Notification History inbox and individual details now use scoped reads. The inbox requests up to 24 records, keeps search and page context, and can mark the entire workspace history as read. The header gets its exact unread count separately.
+
+The local browser matrix passed across four profiles. The header dropdown and manager still use the full collection when opened.
+
 ## November 9 2026 - Add a bounded notification history API
 
 The authenticated server route returns 24 projected records by default. It searches the full text and keeps the order stable across tied and legacy dates.
