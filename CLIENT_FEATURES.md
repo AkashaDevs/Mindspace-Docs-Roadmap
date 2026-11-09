@@ -256,6 +256,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Verify the matching mobile Setup probe and recover its receipt after reload.~~
   - [x] ~~Read Home notification rows for the selected day and calendar markers for the browsed month.~~
   - [x] ~~Read scoped notifications for Time, the Day Circle and schedule availability.~~
+  - [x] ~~Use scoped notification reads for Messages refresh, Archive and Database Explorer.~~
 - [ ] Complete real-device delivery and repeated-use pacing acceptance.
 
 ## Habits, Goals and Stats

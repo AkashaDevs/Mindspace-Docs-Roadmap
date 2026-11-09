@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 9 2026 - Retire shared notification history loading
+
+Messages refreshes the active view with scoped reads. Archive can restore a notification on a fresh visit. Database Explorer opens one page at a time and keeps the current page available when the next read fails.
+
+Local browser and disposable database checks passed. The remaining retention, shared index and deployment work stays open.
+
 ## November 9 2026 - Scope Time notification windows
 
 Time reads the dates it displays, including adjacent comparisons and the floating Day Circle. Availability waits for the relevant notification rows before offering a Task or Reminder opening. Deliveries that cross midnight remain part of the schedule.
