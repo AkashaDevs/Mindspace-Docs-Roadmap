@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 9 2026 - Verify the exact mobile Setup probe
+
+Setup saves the probe ID before sending and checks its server receipt after reload. Unrelated activity and receipts from replaced probes cannot complete the check. The Setup page no longer loads the full notification history for verification.
+
+The local browser and mounted signed-receipt checks passed. Real device delivery and deployment are still open.
+
 ## November 9 2026 - Open the selected notification from Home and Time
 
 Today’s Agenda and the Time timeline now open the selected delivery record. The detail confirms the open and keeps separate actions for Notification History and the related item.
