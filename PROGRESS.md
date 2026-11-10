@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 9 2026 - Page notifications in Trash
+
+Trash loads 24 notifications at a time. Search still finds older messages, and Inspect loads the full message on demand. A failed page can be retried while the existing results stay available.
+
+Browser and mounted disposable checks passed. Query tuning, retention and app rollout stay open.
+
 ## November 9 2026 - Verify Notification index readiness
 
 The development audit checks Notification index definitions and query plans without changing data or indexes. Time keeps valid older deliveries visible even when the optional index is missing or has a narrower filter.
