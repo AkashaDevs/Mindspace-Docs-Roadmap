@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 9 2026 - Verify Notification index readiness
+
+The development audit checks Notification index definitions and query plans without changing data or indexes. Time keeps valid older deliveries visible even when the optional index is missing or has a narrower filter.
+
+Mounted disposable checks passed. Archive pagination, deep Table query cost, retention and rollout stay open.
+
 ## November 9 2026 - Compact Notification and Reminder history
 
 Reminder capture and search stay available while the list loads or refreshes. History preserves the last confirmed results and uses smaller loading, empty and retry panels. Manual delivery tests are in Notification Setup.

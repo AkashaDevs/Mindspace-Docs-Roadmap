@@ -82,6 +82,7 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
   - [x] ~~Project day rows and month markers through authenticated, time-zone-aware agenda reads.~~
   - [x] ~~Return overlapping Time deliveries from authenticated date windows and preserve older explicit ends.~~
   - [x] ~~Serve authorized archived notifications and paged editable records for Database Explorer.~~
+  - [x] ~~Check Notification index readiness and preserve Time overlaps across index configurations.~~
 - [ ] Audit history pagination, retention, indexes and payload size for production scale.
 - [ ] Verify queued delivery against retirement at execution time.
 - [ ] Complete device, timezone, long-interruption and repeated-use acceptance.
