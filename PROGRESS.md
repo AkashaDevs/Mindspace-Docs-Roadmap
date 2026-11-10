@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 9 2026 - Compact Notification and Reminder history
+
+Reminder capture and search stay available while the list loads or refreshes. History preserves the last confirmed results and uses smaller loading, empty and retry panels. Manual delivery tests are in Notification Setup.
+
+Local browser checks passed. Retention, shared indexes and deployment stay open.
+
 ## November 9 2026 - Retire shared notification history loading
 
 Messages refreshes the active view with scoped reads. Archive can restore a notification on a fresh visit. Database Explorer opens one page at a time and keeps the current page available when the next read fails.
