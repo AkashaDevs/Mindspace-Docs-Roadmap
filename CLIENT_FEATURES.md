@@ -92,6 +92,8 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Keep Basic search and capture visible in compact phone controls, with discoverable active filters, retained drafts and compact writable empty groups.~~
   - [x] ~~Keep loaded Task records and shared list selection while switching views.~~
 - [ ] Finish measured list-toggle and drag pickup responsiveness on representative data.
+  - [x] ~~Show Kanban Task and column grips with labeled keyboard move controls.~~
+  - [x] ~~Defer collapsed Kanban card details and scheduling options until opened.~~
   - [ ] Recheck zoomed dragging, long boards and interactions after extended use.
   - [ ] Meet practical keyboard and physical-phone acceptance alongside browser tests.
 - [ ] Support several independently configured instances of the same view type.

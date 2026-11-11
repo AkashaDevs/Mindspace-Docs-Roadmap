@@ -8,6 +8,10 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Make Kanban moves easier to find
+
+Kanban Tasks show a grip, and the keyboard move control names the Task or column. Drag pickup and list switching passed the existing browser checks. Closed details and scheduling options wait until they are opened, reducing the work required to display a large list.
+
 ## November 11 2026 - Make Todo due dates easier to edit
 
 The Data Table due-date editor keeps both fields readable on phones and in narrower panels. Enter a date or time first, then save both together. A refused save keeps the edit available to retry.
