@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Preview and confirm spoken Orion drafts
+
+Orion can preview a spoken Task, Event or Captchalogue draft. A separate confirmation utterance or button generates the draft, and the existing editor handles review and saving. A spoken proposal keeps existing typed text available and can be resumed in the same workspace.
+
+Browser speech and configured speech-service fixtures verified capture, confirmation, retry, editor saves and late microphone cleanup. Physical device recognition, installed-app entry and rollout remain open.
+
 ## November 11 2026 - Organize saved Captchalogue notes with Orion
 
 The Captchalogue confirmation can show the exact excerpt before asking Orion for a category and tags. The user chooses which labels to add. Capture itself remains available while Orion is off or unavailable.
