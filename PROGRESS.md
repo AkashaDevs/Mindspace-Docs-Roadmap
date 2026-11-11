@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Reach dashboard content by keyboard
+
+The first Tab reveals a shortcut to the dashboard's main content. Desktop view tabs use one Tab stop and let users browse with arrow keys before opening a view. Planner reached Next period in nine Tab presses and one Enter across four browser profiles, compared with 15 to 98 Tab presses before.
+
+The compiled build verified the new keyboard path, Planner controls and remembered sidebar choices.
+
 ## November 11 2026 - Research saved ideas with cited web results
 
 From a saved idea, edit and submit the query Orion will send for web search. Cited answers show clickable sources and can be reviewed and saved as a separate Note.
