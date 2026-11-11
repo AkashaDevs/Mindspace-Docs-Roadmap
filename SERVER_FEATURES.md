@@ -87,6 +87,7 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
   - [x] ~~Return bounded archived notification pages with scoped search and exact counts.~~
   - [x] ~~Count and rank filtered Notification Table results in one matching pass.~~
   - [x] ~~Share Archive search results across exact counts and paging, and defer previews until after the cursor.~~
+  - [x] ~~Sort legacy Notification History by ID and date before loading the selected records.~~
 - [ ] Audit history pagination, retention, indexes and payload size for production scale.
 - [ ] Verify queued delivery against retirement at execution time.
 - [ ] Complete device, timezone, long-interruption and repeated-use acceptance.

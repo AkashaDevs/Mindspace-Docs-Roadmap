@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Reduce legacy Notification History sort work
+
+History sorts IDs and fallback timestamps for older records, then reads the selected page in one batch. Four mounted comparisons returned the same records and cursors. The estimated sort size for the newer Database Explorer page went from 155,853 to 8,125 bytes in a disposable test.
+
+Mounted and server unit checks passed. Source scan tuning, retention and app rollout stay open.
+
 ## November 11 2026 - Reduce Time Notification reads
 
 Time uses one database cursor for current, legacy and older overlapping Notifications. The disposable fixture reduced older candidates sent to the server from 705 to five and kept the expected timeline, including legacy end times.
