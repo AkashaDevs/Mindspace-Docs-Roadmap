@@ -154,8 +154,9 @@ Frontend visibility is guidance. The server remains authoritative for enforced c
 - [ ] Explain model, context, retention and instructions in the client.
 - [ ] Add bounded confirmed Task, Event and Note tool contracts for chat/voice.
   - [x] ~~Generate bounded title and details for the three Orion draft modes. Existing authorized editors own record creation.~~
-- [ ] Add optional classification, elaboration and research with minimal necessary data.
+- [x] ~~Add optional classification, elaboration and research with minimal necessary data.~~
   - [x] ~~Generate a bounded outline from the approved excerpt without writing records.~~
+  - [x] ~~Gate and rate-limit web research separately and return only sourced results from the approved query.~~
   - [x] ~~Generate labels from a bounded excerpt and append only the confirmed selections to the scoped note.~~
 - [ ] Define cost/rate limits, cancellation and useful failure recovery.
 - [ ] Evaluate offline architecture and content encryption as separate future scopes.

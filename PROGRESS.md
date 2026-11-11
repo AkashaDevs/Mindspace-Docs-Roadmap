@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Research saved ideas with cited web results
+
+From a saved idea, edit and submit the query Orion will send for web search. Cited answers show clickable sources and can be reviewed and saved as a separate Note.
+
+Browser, unit and mounted disposable database checks passed with a fixture provider. Live provider acceptance, account-wide spend limits and rollout remain open.
+
 ## November 11 2026 - Develop a saved idea in Orion
 
 From Captchalogue or the Note editor, preview the saved excerpt and ask Orion for a summary, next steps and open questions. The shared Note form lets you edit and save the result as a separate note.
