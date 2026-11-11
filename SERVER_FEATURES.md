@@ -153,6 +153,7 @@ Frontend visibility is guidance. The server remains authoritative for enforced c
 - [ ] Restore agentic generation through explicit capabilities and account authorization.
 - [ ] Explain model, context, retention and instructions in the client.
 - [ ] Add bounded confirmed Task, Event and Note tool contracts for chat/voice.
+  - [x] ~~Generate bounded title and details for the three Orion draft modes. Existing authorized editors own record creation.~~
 - [ ] Add optional classification, elaboration and research with minimal necessary data.
 - [ ] Define cost/rate limits, cancellation and useful failure recovery.
 - [ ] Evaluate offline architecture and content encryption as separate future scopes.

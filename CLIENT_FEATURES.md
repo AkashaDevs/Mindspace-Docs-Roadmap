@@ -292,7 +292,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Add basic chat with provider disclosure, opt-in recent messages, and a recoverable composer.~~
 - [ ] Add speech-to-command navigation using the existing command directory.
   - [x] ~~Show the interpreted destination before selection or spoken confirmation.~~
-- [ ] Turn captured ideas into Tasks, Events or Captchalogue notes.
+- [x] ~~Draft a Task, Event or Captchalogue note in Orion and review it in its editor before saving.~~
 - [ ] Offer optional categorization, elaboration and research of a captured idea.
 - [ ] Evaluate other uses by whether they reduce effort in an existing journey.
 

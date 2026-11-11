@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Review record drafts from Orion
+
+Orion can suggest a title and details for a Task, Event or Captchalogue note. The user reviews and saves it through the existing editor. Event dates and the calendar are chosen in the editor. The mounted disposable check confirmed that generating suggestions created no records.
+
+The four browser profiles verified review, cancellation, recovery, confirmed writes and workspace isolation. Live provider acceptance, categorization, research and rollout remain open.
+
 ## November 11 2026 - Verify Orion basic chat locally
 
 Orion shows the provider and model before sending. The current message is sent by default, with an option to include up to three earlier turns within the text limit. Drafts remain available after a failed or stopped request and during navigation within the same workspace.
