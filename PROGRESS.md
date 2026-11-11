@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Reduce Time Notification reads
+
+Time uses one database cursor for current, legacy and older overlapping Notifications. The disposable fixture reduced older candidates sent to the server from 705 to five and kept the expected timeline, including legacy end times.
+
+Mounted and server unit checks passed. Database scan tuning, shared index installation and app rollout stay open.
+
 ## November 11 2026 - Reduce Notification search work in Trash
 
 Trash searches saved Notification text once for both the exact count and the page. When loading older pages, the server applies the cursor before generating previews. A before-and-after fixture returned identical results. Median broad title search on 8,000 records fell from 322 to 201 ms in the disposable test.
