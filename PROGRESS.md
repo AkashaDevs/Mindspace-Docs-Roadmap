@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Keep context when opening Events and Tasks
+
+A direct Event link shows the record title in the breadcrumb after the existing detail read confirms it. The active breadcrumb retains the route context while the title loads or when access is unavailable.
+
+Todo navigation preferences are verified after saving and reloading. A task title opens its details, while the disclosure button and a double-click outside the title expand the row in place.
+
 ## November 11 2026 - Reach dashboard content by keyboard
 
 The first Tab reveals a shortcut to the dashboard's main content. Desktop view tabs use one Tab stop and let users browse with arrow keys before opening a view. Planner reached Next period in nine Tab presses and one Enter across four browser profiles, compared with 15 to 98 Tab presses before.
