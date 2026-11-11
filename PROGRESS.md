@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 9 2026 - Reduce filtered Notification Table reads
+
+The filtered Notification Table ranks IDs and sort keys in one matching pass and fetches full records for the selected page. In the disposable deep-page check it preserved the same rows and ordering while reducing documents examined from 2,402 to 1,221.
+
+Mounted disposable and server unit checks passed. Broader query tuning, retention and rollout stay open.
+
 ## November 9 2026 - Page notifications in Trash
 
 Trash loads 24 notifications at a time. Search still finds older messages, and Inspect loads the full message on demand. A failed page can be retried while the existing results stay available.
