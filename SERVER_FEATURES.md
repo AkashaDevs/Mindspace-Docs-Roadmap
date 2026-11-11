@@ -149,6 +149,7 @@ Frontend visibility is guidance. The server remains authoritative for enforced c
 
 - [x] ~~Audit existing generation providers, prompts and selected data.~~
 - [x] ~~Verify on-demand Reflect Insights with scoped habit summaries and a server-owned provider adapter in fixtures.~~
+- [x] ~~Verify authenticated, bounded Orion chat and cancellation with a provider fixture.~~
 - [ ] Restore agentic generation through explicit capabilities and account authorization.
 - [ ] Explain model, context, retention and instructions in the client.
 - [ ] Add bounded confirmed Task, Event and Note tool contracts for chat/voice.

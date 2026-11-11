@@ -289,7 +289,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Restore agentic Insights and its entry through shared capability/action owners.
   - [x] ~~Show Reflect AI availability, lookback and data disclosure, and preserve results during retry.~~
 - [ ] Explain the Recommendations model, selected data and instructions.
-- [ ] Add basic chat with clear scope and data controls.
+- [x] ~~Add basic chat with provider disclosure, opt-in recent messages, and a recoverable composer.~~
 - [ ] Add speech-to-command navigation using the existing command directory.
   - [x] ~~Show the interpreted destination before selection or spoken confirmation.~~
 - [ ] Turn captured ideas into Tasks, Events or Captchalogue notes.

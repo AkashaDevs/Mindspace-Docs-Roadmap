@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Verify Orion basic chat locally
+
+Orion shows the provider and model before sending. The current message is sent by default, with an option to include up to three earlier turns within the text limit. Drafts remain available after a failed or stopped request and during navigation within the same workspace.
+
+Twelve browser checks and a mounted disposable API probe passed. The probe confirmed authentication, bounded text, rate limiting and cancellation through a provider fixture. Live model acceptance, retention settings, shared spend limits and rollout remain open.
+
 ## November 11 2026 - Preview and confirm spoken destinations
 
 Command search shows what it heard and highlights a unique available dashboard or view. Open it with the displayed button or a separate spoken confirmation. Ambiguous matches remain available for selection, and typing remains available after microphone failure.
