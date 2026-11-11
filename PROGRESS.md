@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Make Todo due dates easier to edit
+
+The Data Table due-date editor keeps both fields readable on phones and in narrower panels. Enter a date or time first, then save both together. A refused save keeps the edit available to retry.
+
+Kanban recovery also passed reloads before a Task or column save returned. Retry checks the current saved records and sends only work that still needs saving.
+
 ## November 11 2026 - Make notification history fit on phones
 
 Notification details keep both actions in view at narrow widths. Board, Table and Status share a compact control row. The Table keeps the notification title visible, and the unread badge fits inside the header button.

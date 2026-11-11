@@ -125,6 +125,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
     - [x] ~~Cancel released touch holds across menus so a quick selection cannot open a delayed context menu.~~
     - [ ] Finish remaining Gantt/nested projections and larger preset/workload acceptance.
 - [ ] Recheck table density and timestamp input presentation in the visual pass.
+  - [x] ~~Fit the Data Table due-date editor to its available width and keep dates and times editable in either order.~~
   - [x] ~~Create Tasks from the Table header, a group or an empty workspace through the shared editor, with explicit destinations and protected drafts.~~
   - [x] ~~Open the current saved Task from compact feedback even when filters hide it, retaining the selected filters, list and tab.~~
   - [x] ~~Keep newer loaded Task fields and one visible record when retrying a creation whose original response was lost.~~
