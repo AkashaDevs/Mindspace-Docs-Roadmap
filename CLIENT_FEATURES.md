@@ -287,6 +287,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 ## Orion AI
 
 - [ ] Restore agentic Insights and its entry through shared capability/action owners.
+  - [x] ~~Show Reflect AI availability, lookback and data disclosure, and preserve results during retry.~~
 - [ ] Explain the Recommendations model, selected data and instructions.
 - [ ] Add basic chat with clear scope and data controls.
 - [ ] Add speech-to-command navigation using the existing command directory.

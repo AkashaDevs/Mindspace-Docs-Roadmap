@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Verify on-demand Reflect AI Insights locally
+
+Reflect can request AI observations and recommendations from counts of recorded and completed habit check-ins. The panel shows the configured provider, model and lookback before submission. Browser checks covered retry and workspace switching.
+
+The mounted route used a disposable database and a provider fixture. The regular profiles still leave AI generation off. Live provider acceptance, Orion chat, voice and confirmed actions remain open.
+
 ## November 11 2026 - Reduce legacy Notification History sort work
 
 History sorts IDs and fallback timestamps for older records, then reads the selected page in one batch. Four mounted comparisons returned the same records and cursors. The estimated sort size for the newer Database Explorer page went from 155,853 to 8,125 bytes in a disposable test.
