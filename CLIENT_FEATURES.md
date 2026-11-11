@@ -265,6 +265,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Read scoped notifications for Time, the Day Circle and schedule availability.~~
   - [x] ~~Use scoped notification reads for Messages refresh, Archive and Database Explorer.~~
   - [x] ~~Keep Reminder capture and Notification history available during refresh and retry.~~
+  - [x] ~~Recover unscheduled Reminders from Home, with an inline retry when the Reminder read fails.~~
   - [x] ~~Page archived notifications in Trash and open full summaries on demand.~~
 - [ ] Complete real-device delivery and repeated-use pacing acceptance.
 

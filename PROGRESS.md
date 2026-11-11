@@ -8,6 +8,10 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Recover unscheduled reminders from Home
+
+Home can still load Reminders when an unrelated Notes request fails. A failed Reminder read offers **Try again** in the widget. From there, open a captured Reminder to pick a time, or review several captured Reminders in the needs-time queue. Verified locally across four browser profiles.
+
 ## November 11 2026 - Review reminders after deferring a Task
 
 Defer confirms the saved due date on Home, Workbench Triage, Kanban and Todo List. **Review linked reminders** opens the reminders for that Task so each scheduled time can be adjusted in the existing editor. Todo List restores the previous due state when a save fails and lets you try again. Verified locally across four browser profiles.
