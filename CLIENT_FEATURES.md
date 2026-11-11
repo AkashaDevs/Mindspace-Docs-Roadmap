@@ -94,6 +94,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Finish measured list-toggle and drag pickup responsiveness on representative data.
   - [x] ~~Show Kanban Task and column grips with labeled keyboard move controls.~~
   - [x] ~~Defer collapsed Kanban card details and scheduling options until opened.~~
+  - [x] ~~Confirm a saved Task defer and open review for its linked reminders.~~
   - [ ] Recheck zoomed dragging, long boards and interactions after extended use.
   - [ ] Meet practical keyboard and physical-phone acceptance alongside browser tests.
 - [ ] Support several independently configured instances of the same view type.

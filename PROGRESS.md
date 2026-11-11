@@ -8,6 +8,10 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Review reminders after deferring a Task
+
+Defer confirms the saved due date on Home, Workbench Triage, Kanban and Todo List. **Review linked reminders** opens the reminders for that Task so each scheduled time can be adjusted in the existing editor. Todo List restores the previous due state when a save fails and lets you try again. Verified locally across four browser profiles.
+
 ## November 11 2026 - Make Kanban moves easier to find
 
 Kanban Tasks show a grip, and the keyboard move control names the Task or column. Drag pickup and list switching passed the existing browser checks. Closed details and scheduling options wait until they are opened, reducing the work required to display a large list.
