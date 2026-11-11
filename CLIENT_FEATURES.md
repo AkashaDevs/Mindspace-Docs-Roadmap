@@ -291,7 +291,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Explain the Recommendations model, selected data and instructions.
 - [ ] Add basic chat with clear scope and data controls.
 - [ ] Add speech-to-command navigation using the existing command directory.
-  - [ ] Show the interpreted action prominently before selection or spoken confirmation.
+  - [x] ~~Show the interpreted destination before selection or spoken confirmation.~~
 - [ ] Turn captured ideas into Tasks, Events or Captchalogue notes.
 - [ ] Offer optional categorization, elaboration and research of a captured idea.
 - [ ] Evaluate other uses by whether they reduce effort in an existing journey.

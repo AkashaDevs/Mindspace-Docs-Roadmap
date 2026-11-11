@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Preview and confirm spoken destinations
+
+Command search shows what it heard and highlights a unique available dashboard or view. Open it with the displayed button or a separate spoken confirmation. Ambiguous matches remain available for selection, and typing remains available after microphone failure.
+
+Browser fixtures passed on desktop, tablet and phone-sized profiles. Physical speech recognition, installed-app entry and rollout stay open.
+
 ## November 11 2026 - Verify on-demand Reflect AI Insights locally
 
 Reflect can request AI observations and recommendations from counts of recorded and completed habit check-ins. The panel shows the configured provider, model and lookback before submission. Browser checks covered retry and workspace switching.
