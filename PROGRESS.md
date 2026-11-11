@@ -8,6 +8,10 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Make notification history fit on phones
+
+Notification details keep both actions in view at narrow widths. Board, Table and Status share a compact control row. The Table keeps the notification title visible, and the unread badge fits inside the header button.
+
 ## November 11 2026 - Keep context when opening Events and Tasks
 
 A direct Event link shows the record title in the breadcrumb after the existing detail read confirms it. The active breadcrumb retains the route context while the title loads or when access is unavailable.
