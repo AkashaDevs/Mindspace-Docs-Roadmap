@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Develop a saved idea in Orion
+
+From Captchalogue or the Note editor, preview the saved excerpt and ask Orion for a summary, next steps and open questions. The shared Note form lets you edit and save the result as a separate note.
+
+Browser, unit and mounted disposable database checks passed with a provider fixture. Sourced web research and live provider acceptance remain open.
+
 ## November 11 2026 - Preview and confirm spoken Orion drafts
 
 Orion can preview a spoken Task, Event or Captchalogue draft. A separate confirmation utterance or button generates the draft, and the existing editor handles review and saving. A spoken proposal keeps existing typed text available and can be resumed in the same workspace.
