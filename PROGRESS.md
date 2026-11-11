@@ -8,6 +8,10 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Reorder Todo Lists
+
+Use the grip next to a saved list to change its order without switching lists. The server saves the order together, and the sidebar offers retry after an unconfirmed save or reloads the current order after a conflict. Verified locally across four browser profiles and a disposable database.
+
 ## November 11 2026 - Recover unscheduled reminders from Home
 
 Home can still load Reminders when an unrelated Notes request fails. A failed Reminder read offers **Try again** in the widget. From there, open a captured Reminder to pick a time, or review several captured Reminders in the needs-time queue. Verified locally across four browser profiles.

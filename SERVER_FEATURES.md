@@ -33,6 +33,7 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
 
 - [x] ~~Workspace, Task, Todo list/group, Planner/Event, Note, Goal, Habit, Stat and Daily Log owners.~~
 - [x] ~~Persisted Task/group ordering and automatic matching group rules.~~
+- [x] ~~Save the full Todo List order atomically and reject competing stale order requests.~~
 - [x] ~~Validate Task reorder list destinations, clear old group membership and retain the canonical parent of group destinations without transferring workspace ownership.~~
 - [x] ~~Preserve existing finish time and progress history when completed Task moves are retried.~~
 - [x] ~~Read only requested Task/group move metadata through an authorized, bounded endpoint, preserving schema defaults for older records.~~
