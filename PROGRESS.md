@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Organize saved Captchalogue notes with Orion
+
+The Captchalogue confirmation can show the exact excerpt before asking Orion for a category and tags. The user chooses which labels to add. Capture itself remains available while Orion is off or unavailable.
+
+Browser fixtures verified excerpt disclosure, selection, save retry and workspace isolation. The mounted disposable probe confirmed concurrent note text and labels survive the append, and a replay leaves the note unchanged. Live model acceptance and application rollout remain open.
+
 ## November 11 2026 - Review record drafts from Orion
 
 Orion can suggest a title and details for a Task, Event or Captchalogue note. The user reviews and saves it through the existing editor. Event dates and the calendar are chosen in the editor. The mounted disposable check confirmed that generating suggestions created no records.

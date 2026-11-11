@@ -294,6 +294,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Show the interpreted destination before selection or spoken confirmation.~~
 - [x] ~~Draft a Task, Event or Captchalogue note in Orion and review it in its editor before saving.~~
 - [ ] Offer optional categorization, elaboration and research of a captured idea.
+  - [x] ~~Offer optional Orion category and tag review after Captchalogue saves a note.~~
 - [ ] Evaluate other uses by whether they reduce effort in an existing journey.
 
 ## Accounts, workspaces and first visit
