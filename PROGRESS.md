@@ -8,6 +8,12 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Reduce Notification search work in Trash
+
+Trash searches saved Notification text once for both the exact count and the page. When loading older pages, the server applies the cursor before generating previews. A before-and-after fixture returned identical results. Median broad title search on 8,000 records fell from 322 to 201 ms in the disposable test.
+
+Mounted and server unit checks passed. Shared index installation, retention and app rollout stay open.
+
 ## November 9 2026 - Reduce filtered Notification Table reads
 
 The filtered Notification Table ranks IDs and sort keys in one matching pass and fetches full records for the selected page. In the disposable deep-page check it preserved the same rows and ordering while reducing documents examined from 2,402 to 1,221.
