@@ -8,6 +8,10 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 11 2026 - Save the intended Task drop
+
+Basic and List use the final drop location to place a Task before, after, or inside another Task. An earlier save can finish while a newer drag stays active. Verified locally across four browser profiles, including independent mobile tab filters and grouped Task moves.
+
 ## November 11 2026 - Reorder Todo Lists
 
 Use the grip next to a saved list to change its order without switching lists. The server saves the order together, and the sidebar offers retry after an unconfirmed save or reloads the current order after a conflict. Verified locally across four browser profiles and a disposable database.
