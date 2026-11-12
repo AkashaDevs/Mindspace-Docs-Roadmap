@@ -28,6 +28,10 @@ Scheduler, Day, Agenda and Upcoming Events open the selected occurrence. Event d
 
 Edit this occurrence changes one date and keeps its original link if you move it. Your draft stays available if someone changes the occurrence while you are editing. If the series no longer includes that date, you can copy the unfinished changes. Local checks cover reload and competing saves.
 
+## November 12 2026 - Recover older saved Todo moves
+
+Sync Queue can retry a complete reorder as one batch when an older device copy saved it in pieces. Retry checks the current board and clears positions the server already saved. When the saved positions are uncertain, the remaining changes stay available for review after reload.
+
 ## November 12 2026 - Fit short Planner events and simplify capture
 
 Back-to-back Events in Day and Agenda stay separately selectable. Agenda opens on the selected day and keeps the reminder button on each Event. Add Event is the single capture button and still uses the displayed date. Verified locally on desktop, tablet and phone browser profiles.
