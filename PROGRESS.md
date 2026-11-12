@@ -52,6 +52,10 @@ Turn on **Linear trend** in Chart options to see a dashed trend line over the se
 
 Use the arrows beside the chart dates to move to an earlier or later period of the same length. A chart refresh keeps the dates you were viewing. Select a preset again to return to the latest records for that Stat. Verified in the local preview.
 
+## November 12 2026 - Find and change a Calendar's Planner
+
+The Calendar form gives the Planner picker a stable label and shows the selected Planner by name when it loads. You can search for a different Planner, recover the selection from a saved draft, or retry a refused save. On phones, the form buttons sit above the dashboard shortcuts. Verified in the local preview.
+
 ## November 12 2026 - Fit short Planner events and simplify capture
 
 Back-to-back Events in Day and Agenda stay separately selectable. Agenda opens on the selected day and keeps the reminder button on each Event. Add Event is the single capture button and still uses the displayed date. Verified locally on desktop, tablet and phone browser profiles.

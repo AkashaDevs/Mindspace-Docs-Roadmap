@@ -353,6 +353,8 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Verify generated Planner row append, removal, select state and failed-save retry.~~
   - [x] ~~Verify the shared field configuration and late reference options in Planner Details.~~
   - [x] ~~Use the shared generator in Journal Quick entry and verify editable Planner links and draft recovery.~~
+  - [x] ~~Share the searchable Planner picker in Calendar forms, with readable pending selections, required-field feedback and draft recovery.~~
+  - [x] ~~Keep Calendar create and edit buttons above the dashboard shortcuts on phones.~~
   - [x] ~~Validate generated repeatable Planner fields and preserve older Habit data during edits.~~
   - [x] ~~Recover unfinished Planner edits after reload and save just the fields that changed.~~
   - [x] ~~Recover unfinished Event edits after reload, retry a failed save, and keep unrelated server changes.~~
