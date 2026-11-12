@@ -36,6 +36,7 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
 - [x] ~~Save the full Todo List order atomically and reject competing stale order requests.~~
 - [x] ~~Save Kanban column position batches atomically and refuse stale positions or parent lists.~~
 - [x] ~~Save guarded Task order, membership and criteria in one transaction and preserve completion time on replay.~~
+- [x] ~~Store bounded pending Todo move recovery by account and workspace and protect settled copies from stale writes.~~
 - [x] ~~Validate Task reorder list destinations, clear old group membership and retain the canonical parent of group destinations without transferring workspace ownership.~~
 - [x] ~~Preserve existing finish time and progress history when completed Task moves are retried.~~
 - [x] ~~Read only requested Task/group move metadata through an authorized, bounded endpoint, preserving schema defaults for older records.~~

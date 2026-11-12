@@ -8,6 +8,10 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 12 2026 - Recover pending Todo moves from your account
+
+Sync Queue can recover an unsaved task or column move in a fresh browser signed into the same account and workspace. The queue waits for you to choose Retry and checks the saved records first. Verified locally across four browser profiles and a disposable database.
+
 ## November 12 2026 - Recover overlapping Todo moves
 
 When two unsaved drags share a task, Sync Queue retries their remaining positions together. If one task changed elsewhere, the linked moves stay available for review. Verified locally across four browser profiles, including after reloading.

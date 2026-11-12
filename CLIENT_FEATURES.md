@@ -85,6 +85,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Recover pending Task and column moves from a protected device copy after reload, for the original account and workspace, with explicit Retry and fresh server checks.~~
 - [x] ~~Keep the remaining tasks from one drag together in Sync Queue, with review when any position or parent changes.~~
 - [x] ~~Retry overlapping pending drags as one order after reload and hold related tasks together when a saved position conflicts.~~
+- [x] ~~Recover unsaved task and column moves in a fresh browser signed into the same account and workspace.~~
 - [x] ~~Keep nearby drags in large Kanban columns to the tasks whose positions change, including sparse saved positions.~~
 - [x] ~~Clear an already confirmed recovery row when another retry write fails, retaining only refused or conflicted work.~~
 - [x] ~~Wait for exact recovery-copy confirmation before queued Retry, with clear progress and failure feedback while preserving independent drafts.~~
