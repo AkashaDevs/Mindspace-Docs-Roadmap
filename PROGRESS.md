@@ -8,6 +8,10 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 12 2026 - Keep Search actions reachable while scrolling
+
+Search results scroll above the status and shortcuts controls. Open and Add Reminder stay reachable on narrow screens, and Back from a Daily Log restores the query. Verified locally with desktop, tablet and phone browser profiles.
+
 ## November 12 2026 - Keep Planner in sync with browser Back
 
 Back from a dated Agenda returns to the Scheduler and its Calendar filter. Forward restores the Agenda date and the filter on that history entry, including after a browser reload.
