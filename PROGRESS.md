@@ -8,6 +8,10 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 12 2026 - Save Kanban column moves together
+
+Kanban saves the affected column positions in one transaction. If another save has changed those columns, the board asks for a refresh before moving again. Task edits can still save while a column move is pending. Verified locally across four browser profiles and a disposable database.
+
 ## November 11 2026 - Save the intended Task drop
 
 Basic and List use the final drop location to place a Task before, after, or inside another Task. An earlier save can finish while a newer drag stays active. Verified locally across four browser profiles, including independent mobile tab filters and grouped Task moves.
