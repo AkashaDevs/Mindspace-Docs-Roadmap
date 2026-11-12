@@ -76,6 +76,10 @@ Planner Page tools previews today's Events even when you're browsing another dat
 
 The Planner widget marks dates with Events, lets you choose weekends or type a date, and opens that day with your Planner filters. On phones, the tools drawer closes when the day opens. Verified in the local preview.
 
+## November 12 2026 - Reuse Planner labels while creating and editing
+
+Search for categories, groups and filters from existing Planners or add a new label in the same picker. The draft keeps those selections if you reload before saving. Verified locally through the Planner sidebar, Your Day and the dedicated create and edit pages.
+
 ## November 12 2026 - Fit short Planner events and simplify capture
 
 Back-to-back Events in Day and Agenda stay separately selectable. Agenda opens on the selected day and keeps the reminder button on each Event. Add Event is the single capture button and still uses the displayed date. Verified locally on desktop, tablet and phone browser profiles.

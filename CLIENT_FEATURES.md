@@ -359,6 +359,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Verify the shared field configuration and late reference options in Planner Details.~~
   - [x] ~~Use the shared generator in Journal Quick entry and verify editable Planner links and draft recovery.~~
   - [x] ~~Share the searchable Planner picker in Calendar forms, with readable pending selections, required-field feedback and draft recovery.~~
+  - [x] ~~Search, reuse and add categories, groups and filters in Planner create and edit, with draft recovery before save.~~
   - [x] ~~Keep Calendar create and edit buttons above the dashboard shortcuts on phones.~~
   - [x] ~~Clear a recovered Calendar edit after its confirmed save so the editor returns to details.~~
   - [x] ~~Validate generated repeatable Planner fields and preserve older Habit data during edits.~~
