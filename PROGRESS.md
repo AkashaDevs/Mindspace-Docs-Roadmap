@@ -8,6 +8,10 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 12 2026 - Save nearby moves in large Todo columns
+
+Moving one card past its neighbor in a 520-task column sends two position changes. Both cards keep their new positions after reload. Verified locally in the production build across four browser profiles and against a disposable database.
+
 ## November 12 2026 - Save Task moves together
 
 Task moves save all affected positions and membership together. If a task was moved elsewhere first, Sync Queue keeps the remaining changes together for review. Verified locally across four browser profiles and a disposable database.
