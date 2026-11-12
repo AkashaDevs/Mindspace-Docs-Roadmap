@@ -44,6 +44,10 @@ On large boards, edit, defer and Reminder controls load as cards approach the vi
 
 You can switch lists while a reorder saves. When you return, the list shows the confirmed changes. A refused save restores the saved order and keeps the move available in Sync Queue. Both journeys passed without fetching the collections again.
 
+## November 12 2026 - See the trend in a Stats line chart
+
+Turn on **Linear trend** in Chart options to see a dashed trend line over the selected dates. It uses the chart's current measure and recorded periods. The chart still shows the actual values, including zero-count hours. Verified in the local preview.
+
 ## November 12 2026 - Fit short Planner events and simplify capture
 
 Back-to-back Events in Day and Agenda stay separately selectable. Agenda opens on the selected day and keeps the reminder button on each Event. Add Event is the single capture button and still uses the displayed date. Verified locally on desktop, tablet and phone browser profiles.
