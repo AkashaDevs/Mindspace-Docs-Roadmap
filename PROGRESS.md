@@ -48,6 +48,10 @@ You can switch lists while a reorder saves. When you return, the list shows the 
 
 Turn on **Linear trend** in Chart options to see a dashed trend line over the selected dates. It uses the chart's current measure and recorded periods. The chart still shows the actual values, including zero-count hours. Verified in the local preview.
 
+## November 12 2026 - Compare adjacent periods in Stats
+
+Use the arrows beside the chart dates to move to an earlier or later period of the same length. A chart refresh keeps the dates you were viewing. Select a preset again to return to the latest records for that Stat. Verified in the local preview.
+
 ## November 12 2026 - Fit short Planner events and simplify capture
 
 Back-to-back Events in Day and Agenda stay separately selectable. Agenda opens on the selected day and keeps the reminder button on each Event. Add Event is the single capture button and still uses the displayed date. Verified locally on desktop, tablet and phone browser profiles.

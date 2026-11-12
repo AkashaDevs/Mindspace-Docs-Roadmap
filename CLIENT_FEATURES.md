@@ -307,6 +307,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Log a Stat from any dashboard through the header and resume an unfinished Stat on the same device.~~
 - [ ] Add practical chart range navigation inspired by financial charts.
   - [x] ~~Choose common or custom chart dates, keep custom dates through a refresh, and fit the main controls above the chart on phones.~~
+  - [x] ~~Browse the previous or next period of the same length in Stats, and reselect a preset to jump to the latest dates.~~
 - [ ] Design complex-value charts, trend lines and useful analysis.
   - [x] ~~Chart same-day Time Range values in minutes and select numeric fields inside saved objects and arrays.~~
   - [x] ~~Add an optional linear trend for the selected line-chart dates, based on periods with recorded values.~~
