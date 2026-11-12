@@ -8,6 +8,10 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 12 2026 - Save Task moves together
+
+Task moves save all affected positions and membership together. If a task was moved elsewhere first, Sync Queue keeps the remaining changes together for review. Verified locally across four browser profiles and a disposable database.
+
 ## November 12 2026 - Save Kanban column moves together
 
 Kanban saves the affected column positions in one transaction. If another save has changed those columns, the board asks for a refresh before moving again. Task edits can still save while a column move is pending. Verified locally across four browser profiles and a disposable database.
