@@ -69,6 +69,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Task/group drag and drop with persisted ordering and failure recovery.~~
 - [x] ~~Preserve hidden column positions and newer Task edits when column saves finish.~~
 - [x] ~~Keep rapid Task and column saves in order through the shared queue owner while rendering moves immediately.~~
+- [x] ~~Recover a Todo List reorder after reloading before its server reply, with Retry or Discard.~~
 - [x] ~~Saved custom groups show all matching Tasks in their own list.~~
   - [x] ~~Keep manual membership and overlapping card occurrences distinct.~~
   - [x] ~~Persist filter rules and identify legacy rules requiring review.~~

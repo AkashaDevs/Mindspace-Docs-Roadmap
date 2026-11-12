@@ -80,6 +80,10 @@ The Planner widget marks dates with Events, lets you choose weekends or type a d
 
 Search for categories, groups and filters from existing Planners or add a new label in the same picker. The draft keeps those selections if you reload before saving. Verified locally through the Planner sidebar, Your Day and the dedicated create and edit pages.
 
+## November 12 2026 - Recover an interrupted Todo List reorder
+
+If you reload after moving a Todo List and before the server responds, the sidebar shows the saved order and lets you retry or discard the pending move. Retry checks the original order against the server. Discard refreshes the saved order before clearing the pending move. Verified locally across desktop, tablet and phone browser profiles.
+
 ## November 12 2026 - Fit short Planner events and simplify capture
 
 Back-to-back Events in Day and Agenda stay separately selectable. Agenda opens on the selected day and keeps the reminder button on each Event. Add Event is the single capture button and still uses the displayed date. Verified locally on desktop, tablet and phone browser profiles.
