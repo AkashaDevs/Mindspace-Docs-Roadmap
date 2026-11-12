@@ -8,6 +8,10 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 12 2026 - Keep the selected day in Planner
+
+Scheduler can open Day or Agenda on a specific date. The timeline keeps the selected Calendar or Planner across reload, and Add Event uses the displayed date. Opening a saved Event offers a return to the same Day. Verified locally with desktop, tablet and phone browser profiles.
+
 ## November 12 2026 - Recover pending Todo moves from your account
 
 Sync Queue can recover an unsaved task or column move in a fresh browser signed into the same account and workspace. The queue waits for you to choose Retry and checks the saved records first. Verified locally across four browser profiles and a disposable database.

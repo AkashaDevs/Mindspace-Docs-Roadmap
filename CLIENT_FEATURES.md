@@ -216,13 +216,15 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Use the compact Event form for day taps, timed slots and dragged date ranges, keeping the selected date and focused Calendar.~~
   - [x] ~~Preserve interrupted drafts and retry, edit the saved Event without duplicating it, and open a linked Reminder after confirmed creation.~~
 - [x] ~~Open saved Event details from Today, Agenda, Scheduler and confirmed capture, with a clear return to the original Planner view.~~
+- [x] ~~Open a specific Day or Agenda window from Scheduler, keep the Calendar or Planner filter across reload, and add an Event on that date.~~
 - [x] ~~Keep the chosen Planner and Calendar consistent across Event capture and draft recovery.~~
 - [x] ~~Show the last occupied day and preserve the Event range during all-day editing.~~
 - [x] ~~Keep all-day Event dates across timezones and edit timed Events in their named zone.~~
 - [x] ~~Author and recover recurring Planner Events, and show their occurrences in Scheduler and Planner timelines.~~
 - [x] ~~Show recurring and overlapping Events in the Planner upcoming list for the selected dates.~~
 - [x] ~~Reuse loaded Planner Events and support overlapping and recurring candidates for standalone date windows.~~
-- [ ] Verify the updated running backend for recurrence and date windows, and review remaining day detail.
+- [ ] Verify recurrence and date windows on the shared preview, and support editing individual occurrences.
+- [ ] Refine compact Day and Agenda cards and verify browser Back across Planner views.
 - [ ] Verify external calendar providers and read/write behavior before claiming full integration.
 
 ## Notes and Journal
