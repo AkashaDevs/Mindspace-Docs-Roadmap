@@ -8,6 +8,10 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 12 2026 - Recover overlapping Todo moves
+
+When two unsaved drags share a task, Sync Queue retries their remaining positions together. If one task changed elsewhere, the linked moves stay available for review. Verified locally across four browser profiles, including after reloading.
+
 ## November 12 2026 - Save nearby moves in large Todo columns
 
 Moving one card past its neighbor in a 520-task column sends two position changes. Both cards keep their new positions after reload. Verified locally in the production build across four browser profiles and against a disposable database.
