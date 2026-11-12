@@ -52,6 +52,10 @@ Turn on **Linear trend** in Chart options to see a dashed trend line over the se
 
 Use the arrows beside the chart dates to move to an earlier or later period of the same length. A chart refresh keeps the dates you were viewing. Select a preset again to return to the latest records for that Stat. Verified in the local preview.
 
+## November 12 2026 - Pick chart dates from recorded activity
+
+Open **Dates** in Stats Analysis to see where entries for the selected Stat are concentrated. Drag either handle or use the arrow keys to choose a date. **Apply dates** updates the chart. You can also type dates directly. Verified in the local preview.
+
 ## November 12 2026 - Find and change a Calendar's Planner
 
 The Calendar form gives the Planner picker a stable label and shows the selected Planner by name when it loads. You can search for a different Planner, recover the selection from a saved draft, or retry a refused save. A confirmed Calendar edit clears its draft and returns to details. On phones, the form buttons sit above the dashboard shortcuts. Verified in the local preview.
