@@ -20,6 +20,10 @@ Escape dismisses the Daily Log editor opened from Search. If the date picker is 
 
 Back from a dated Agenda returns to the Scheduler and its Calendar filter. Forward restores the Agenda date and the filter on that history entry, including after a browser reload.
 
+## November 12 2026 - Open the selected date of a recurring Event
+
+Scheduler, Day, Agenda and Upcoming Events open the selected occurrence. Event details show its schedule and keep the originating Planner route available after reload. The editor and delete confirmation spell out when the action applies to the entire series. Editing just one occurrence remains open.
+
 ## November 12 2026 - Fit short Planner events and simplify capture
 
 Back-to-back Events in Day and Agenda stay separately selectable. Agenda opens on the selected day and keeps the reminder button on each Event. Add Event is the single capture button and still uses the displayed date. Verified locally on desktop, tablet and phone browser profiles.
