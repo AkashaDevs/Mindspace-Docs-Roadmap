@@ -72,6 +72,10 @@ Todo can retry a large preset save in a compact format, keeping row expansion, l
 
 Planner Page tools previews today's Events even when you're browsing another date. Open a listed occurrence or jump to today's Agenda with the Calendar and Planner filters still selected. Verified in the local preview.
 
+## November 12 2026 - Open a Planner day from Right Tools
+
+The Planner widget marks dates with Events, lets you choose weekends or type a date, and opens that day with your Planner filters. On phones, the tools drawer closes when the day opens. Verified in the local preview.
+
 ## November 12 2026 - Fit short Planner events and simplify capture
 
 Back-to-back Events in Day and Agenda stay separately selectable. Agenda opens on the selected day and keeps the reminder button on each Event. Add Event is the single capture button and still uses the displayed date. Verified locally on desktop, tablet and phone browser profiles.
