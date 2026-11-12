@@ -8,6 +8,10 @@ Add New opens the same editor you would use elsewhere in Mindspace. When the sou
 
 Local desktop and touch checks cover Event retry, Note creation, and returning to the original draft.
 
+## November 12 2026 - Fit short Planner events and simplify capture
+
+Back-to-back Events in Day and Agenda stay separately selectable. Agenda opens on the selected day and keeps the reminder button on each Event. Add Event is the single capture button and still uses the displayed date. Verified locally on desktop, tablet and phone browser profiles.
+
 ## November 12 2026 - Keep the selected day in Planner
 
 Scheduler can open Day or Agenda on a specific date. The timeline keeps the selected Calendar or Planner across reload, and Add Event uses the displayed date. Opening a saved Event offers a return to the same Day. Verified locally with desktop, tablet and phone browser profiles.
