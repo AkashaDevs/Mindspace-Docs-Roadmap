@@ -64,6 +64,10 @@ The Calendar form gives the Planner picker a stable label and shows the selected
 
 Open Gantt from Todo to see scheduled dates and deadlines for the selected list. Browse in 7-, 14- or 28-day windows, or jump to a date. Each Gantt tab remembers its own dates, and switching lists keeps the same tab open. Select a Task to open its details or use **Add Task** to open the editor. Verified in the local preview.
 
+## November 12 2026 - Save larger Todo presets
+
+Todo can retry a large preset save in a compact format, keeping row expansion, layout, and tab order together. If the account still refuses the save, the current tabs and previous preset remain available. Verified with a local browser and a disposable development database.
+
 ## November 12 2026 - Fit short Planner events and simplify capture
 
 Back-to-back Events in Day and Agenda stay separately selectable. Agenda opens on the selected day and keeps the reminder button on each Event. Add Event is the single capture button and still uses the displayed date. Verified locally on desktop, tablet and phone browser profiles.

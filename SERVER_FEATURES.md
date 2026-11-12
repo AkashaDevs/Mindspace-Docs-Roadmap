@@ -57,6 +57,7 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
 - [x] ~~Bulk workspace summaries.~~
 - [x] ~~Account settings updates preserve unrelated categories, including concurrent distinct-category saves.~~
   - [x] ~~Persist stable Task-tab identities, presentation and one saved preset through the existing settings owner.~~
+  - [x] ~~Return a clear validation reason for refused settings and preserve the prior preset and unrelated settings.~~
   - [x] ~~Retain bounded request validation, literal JSON values and explicit whole-settings reset.~~
 - [ ] Add minimal-metadata, location-based Notes explorer reads.
   - [x] ~~Return projected note metadata with parent IDs and a stable cursor.~~
