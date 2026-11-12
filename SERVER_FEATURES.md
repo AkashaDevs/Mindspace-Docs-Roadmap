@@ -32,6 +32,7 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
 ## Core records and recovery
 
 - [x] ~~Workspace, Task, Todo list/group, Planner/Event, Note, Goal, Habit, Stat and Daily Log owners.~~
+  - [x] ~~Save a recurring Event occurrence under its original date, reject stale writes, and find it in its new schedule range.~~
 - [x] ~~Persisted Task/group ordering and automatic matching group rules.~~
 - [x] ~~Save the full Todo List order atomically and reject competing stale order requests.~~
 - [x] ~~Save Kanban column position batches atomically and refuse stale positions or parent lists.~~

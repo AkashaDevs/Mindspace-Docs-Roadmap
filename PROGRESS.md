@@ -22,7 +22,11 @@ Back from a dated Agenda returns to the Scheduler and its Calendar filter. Forwa
 
 ## November 12 2026 - Open the selected date of a recurring Event
 
-Scheduler, Day, Agenda and Upcoming Events open the selected occurrence. Event details show its schedule and keep the originating Planner route available after reload. The editor and delete confirmation spell out when the action applies to the entire series. Editing just one occurrence remains open.
+Scheduler, Day, Agenda and Upcoming Events open the selected occurrence. Event details show its schedule and keep the originating Planner route available after reload. The editor and delete confirmation spell out when the action applies to the entire series.
+
+## November 12 2026 - Edit one recurring Event occurrence
+
+Edit this occurrence changes one date and keeps its original link if you move it. Your draft stays available if someone changes the occurrence while you are editing. If the series no longer includes that date, you can copy the unfinished changes. Local checks cover reload and competing saves.
 
 ## November 12 2026 - Fit short Planner events and simplify capture
 
