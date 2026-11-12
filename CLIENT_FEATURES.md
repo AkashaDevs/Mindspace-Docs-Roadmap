@@ -139,7 +139,8 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
     - [x] ~~Save supported field-group drops through the shared queue and Retry, preserving actual list/group membership and subtask relationships.~~
     - [x] ~~Capture Tasks with explicit field-group defaults and create saved groups through the existing confirmed page save owners.~~
     - [x] ~~Cancel released touch holds across menus so a quick selection cannot open a delayed context menu.~~
-    - [ ] Finish remaining Gantt/nested projections and larger preset/workload acceptance.
+    - [x] ~~Browse scheduled dates and deadlines in Gantt, keep date ranges per tab, and switch Todo lists using loaded Tasks.~~
+    - [ ] Finish remaining nested projections and larger preset/workload acceptance.
 - [ ] Recheck table density and timestamp input presentation in the visual pass.
   - [x] ~~Fit the Data Table due-date editor to its available width and keep dates and times editable in either order.~~
   - [x] ~~Create Tasks from the Table header, a group or an empty workspace through the shared editor, with explicit destinations and protected drafts.~~
