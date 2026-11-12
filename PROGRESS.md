@@ -68,6 +68,10 @@ Open Gantt from Todo to see scheduled dates and deadlines for the selected list.
 
 Todo can retry a large preset save in a compact format, keeping row expansion, layout, and tab order together. If the account still refuses the save, the current tabs and previous preset remain available. Verified with a local browser and a disposable development database.
 
+## November 12 2026 - See today's Events in Planner Page tools
+
+Planner Page tools previews today's Events even when you're browsing another date. Open a listed occurrence or jump to today's Agenda with the Calendar and Planner filters still selected. Verified in the local preview.
+
 ## November 12 2026 - Fit short Planner events and simplify capture
 
 Back-to-back Events in Day and Agenda stay separately selectable. Agenda opens on the selected day and keeps the reminder button on each Event. Add Event is the single capture button and still uses the displayed date. Verified locally on desktop, tablet and phone browser profiles.

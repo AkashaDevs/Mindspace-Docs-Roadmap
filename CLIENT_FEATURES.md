@@ -231,6 +231,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Keep all-day Event dates across timezones and edit timed Events in their named zone.~~
 - [x] ~~Author and recover recurring Planner Events, and show their occurrences in Scheduler and Planner timelines.~~
 - [x] ~~Show recurring and overlapping Events in the Planner upcoming list for the selected dates.~~
+- [x] ~~See today's Events in Planner Page tools and open today's Agenda with the selected Calendar or Planner filter.~~
 - [x] ~~Open a recurring Event on the selected date and label whole-series actions in Scheduler and Event details.~~
 - [x] ~~Reuse loaded Planner Events and support overlapping and recurring candidates for standalone date windows.~~
 - [x] ~~Edit one recurring Event occurrence with a separate draft, and keep its original link when it moves.~~
