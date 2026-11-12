@@ -91,7 +91,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Recover unsaved task and column moves in a fresh browser signed into the same account and workspace.~~
 - [x] ~~Keep nearby drags in large Kanban columns to the tasks whose positions change, including sparse saved positions.~~
 - [x] ~~Recover a large Kanban reorder through reload and retry its guarded positions as one move.~~
-- [ ] Verify the large Kanban board cold mount in the tablet Safari source build.
+- [x] ~~Open a 520-task Kanban board from a cold start in tablet Safari and load offscreen card controls on scroll.~~
 - [x] ~~Clear an already confirmed recovery row when another retry write fails, retaining only refused or conflicted work.~~
 - [x] ~~Wait for exact recovery-copy confirmation before queued Retry, with clear progress and failure feedback while preserving independent drafts.~~
 - [ ] Verify whole-move transactions, ordering across devices and remaining drag adapters.
