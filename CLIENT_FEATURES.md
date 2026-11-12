@@ -317,6 +317,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Design complex-value charts, trend lines and useful analysis.
   - [x] ~~Chart same-day Time Range values in minutes and select numeric fields inside saved objects and arrays.~~
   - [x] ~~Add an optional linear trend for the selected line-chart dates, based on periods with recorded values.~~
+  - [x] ~~Group weekly Stats correctly across New Year and calculate the median for each chart period.~~
 
 ## Orion AI
 
