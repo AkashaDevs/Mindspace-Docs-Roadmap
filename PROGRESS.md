@@ -12,6 +12,10 @@ Local desktop and touch checks cover Event retry, Note creation, and returning t
 
 Search results scroll above the status and shortcuts controls. Open and Add Reminder stay reachable on narrow screens, and Back from a Daily Log restores the query. Verified locally with desktop, tablet and phone browser profiles.
 
+## November 12 2026 - Keep unfinished Daily Log edits when closing
+
+Escape dismisses the Daily Log editor opened from Search. If the date picker is open, Escape closes the picker first. The editor secures unfinished changes before it closes. If the device save fails, the editor stays open with the changes available to retry. Browser Back restores the Search query.
+
 ## November 12 2026 - Keep Planner in sync with browser Back
 
 Back from a dated Agenda returns to the Scheduler and its Calendar filter. Forward restores the Agenda date and the filter on that history entry, including after a browser reload.

@@ -14,6 +14,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Carry the original thought time into natural-language reminder interpretation.~~
 - [x] ~~Search Tasks, Notes, Goals, Events, Habits, Stats, Reminders and Daily Log writing.~~
   - [x] ~~Keep Search result actions reachable while scrolling on narrow screens, with space for status tools and dashboard shortcuts.~~
+  - [x] ~~Close a Daily Log opened from Search with Escape, keep unfinished edits, and return to the same query.~~
 - [x] ~~Offer bounded spelling recovery when exact search finds nothing.~~
 - [x] ~~Shared record detail, archive and Trash recovery for supported record types.~~
 - [x] ~~Lazy schema-by-schema Database Explorer with registered record commands.~~
