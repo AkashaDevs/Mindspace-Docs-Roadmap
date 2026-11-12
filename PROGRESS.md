@@ -40,6 +40,10 @@ A Task move can now save up to 1,000 changed positions in one transaction. Local
 
 On large boards, edit, defer and Reminder controls load as cards approach the visible area. The cards keep their positions and height. The 520-task board now opens from a cold start in the tablet Safari source build, and drag saves and reload recovery passed across four browser profiles.
 
+## November 12 2026 - Switch Todo lists during a drag save
+
+You can switch lists while a reorder saves. When you return, the list shows the confirmed changes. A refused save restores the saved order and keeps the move available in Sync Queue. Both journeys passed without fetching the collections again.
+
 ## November 12 2026 - Fit short Planner events and simplify capture
 
 Back-to-back Events in Day and Agenda stay separately selectable. Agenda opens on the selected day and keeps the reminder button on each Event. Add Event is the single capture button and still uses the displayed date. Verified locally on desktop, tablet and phone browser profiles.
