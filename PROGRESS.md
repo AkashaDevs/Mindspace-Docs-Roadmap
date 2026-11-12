@@ -54,7 +54,7 @@ Use the arrows beside the chart dates to move to an earlier or later period of t
 
 ## November 12 2026 - Find and change a Calendar's Planner
 
-The Calendar form gives the Planner picker a stable label and shows the selected Planner by name when it loads. You can search for a different Planner, recover the selection from a saved draft, or retry a refused save. On phones, the form buttons sit above the dashboard shortcuts. Verified in the local preview.
+The Calendar form gives the Planner picker a stable label and shows the selected Planner by name when it loads. You can search for a different Planner, recover the selection from a saved draft, or retry a refused save. A confirmed Calendar edit clears its draft and returns to details. On phones, the form buttons sit above the dashboard shortcuts. Verified in the local preview.
 
 ## November 12 2026 - Fit short Planner events and simplify capture
 
