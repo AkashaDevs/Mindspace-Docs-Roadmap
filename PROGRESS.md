@@ -166,6 +166,10 @@ The first Tab reveals a shortcut to the dashboard's main content. Desktop view t
 
 The compiled build verified the new keyboard path, Planner controls and remembered sidebar choices.
 
+## November 12 2026 - Draft a record from a saved idea
+
+Use **Develop with Orion** in a saved Note or Captchalogue to draft a Task, Event or Captchalogue note. Preview the excerpt before sending it. The existing editor opens for review and saves only when you confirm. Verified with fixture responses in an isolated build. Live provider rollout remains open.
+
 ## November 11 2026 - Research saved ideas with cited web results
 
 From a saved idea, edit and submit the query Orion will send for web search. Cited answers show clickable sources and can be reviewed and saved as a separate Note.

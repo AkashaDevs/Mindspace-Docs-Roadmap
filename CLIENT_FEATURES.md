@@ -330,6 +330,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Add speech-to-command navigation using the existing command directory.
   - [x] ~~Show the interpreted destination before selection or spoken confirmation.~~
 - [x] ~~Draft a Task, Event or Captchalogue note in Orion and review it in its editor before saving.~~
+  - [x] ~~Start a record draft directly from a saved Note or Captchalogue, with an excerpt preview and explicit editor save.~~
   - [x] ~~Preview a spoken draft request and confirm it with a separate utterance or button.~~
 - [x] ~~Offer optional categorization, elaboration and research of a captured idea.~~
   - [x] ~~Preview a saved excerpt, generate an outline and review it as a separate Note.~~
