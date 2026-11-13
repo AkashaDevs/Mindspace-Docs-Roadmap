@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 12 2026 - Keep archived Tasks out of active Todo views
+
+Archived Tasks leave active views and group counts. A child that is still active stays visible if its parent goes to Trash. Restoring the parent brings back the original hierarchy. Detailed also opens Tasks with missing priority or status.
+
 ## November 12 2026 - Preserve Task relationships in Trash
 
 Restoring a Task keeps its current title, list and parent. When you permanently delete a parent from Trash, its surviving children update immediately. Verified in local browser previews and a disposable development database.
