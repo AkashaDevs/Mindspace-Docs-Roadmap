@@ -52,6 +52,10 @@ Turn on **Linear trend** in Chart options to see a dashed trend line over the se
 
 Choose **Median** in Stats Chart options to see the middle reading in each period. Missing periods stay empty. Weekly charts now keep the end-of-year week together without mixing it with the first week of the earlier year. Verified in the local preview.
 
+## November 12 2026 - Inspect long hourly Stats charts
+
+Hourly Line, Area and Bar charts limit drawing work when there are thousands of readings. The chart keeps peaks and dips visible. Use **Inspect hour** below the chart to read an exact value or step forward and back by one hour. Linear trend uses the full set of readings in the selected range.
+
 ## November 12 2026 - Compare adjacent periods in Stats
 
 Use the arrows beside the chart dates to move to an earlier or later period of the same length. A chart refresh keeps the dates you were viewing. Select a preset again to return to the latest records for that Stat. Verified in the local preview.
