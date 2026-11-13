@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 12 2026 - Add a Task directly to a Calendar date
+
+In Todo Calendar, Add Task keeps the day you’re viewing. Double-click a day or drag across dates to open the same editor with those dates filled in. The saved confirmation can open a Task that your Calendar filters hide. The Day view keeps titles visible on short entries. Verified locally across desktop, tablet and phone browser profiles.
+
 ## November 7 2026 - Create a source while writing a Reminder
 
 Add New opens the same editor you would use elsewhere in Mindspace. When the source saves, the Reminder links to it and keeps your title, message and timing. Closing the source editor returns to the Reminder. A Daily Log already written for the selected day remains available to link.

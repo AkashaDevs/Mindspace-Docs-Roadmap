@@ -117,6 +117,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Keep Calendar dates, display mode, selected-day focus and applied filters independent in each tab and the account preset.~~
   - [x] ~~Apply Calendar text filters to retained Tasks locally, with removal restoring the matching list data.~~
   - [x] ~~Keep primary Calendar actions and date controls visible as the available width changes.~~
+  - [x] ~~Capture a Task on the displayed Calendar day or a dragged date range, keep unfinished drafts, and open saved Tasks from the confirmation.~~
   - [x] ~~Independent Table group expansion and Detailed grouping, sorting, filters and group disclosure through refresh and reload.~~
   - [x] ~~Per-tab Data Table filters, selected grouping and task-order direction, with responsive row-detail expansion and real layout choices.~~
   - [x] ~~Keep working tabs through ordinary reloads and restore saved presentation from the account preset.~~
