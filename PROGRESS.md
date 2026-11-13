@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 12 2026 - Add an Event from the Planner widget
+
+Pick a day in Right Tools and choose **Add event**. The Event editor opens on that date with the current Planner and Calendar. An unfinished Event can reopen after reload. Verified in four local browser profiles.
+
 ## November 12 2026 - Reach offscreen Right Tools widgets
 
 When the Right Tools tabs run out of room, **Choose tool** lists every enabled widget and marks the current one. Choosing a widget brings its tab into view. Verified in four local browser profiles.

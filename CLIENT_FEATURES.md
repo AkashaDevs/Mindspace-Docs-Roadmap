@@ -43,6 +43,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Choose and reorder compact right-sidebar widgets, with a labelled phone drawer and a separate Today task view.~~
   - [x] ~~Reach every enabled widget through Choose tool when its tabs overflow.~~
   - [x] ~~Use the Planner widget to see dates with Events and open a weekend or any entered day with the current Planner filters.~~
+  - [x] ~~Add an Event directly from the Planner widget on the selected date and Calendar, with draft recovery.~~
 - [x] ~~Skip to dashboard content on the first Tab and browse desktop views with arrow keys.~~
 - [x] ~~Show the confirmed Event title in every breadcrumb layout when opening a saved Event directly.~~
 - [x] ~~Keep notification history controls and record titles visible on narrow screens.~~
