@@ -179,6 +179,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
     - [x] ~~Group stored Subtask/Prerequisite reference arrays by identity and filter using loaded Task names, keeping stored links, order and hidden Tasks intact.~~
     - [x] ~~Reach long Data Table field menus by touch and keyboard, retaining focus through grouping changes and into a newly added filter query.~~
     - [x] ~~Open nested Task notes in the shared drawer, retain unfinished text and retry refused saves without changing relationships or other Task fields.~~
+    - [x] ~~Apply the selected Todo list and field filters to expanded subtasks while keeping matching children editable when their parent is filtered out.~~
     - [x] ~~Open Data Table subtask capture in the canonical editor with the actual parent/list/group prefilled, without saving a sentinel or blank Task.~~
     - [x] ~~Attach an existing Task from Data Table through one minimal queued child-parent patch while retaining its actual list, group and position.~~
     - [x] ~~Create a child through the canonical editor and resume independent parent-specific drafts after reload, parent movement or parent removal, including account-only long-context drafts.~~

@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 12 2026 - Apply Data Table filters to subtasks
+
+Expanded Task details follow the selected Todo list and field filters. You can still find and edit a matching child when its parent is filtered out. Switching to **All Lists** shows children from other lists using the Tasks already loaded. Verified in local Chromium, Firefox, tablet Safari and mobile Chrome previews.
+
 ## November 12 2026 - Keep your place in each Todo List view
 
 Each List tab remembers the Task you opened and whether you were reading Details or Notes. Moving keyboard focus through the rows leaves the preview in place. Close the preview to return focus to its row. Editing opens the shared Task editor so unfinished changes can be recovered.
