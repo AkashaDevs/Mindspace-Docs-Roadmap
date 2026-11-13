@@ -237,6 +237,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Open a recurring Event on the selected date and label whole-series actions in Scheduler and Event details.~~
 - [x] ~~Reuse loaded Planner Events and support overlapping and recurring candidates for standalone date windows.~~
 - [x] ~~Edit one recurring Event occurrence with a separate draft, and keep its original link when it moves.~~
+- [x] ~~See recurring and moved Event occurrences on their scheduled days in Home and open the exact occurrence from either Home layout.~~
 - [ ] Verify recurrence and date windows on the shared preview and hosted app.
 - [x] ~~Restore the scoped Scheduler with browser Back from dated Agenda, and restore the correct date and filter with Forward.~~
 - [ ] Verify external calendar providers and read/write behavior before claiming full integration.

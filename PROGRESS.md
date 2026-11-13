@@ -28,6 +28,10 @@ Scheduler, Day, Agenda and Upcoming Events open the selected occurrence. Event d
 
 Edit this occurrence changes one date and keeps its original link if you move it. Your draft stays available if someone changes the occurrence while you are editing. If the series no longer includes that date, you can copy the unfinished changes. Local checks cover reload and competing saves.
 
+## November 12 2026 - See recurring Events on Home
+
+Home shows repeats and moved occurrences on the days they occupy, including all-day Events that continue into a second day. Open an occurrence from either Home layout to see its exact schedule. The Agenda calendar marks the occupied days and follows the Events filter. Verified locally across desktop, tablet and phone browser profiles.
+
 ## November 12 2026 - Recover older saved Todo moves
 
 Sync Queue can retry a complete reorder as one batch when an older device copy saved it in pieces. Retry checks the current board and clears positions the server already saved. When the saved positions are uncertain, the remaining changes stay available for review after reload.
