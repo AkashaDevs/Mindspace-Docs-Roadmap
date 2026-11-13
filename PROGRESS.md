@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 12 2026 - Reach offscreen Right Tools widgets
+
+When the Right Tools tabs run out of room, **Choose tool** lists every enabled widget and marks the current one. Choosing a widget brings its tab into view. Verified in four local browser profiles.
+
 ## November 12 2026 - Make Stats Pie shares readable
 
 Pie shows up to eight slices with a list of values and percentages. Smaller periods share a single labeled slice, and negative values offer a switch to Bar. Verified in four local browser profiles.
