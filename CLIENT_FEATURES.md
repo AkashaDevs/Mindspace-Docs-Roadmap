@@ -256,6 +256,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Compact collapsible Captchalogue that retains its draft.~~
 - [x] ~~Clearer capture and note containers with restrained borders and shadows.~~
 - [x] ~~Journal grid, larger grid and list views with formatted Markdown previews.~~
+  - [x] ~~Preserve headings, emphasis and lists from Markdown and saved rich text in both Journal grid sizes and the editor preview.~~
 - [x] ~~Journal date navigation and recent-entry sidebar.~~
 - [x] ~~Keep floating Daily Log drafts tied to the day they were started, including across timezone changes.~~
 - [x] ~~Load the Notes explorer by location and minimal metadata.~~

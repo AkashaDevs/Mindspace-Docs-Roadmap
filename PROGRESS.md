@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 12 2026 - Preserve Journal formatting in previews
+
+Grid and Larger grid show headings, emphasis and lists from Markdown and rich-text entries. The editor preview handles both formats. Verified in four local browser profiles.
+
 ## November 12 2026 - Add an Event from the Planner widget
 
 Pick a day in Right Tools and choose **Add event**. The Event editor opens on that date with the current Planner and Calendar. An unfinished Event can reopen after reload. Verified in four local browser profiles.
