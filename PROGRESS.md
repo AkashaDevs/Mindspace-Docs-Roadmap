@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 12 2026 - Add a Task from the Gantt timeline
+
+Gantt’s **Add Task** starts with the selected Todo list and the first day shown. Change or clear the due date in the editor. A draft started in Gantt can also reopen on that date in Todo Calendar. The save confirmation opens the Task even when it has no date to show on the timeline.
+
 ## November 12 2026 - Add a Task directly to a Calendar date
 
 In Todo Calendar, Add Task keeps the day you’re viewing. Double-click a day or drag across dates to open the same editor with those dates filled in. The saved confirmation can open a Task that your Calendar filters hide. The Day view keeps titles visible on short entries. Verified locally across desktop, tablet and phone browser profiles.
