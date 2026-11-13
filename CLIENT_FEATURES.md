@@ -136,6 +136,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
     - [x] ~~Refresh Basic saved/automatic groups from current Task fields and render structured tags through the shared normalizer.~~
     - [x] ~~Preserve full native row-move batches and reload order; retire held drags on tab/list/filter/scope changes while allowing dispatched saves to finish.~~
     - [x] ~~Open List details explicitly without shifting controls on focus; use the existing details dialog on narrow screens.~~
+    - [x] ~~Keep the selected Task and Details or Notes section independent in each List tab. Restore the preview after reload or preset restore, and recover unfinished edits through the shared Task editor.~~
     - [x] ~~Keep Basic search, filters and actions inside the dashboard across narrow and wide layouts.~~
     - [x] ~~Group Basic Tasks by saved groups, status, priority, difficulty, tags, assignee, due date or completion through shared projections.~~
     - [x] ~~Retain each Basic tab's grouping through reload and account presets; update due-date groups when the day changes.~~

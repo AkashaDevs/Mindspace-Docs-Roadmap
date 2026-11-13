@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 12 2026 - Keep your place in each Todo List view
+
+Each List tab remembers the Task you opened and whether you were reading Details or Notes. Moving keyboard focus through the rows leaves the preview in place. Close the preview to return focus to its row. Editing opens the shared Task editor so unfinished changes can be recovered.
+
 ## November 12 2026 - Add a Task from the Gantt timeline
 
 Gantt’s **Add Task** starts with the selected Todo list and the first day shown. Change or clear the due date in the editor. A draft started in Gantt can also reopen on that date in Todo Calendar. The save confirmation opens the Task even when it has no date to show on the timeline.
