@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 12 2026 - Recover a refused Kanban column move
+
+If one column move fails while another saves, the board restores the affected columns to their saved positions and keeps the successful move visible. Sync Queue can retry the refused columns after reload. Verified in four local browser profiles.
+
 ## November 12 2026 - Preserve Journal formatting in previews
 
 Grid and Larger grid show headings, emphasis and lists from Markdown and rich-text entries. The editor preview handles both formats. Verified in four local browser profiles.

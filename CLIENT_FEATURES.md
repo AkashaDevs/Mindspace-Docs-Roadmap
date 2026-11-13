@@ -72,6 +72,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Indexed Task lookup and shared group projection foundations.~~
 - [x] ~~Task/group drag and drop with persisted ordering and failure recovery.~~
 - [x] ~~Preserve hidden column positions and newer Task edits when column saves finish.~~
+- [x] ~~Restore a refused Kanban column move while an independent move saves. Retry just the refused columns after reload.~~
 - [x] ~~Keep rapid Task and column saves in order through the shared queue owner while rendering moves immediately.~~
 - [x] ~~Recover a Todo List reorder after reloading before its server reply, with Retry or Discard.~~
 - [x] ~~Saved custom groups show all matching Tasks in their own list.~~
