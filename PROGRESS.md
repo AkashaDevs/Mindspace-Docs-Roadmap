@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 12 2026 - Make Stats Pie shares readable
+
+Pie shows up to eight slices with a list of values and percentages. Smaller periods share a single labeled slice, and negative values offer a switch to Bar. Verified in four local browser profiles.
+
 ## November 12 2026 - Keep archived Tasks out of active Todo views
 
 Archived Tasks leave active views and group counts. A child that is still active stays visible if its parent goes to Trash. Restoring the parent brings back the original hierarchy. Detailed also opens Tasks with missing priority or status.

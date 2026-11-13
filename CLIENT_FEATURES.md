@@ -315,6 +315,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Draw hourly Count and Sum lines from the edges of empty stretches while keeping exact hourly values available for inspection.~~
   - [x] ~~Draw hourly Bar and Area charts with fewer points while keeping time spacing, zero values and missing-data gaps.~~
   - [x] ~~Limit drawing work for fully occupied hourly Line, Bar and Area charts while keeping visible peaks and exact hour inspection.~~
+  - [x] ~~Keep Pie to eight readable shares, preserve the full total and offer Bar for signed values.~~
 - [x] ~~Connect recorded periods on the line chart with spacing based on elapsed time.~~
 - [x] ~~Create the typed Stats key from the Data Table or global capture, with an explicit plus action and exact history matches.~~
 - [x] ~~Keep the Stats Data Table compact with visible Search, Quick Add and paging at phone widths.~~
