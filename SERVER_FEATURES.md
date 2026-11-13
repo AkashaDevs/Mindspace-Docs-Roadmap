@@ -46,6 +46,7 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
 - [x] ~~Scoped Task/Reminder creation identities for duplicate-safe recovery.~~
 - [x] ~~Validate new Task list/group destinations and the canonical Group parent in the creation transaction, while preserving confirmed retry/deletion recovery.~~
 - [x] ~~Coordinate Task parent changes and canonical child mirrors in transactions across creation, single/bulk updates and hierarchy reorder.~~
+- [x] ~~Verify that restoring an archived Task preserves its current parent, children, list and group, and that permanently deleting a parent keeps its descendants.~~
 - [x] ~~Reject cycles and unavailable or cross-workspace parents; roll graph, content and positions back together while preserving exact retry and completion behavior.~~
 - [x] ~~Detach surviving children during permanent Task deletion, coordinate creation-retirement recovery, and return bounded graph confirmation/recovery metadata.~~
 - [ ] Complete remaining clone, Trash and account/Workspace erasure graph-writer audits and end-to-end client graph acceptance.

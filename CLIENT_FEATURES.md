@@ -17,6 +17,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Close a Daily Log opened from Search with Escape, keep unfinished edits, and return to the same query.~~
 - [x] ~~Offer bounded spelling recovery when exact search finds nothing.~~
 - [x] ~~Shared record detail, archive and Trash recovery for supported record types.~~
+  - [x] ~~Restore Tasks with their current content and relationships, and show surviving children immediately after permanently deleting their parent from Trash.~~
 - [x] ~~Lazy schema-by-schema Database Explorer with registered record commands.~~
 - [x] ~~PWA capture shortcuts and text-share entry foundations.~~
 - [ ] Verify installed-phone shortcuts, sharing and actual device capture comfort.

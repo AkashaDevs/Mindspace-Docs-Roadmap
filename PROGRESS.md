@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 12 2026 - Preserve Task relationships in Trash
+
+Restoring a Task keeps its current title, list and parent. When you permanently delete a parent from Trash, its surviving children update immediately. Verified in local browser previews and a disposable development database.
+
 ## November 12 2026 - Apply Data Table filters to subtasks
 
 Expanded Task details follow the selected Todo list and field filters. You can still find and edit a matching child when its parent is filtered out. Switching to **All Lists** shows children from other lists using the Tasks already loaded. Verified in local Chromium, Firefox, tablet Safari and mobile Chrome previews.
