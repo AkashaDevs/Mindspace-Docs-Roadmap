@@ -252,6 +252,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Load the Notes explorer by location and minimal metadata.~~
   - [x] ~~Fetch the selected file separately and page folder metadata.~~
   - [x] ~~Restore the last folder, expanded branches and selected file on the same device within the workspace.~~
+  - [x] ~~Reopen an available parent when a saved folder is gone, and keep the current folder when a selected file is gone.~~
   - [x] ~~Keep folder and file loading, empty and retry states local to the Explorer.~~
 - [ ] Add familiar explorer reorganization and inline rename interactions.
   - [x] ~~Move files and folders between folders by desktop drag or a keyboard and touch picker, with confirmed feedback and retry.~~

@@ -56,6 +56,10 @@ Choose **Median** in Stats Chart options to see the middle reading in each perio
 
 Hourly Line, Area and Bar charts limit drawing work when there are thousands of readings. The chart keeps peaks and dips visible. Use **Inspect hour** below the chart to read an exact value or step forward and back by one hour. Linear trend uses the full set of readings in the selected range.
 
+## November 12 2026 - Return to an available Notes folder
+
+If your saved folder is gone, Explorer opens the nearest available parent. If the file you last selected is gone, the folder stays open so you can choose another file. Temporary loading failures still offer Retry.
+
 ## November 12 2026 - Compare adjacent periods in Stats
 
 Use the arrows beside the chart dates to move to an earlier or later period of the same length. A chart refresh keeps the dates you were viewing. Select a preset again to return to the latest records for that Stat. Verified in the local preview.
