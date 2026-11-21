@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 21 2026 - Read saved Stats ranges
+
+The Data Table and Recent activity show clock ranges with the next-day marker. Select a Recent activity title to open the saved record details. Closing returns keyboard focus to the entry. Verified in four local browser profiles, including compact table display at 320 pixels.
+
 ## November 21 2026 - Capture overnight Stats ranges
 
 Choose a start and end time for an overnight entry such as sleep. **Ends next day** preserves 22:00 to 05:00 as seven hours, and the unfinished entry can reopen after reload. Analysis charts the saved duration in minutes. Verified in four local browser profiles and through the mounted API with a disposable database.
