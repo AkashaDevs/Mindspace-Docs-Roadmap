@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 21 2026 - Verify Workspace recovery through the real service
+
+The saved Workspace can be confirmed after its response is lost, the backend restarts and the page reloads. The check preserves later edits and uses one capacity slot. Verified through real sign-in and API calls in four local browser profiles, each with its own disposable database. Workspace form buttons also have clearer spacing. Hosted and physical-device acceptance remain open.
+
 ## November 21 2026 - Return to unfinished Workspace creation
 
 Create Workspace keeps unfinished details on this device through closing and reload. If a save is uncertain, **Check saved Workspace** checks the same attempt. Recovery cleanup can finish after reload without creating another Workspace. Verified in four local browser profiles, with the server's request contract checked separately through mounted backends and disposable Mongo. Joined browser-to-backend and hosted acceptance remain open.

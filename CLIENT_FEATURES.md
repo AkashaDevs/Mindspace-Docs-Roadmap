@@ -365,10 +365,13 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Bulk workspace summaries, placeholders and compact/expanded details.~~
 - [x] ~~Show the account's Workspace allowance during creation, preserve details after refusal and offer usage refresh and plan review.~~
 - [x] ~~Recover an unfinished Workspace creation from this device after reload and check the same save after a lost response.~~
+  - [x] ~~Confirm the saved Workspace through the real API after server restart, preserving later edits and one capacity slot.~~
+- [ ] Recover an interrupted Workspace clone without creating another copy.
 - [x] ~~Server-capability-driven billing availability and account history interfaces.~~
 - [ ] Complete intended-origin provider and signup-consent rollout checks.
 - [ ] Recheck landing-page language and replace dense explanation with small useful demos.
 - [ ] Complete mounted account erasure and uncertain-result recovery.
+  - [ ] Include that account's saved device drafts in the erasure journey.
 - [ ] Provide a real support destination before enabling submission.
 
 ## Shared forms and reusable UI
