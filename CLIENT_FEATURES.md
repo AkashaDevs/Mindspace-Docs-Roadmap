@@ -364,6 +364,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Workspace icon/emoji choices, bounded logo input and image-crop foundations.~~
 - [x] ~~Bulk workspace summaries, placeholders and compact/expanded details.~~
 - [x] ~~Show the account's Workspace allowance during creation, preserve details after refusal and offer usage refresh and plan review.~~
+- [ ] Recover an unfinished Workspace creation after reload and check the same save after a lost response.
 - [x] ~~Server-capability-driven billing availability and account history interfaces.~~
 - [ ] Complete intended-origin provider and signup-consent rollout checks.
 - [ ] Recheck landing-page language and replace dense explanation with small useful demos.

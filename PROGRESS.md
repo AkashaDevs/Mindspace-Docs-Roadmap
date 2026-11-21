@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 21 2026 - Confirm saved Workspace requests
+
+The server can confirm one keyed Workspace save across simultaneous retries, full capacity and backend restarts. A deleted Workspace stays deleted when an old request returns, and account erasure removes its creation receipts. Verified through two mounted backends and a disposable Mongo database. The form still needs to preserve and send the request key before this becomes a complete reload-and-retry journey.
+
 ## November 21 2026 - Explain Workspace allowance refusals
 
 Create Workspace shows the account's current allowance. A refused save preserves the entered details and offers plan review. Usage can refresh without losing the form, and a confirmed retry creates the Workspace once. Verified in four local browser profiles, including a 320-pixel layout. Provider upgrades and recovery after a lost creation response remain separate acceptance work.

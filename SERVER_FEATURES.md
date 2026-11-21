@@ -44,6 +44,7 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
 - [x] ~~Read only requested Task/group move metadata through an authorized, bounded endpoint, preserving schema defaults for older records.~~
   - [x] ~~Recover both baseline and current parent mirrors with requested Task move fields in one authorized read-only snapshot after a lost hierarchy-save response.~~
 - [x] ~~Scoped Task/Reminder creation identities for duplicate-safe recovery.~~
+- [x] ~~Confirm keyed Workspace creation across server restarts and capacity limits, with atomic receipts, deletion retirement and account erasure.~~
 - [x] ~~Validate new Task list/group destinations and the canonical Group parent in the creation transaction, while preserving confirmed retry/deletion recovery.~~
 - [x] ~~Coordinate Task parent changes and canonical child mirrors in transactions across creation, single/bulk updates and hierarchy reorder.~~
 - [x] ~~Verify that restoring an archived Task preserves its current parent, children, list and group, and that permanently deleting a parent keeps its descendants.~~
