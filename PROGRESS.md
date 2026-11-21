@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 21 2026 - Capture overnight Stats ranges
+
+Choose a start and end time for an overnight entry such as sleep. **Ends next day** preserves 22:00 to 05:00 as seven hours, and the unfinished entry can reopen after reload. Analysis charts the saved duration in minutes. Verified in four local browser profiles and through the mounted API with a disposable database.
+
 ## November 12 2026 - Recover a refused Kanban column move
 
 If one column move fails while another saves, the board restores the affected columns to their saved positions and keeps the successful move visible. Sync Queue can retry the refused columns after reload. Verified in four local browser profiles.

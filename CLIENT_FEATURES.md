@@ -330,6 +330,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~See where Stats entries are concentrated and choose an inclusive range from the Dates picker with keyboard, touch or mouse.~~
 - [ ] Design complex-value charts, trend lines and useful analysis.
   - [x] ~~Chart same-day Time Range values in minutes and select numeric fields inside saved objects and arrays.~~
+  - [x] ~~Capture and chart overnight Time Ranges with an explicit next-day option and recover unfinished entries after reload.~~
   - [x] ~~Add an optional linear trend for the selected line-chart dates, based on periods with recorded values.~~
   - [x] ~~Group weekly Stats correctly across New Year and calculate the median for each chart period.~~
 
