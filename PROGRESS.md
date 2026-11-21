@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 21 2026 - Explain Workspace allowance refusals
+
+Create Workspace shows the account's current allowance. A refused save preserves the entered details and offers plan review. Usage can refresh without losing the form, and a confirmed retry creates the Workspace once. Verified in four local browser profiles, including a 320-pixel layout. Provider upgrades and recovery after a lost creation response remain separate acceptance work.
+
 ## November 21 2026 - Read ranges across Stats Calendar and Dashboard
 
 The remaining Stats previews now show saved clock ranges and their next-day marker. Month preview buttons support keyboard access and day selection. The compact Calendar toolbar keeps Today, previous/next and the view picker in view at 320 pixels. Verified in four local browser profiles.
