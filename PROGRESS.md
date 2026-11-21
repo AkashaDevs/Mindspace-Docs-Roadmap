@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 21 2026 - Keep Workspace copies safe through interruption
+
+Copy actions on Workspace cards and in the sidebar open the shared review form and keep its details on this device. Creation stays open through background Workspace changes. An uncertain copy can be confirmed after its source is removed, capacity is refilled, the backend restarts and the browser reloads, preserving one copy and later edits. Verified through actual sign-in and API calls in four local browser profiles with disposable databases. Shader images also wait for loading before rendering, fixing a Firefox error found in this journey. Hosted and physical-device acceptance remain open.
+
 ## November 21 2026 - Verify Workspace recovery through the real service
 
 The saved Workspace can be confirmed after its response is lost, the backend restarts and the page reloads. The check preserves later edits and uses one capacity slot. Verified through real sign-in and API calls in four local browser profiles, each with its own disposable database. Workspace form buttons also have clearer spacing. Hosted and physical-device acceptance remain open.

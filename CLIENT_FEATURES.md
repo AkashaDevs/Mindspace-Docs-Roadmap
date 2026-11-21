@@ -358,6 +358,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Login/signup, profile and persistent account preferences.~~
 - [x] ~~Username suggestions, display-name autofill and required/password feedback.~~
 - [x] ~~Readable auth containers and bounded animated backgrounds.~~
+  - [x] ~~Wait for shader image textures to load before rendering, including Firefox.~~
 - [x] ~~Shared CAPTCHA lifetime, expiry and refusal recovery.~~
 - [x] ~~Confirmed sign-in enters the dashboard before optional hydration finishes.~~
 - [x] ~~Guest lifecycle and same-account conversion foundations.~~
@@ -366,7 +367,10 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [x] ~~Show the account's Workspace allowance during creation, preserve details after refusal and offer usage refresh and plan review.~~
 - [x] ~~Recover an unfinished Workspace creation from this device after reload and check the same save after a lost response.~~
   - [x] ~~Confirm the saved Workspace through the real API after server restart, preserving later edits and one capacity slot.~~
-- [ ] Recover an interrupted Workspace clone without creating another copy.
+- [x] ~~Recover an interrupted Workspace clone without creating another copy.~~
+  - [x] ~~Review copied details through the shared draft form from cards and sidebar actions, preserving an earlier unfinished draft.~~
+  - [x] ~~Keep account-level Workspace creation open during background Workspace changes and retire it safely on account changes.~~
+  - [x] ~~Confirm the same copy through the real API after source removal, capacity refill, server restart and page reload.~~
 - [x] ~~Server-capability-driven billing availability and account history interfaces.~~
 - [ ] Complete intended-origin provider and signup-consent rollout checks.
 - [ ] Recheck landing-page language and replace dense explanation with small useful demos.
