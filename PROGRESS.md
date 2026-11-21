@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 21 2026 - Return to unfinished Workspace creation
+
+Create Workspace keeps unfinished details on this device through closing and reload. If a save is uncertain, **Check saved Workspace** checks the same attempt. Recovery cleanup can finish after reload without creating another Workspace. Verified in four local browser profiles, with the server's request contract checked separately through mounted backends and disposable Mongo. Joined browser-to-backend and hosted acceptance remain open.
+
 ## November 21 2026 - Confirm saved Workspace requests
 
 The server can confirm one keyed Workspace save across simultaneous retries, full capacity and backend restarts. A deleted Workspace stays deleted when an old request returns, and account erasure removes its creation receipts. Verified through two mounted backends and a disposable Mongo database. The form still needs to preserve and send the request key before this becomes a complete reload-and-retry journey.
