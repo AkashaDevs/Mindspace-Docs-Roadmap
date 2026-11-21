@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 21 2026 - Preserve newer sessions during validation
+
+A delayed token check now cancels when the account changes, including a switch away and back. Initial and hourly checks skip old login/logout callbacks; retries and fallback verification preserve the newer session. Normal account hydration and token rotation still work. Local browser and unit checks cover these transitions, with normal sign-in and restart recovery checked against real disposable backends in four browser profiles. Live session-cache cleanup, other refresh/clear callers and the complete self-service deletion journey remain open. Application changes are local.
+
 ## November 21 2026 - Continue draft retirement across tabs
 
 Registered account drafts now clear from other tabs when they resume or reload, including private checkpoints, with retry after a storage refusal. Older Time data and Goal/Habit tracker snapshots have explicit account ownership. Shared token refresh, API rejection and paused login paths also preserve a newer session. Verified in four local browser profiles, with normal sign-in and restart recovery checked against real disposable backends. Direct validation callers, live session-cache cleanup and the full self-service deletion journey remain open.

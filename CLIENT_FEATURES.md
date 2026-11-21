@@ -376,6 +376,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Complete intended-origin provider and signup-consent rollout checks.
 - [ ] Recheck landing-page language and replace dense explanation with small useful demos.
 - [ ] Complete mounted account erasure and uncertain-result recovery.
+  - [x] ~~Cancel delayed token checks, retries and login callbacks before they can clear or replace a newer session.~~
   - [ ] Include that account's saved device drafts in the erasure journey.
     - [x] ~~Retire registered account drafts across open, resumed and reloaded tabs, with retry after refused storage and other-account preservation.~~
     - [x] ~~Keep Goal/Habit tracker snapshots account-scoped and migrate only matching older snapshots without losing refused writes.~~
