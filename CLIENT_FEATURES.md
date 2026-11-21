@@ -380,6 +380,11 @@ Updated November 21, 2026. Checked and struck-through items have implementation 
   - [x] ~~Keep delayed logout, realtime refresh and background verification from clearing or redirecting a newer account.~~
   - [x] ~~Bind shared API requests to their captured session and refuse a known mismatch between the displayed account and stored token.~~
   - [ ] Finish account-aware shared session storage and provider lifecycle ordering before completing deletion recovery.
+    - [x] ~~Keep a newer sign-in safe from delayed account-cache writes and captured sign-outs across tabs, including a missed sign-in/sign-out round trip.~~
+    - [x] ~~Migrate existing sign-in data and retire an exact account's saved sessions while preserving other accounts and device presentation.~~
+    - [x] ~~Keep the current tab signed out during refused storage cleanup, retry the original clear and wait for its result before deferred redirects.~~
+    - [ ] Recover unfinished sign-in cleanup after a storage-refused page is closed or reloaded.
+    - [ ] Finish compatibility checks for older open app versions and provider lifecycle ordering.
   - [ ] Include that account's saved device drafts in the erasure journey.
     - [x] ~~Retire registered account drafts across open, resumed and reloaded tabs, with retry after refused storage and other-account preservation.~~
     - [x] ~~Keep Goal/Habit tracker snapshots account-scoped and migrate only matching older snapshots without losing refused writes.~~

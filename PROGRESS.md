@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 21 2026 - Save and clear sign-ins through shared storage
+
+Sign-in and account-cache persistence now use one transactional storage owner. Delayed writes and captured sign-outs preserve newer logins, including a sign-in/sign-out round trip another tab missed. Existing data upgrades without resetting device presentation, and confirmed retirement removes only the selected account's saved sessions.
+
+When saved-state cleanup is refused, the current tab stays signed out and retries its original clear. Deferred redirects wait for durable cleanup and recheck session ownership. Local acceptance includes 2,702 client checks, native storage and mounted browser cases across four profiles, compiled reload checks and four real disposable-backend sign-in/restart/copy/logout journeys with verified zero residue. Original failures and corrected fixture replays remain recorded.
+
+Recovery after closing a storage-refused page, older-version compatibility, provider lifecycle ordering and the complete self-service deletion interface remain open. Application changes are local; this update does not deploy the app.
+
 ## November 21 2026 - Preserve sessions through delayed logout and realtime work
 
 Logout callbacks, background verification and realtime refresh now stop when their session changes. API requests retain the credential they started with. Shared API and logout actions cancel known disagreements between the displayed account and stored token. Normal sign-in, restart recovery and logout are checked through real disposable backends in four local browser profiles, including rejection of the signed-out credential. Canonical shared session storage, provider lifecycle ordering and the complete account-deletion recovery interface remain open. Application changes are local.
