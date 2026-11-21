@@ -332,6 +332,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
   - [x] ~~Chart same-day Time Range values in minutes and select numeric fields inside saved objects and arrays.~~
   - [x] ~~Capture and chart overnight Time Ranges with an explicit next-day option and recover unfinished entries after reload.~~
   - [x] ~~Show saved time ranges in the Data Table, Recent activity and record details, keeping the next-day marker visible. Open record details from Recent activity titles and return focus after closing.~~
+  - [x] ~~Show clock ranges in Stats Dashboard and Calendar previews. Open Month previews with the keyboard and select their day. Keep Calendar controls visible at 320 pixels.~~
   - [x] ~~Add an optional linear trend for the selected line-chart dates, based on periods with recorded values.~~
   - [x] ~~Group weekly Stats correctly across New Year and calculate the median for each chart period.~~
 

@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 21 2026 - Read ranges across Stats Calendar and Dashboard
+
+The remaining Stats previews now show saved clock ranges and their next-day marker. Month preview buttons support keyboard access and day selection. The compact Calendar toolbar keeps Today, previous/next and the view picker in view at 320 pixels. Verified in four local browser profiles.
+
 ## November 21 2026 - Read saved Stats ranges
 
 The Data Table and Recent activity show clock ranges with the next-day marker. Select a Recent activity title to open the saved record details. Closing returns keyboard focus to the entry. Verified in four local browser profiles, including compact table display at 320 pixels.
