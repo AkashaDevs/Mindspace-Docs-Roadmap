@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 21 2026 - Preserve sessions through delayed logout and realtime work
+
+Logout callbacks, background verification and realtime refresh now stop when their session changes. API requests retain the credential they started with. Shared API and logout actions cancel known disagreements between the displayed account and stored token. Normal sign-in, restart recovery and logout are checked through real disposable backends in four local browser profiles, including rejection of the signed-out credential. Canonical shared session storage, provider lifecycle ordering and the complete account-deletion recovery interface remain open. Application changes are local.
+
 ## November 21 2026 - Preserve newer sessions during validation
 
 A delayed token check now cancels when the account changes, including a switch away and back. Initial and hourly checks skip old login/logout callbacks; retries and fallback verification preserve the newer session. Normal account hydration and token rotation still work. Local browser and unit checks cover these transitions, with normal sign-in and restart recovery checked against real disposable backends in four browser profiles. Live session-cache cleanup, other refresh/clear callers and the complete self-service deletion journey remain open. Application changes are local.

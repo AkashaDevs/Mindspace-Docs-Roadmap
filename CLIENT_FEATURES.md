@@ -2,7 +2,7 @@
 
 [Overview](README.md) · [Server](SERVER_FEATURES.md) · [Progress](PROGRESS.md)
 
-Updated November 1, 2026. Checked and struck-through items have implementation and recorded development verification. Empty checkboxes remain open. New usability reports stay open even when an earlier implementation test passed. These are development statuses, not a claim about every hosted version.
+Updated November 21, 2026. Checked and struck-through items have implementation and recorded development verification. Empty checkboxes remain open. New usability reports stay open even when an earlier implementation test passed. These are development statuses, not a claim about every hosted version.
 
 ## Capture and return
 
@@ -377,6 +377,9 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Recheck landing-page language and replace dense explanation with small useful demos.
 - [ ] Complete mounted account erasure and uncertain-result recovery.
   - [x] ~~Cancel delayed token checks, retries and login callbacks before they can clear or replace a newer session.~~
+  - [x] ~~Keep delayed logout, realtime refresh and background verification from clearing or redirecting a newer account.~~
+  - [x] ~~Bind shared API requests to their captured session and refuse a known mismatch between the displayed account and stored token.~~
+  - [ ] Finish account-aware shared session storage and provider lifecycle ordering before completing deletion recovery.
   - [ ] Include that account's saved device drafts in the erasure journey.
     - [x] ~~Retire registered account drafts across open, resumed and reloaded tabs, with retry after refused storage and other-account preservation.~~
     - [x] ~~Keep Goal/Habit tracker snapshots account-scoped and migrate only matching older snapshots without losing refused writes.~~
