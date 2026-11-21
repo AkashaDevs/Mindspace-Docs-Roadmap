@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 21 2026 - Continue draft retirement across tabs
+
+Registered account drafts now clear from other tabs when they resume or reload, including private checkpoints, with retry after a storage refusal. Older Time data and Goal/Habit tracker snapshots have explicit account ownership. Shared token refresh, API rejection and paused login paths also preserve a newer session. Verified in four local browser profiles, with normal sign-in and restart recovery checked against real disposable backends. Direct validation callers, live session-cache cleanup and the full self-service deletion journey remain open.
+
 ## November 21 2026 - Prepare account-deletion recovery
 
 The server can issue a separate read-only proof before deletion and confirm the account outcome after normal sign-in is erased and the backend restarts. The proof cannot sign in or delete an account. Verified through mounted disposable-account checks. Device-draft cleanup owners also have unit and browser coverage, while per-tab cleanup, the self-service interface and a complete lost-response journey remain open.

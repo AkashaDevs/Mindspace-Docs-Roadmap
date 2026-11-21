@@ -356,6 +356,7 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 ## Accounts, workspaces and first visit
 
 - [x] ~~Login/signup, profile and persistent account preferences.~~
+  - [x] ~~Keep an old token refresh, API rejection or paused login callback from replacing a newer account session.~~
 - [x] ~~Username suggestions, display-name autofill and required/password feedback.~~
 - [x] ~~Readable auth containers and bounded animated backgrounds.~~
   - [x] ~~Wait for shader image textures to load before rendering, including Firefox.~~
@@ -376,6 +377,8 @@ Updated November 1, 2026. Checked and struck-through items have implementation a
 - [ ] Recheck landing-page language and replace dense explanation with small useful demos.
 - [ ] Complete mounted account erasure and uncertain-result recovery.
   - [ ] Include that account's saved device drafts in the erasure journey.
+    - [x] ~~Retire registered account drafts across open, resumed and reloaded tabs, with retry after refused storage and other-account preservation.~~
+    - [x] ~~Keep Goal/Habit tracker snapshots account-scoped and migrate only matching older snapshots without losing refused writes.~~
 - [ ] Provide a real support destination before enabling submission.
 
 ## Shared forms and reusable UI
