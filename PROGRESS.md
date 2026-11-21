@@ -2,6 +2,10 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 21 2026 - Prepare account-deletion recovery
+
+The server can issue a separate read-only proof before deletion and confirm the account outcome after normal sign-in is erased and the backend restarts. The proof cannot sign in or delete an account. Verified through mounted disposable-account checks. Device-draft cleanup owners also have unit and browser coverage, while per-tab cleanup, the self-service interface and a complete lost-response journey remain open.
+
 ## November 21 2026 - Keep Workspace copies safe through interruption
 
 Copy actions on Workspace cards and in the sidebar open the shared review form and keep its details on this device. Creation stays open through background Workspace changes. An uncertain copy can be confirmed after its source is removed, capacity is refilled, the backend restarts and the browser reloads, preserving one copy and later edits. Verified through actual sign-in and API calls in four local browser profiles with disposable databases. Shader images also wait for loading before rendering, fixing a Firefox error found in this journey. Hosted and physical-device acceptance remain open.

@@ -24,6 +24,7 @@ Updated October 31, 2026. Checked and struck-through items have recorded impleme
 - [x] ~~Pending provider-signup agreement and continuation foundations.~~
 - [x] ~~Temporary Guest expiry and same-account permanent conversion.~~
 - [x] ~~Atomic local account cleanup and session-retirement admission foundations.~~
+  - [x] ~~Prepare a separate read-only deletion proof and check the account outcome after session erasure and backend restart.~~
 - [ ] Provision and verify signup-agreement storage on the rollout target.
 - [ ] Complete intended-provider round trips and cached-client release acceptance.
 - [ ] Complete explicit legacy credential recovery and coordinated reader deployment.
