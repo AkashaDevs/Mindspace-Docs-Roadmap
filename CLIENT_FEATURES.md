@@ -357,6 +357,7 @@ Updated November 21, 2026. Checked and struck-through items have implementation 
 
 - [x] ~~Login/signup, profile and persistent account preferences.~~
   - [x] ~~Keep an old token refresh, API rejection or paused login callback from replacing a newer account session.~~
+  - [x] ~~Keep password and provider errors beside their own actions, with a Google startup retry that preserves typed details and keyboard focus.~~
 - [x] ~~Username suggestions, display-name autofill and required/password feedback.~~
 - [x] ~~Readable auth containers and bounded animated backgrounds.~~
   - [x] ~~Wait for shader image textures to load before rendering, including Firefox.~~
@@ -385,6 +386,7 @@ Updated November 21, 2026. Checked and struck-through items have implementation 
     - [x] ~~Keep the current tab signed out during refused storage cleanup, retry the original clear and wait for its result before deferred redirects.~~
     - [x] ~~Recover unfinished sign-in cleanup after a storage-refused page is closed or reloaded.~~ Saved cleanup intent is retried before restoring sign-in; when neither intent nor cleanup can be saved, show an explicit unsaved state and retry action.
     - [x] ~~Preserve a server-validated sign-in and usable account controls when local persistence fails, including during token rotation.~~
+    - [x] ~~Avoid a backlog of redundant saved-state writes ahead of sign-out by keeping the latest pending snapshot and skipping obsolete work.~~
     - [ ] Finish compatibility checks for older open app versions and provider lifecycle ordering.
   - [ ] Include that account's saved device drafts in the erasure journey.
     - [x] ~~Retire registered account drafts across open, resumed and reloaded tabs, with retry after refused storage and other-account preservation.~~

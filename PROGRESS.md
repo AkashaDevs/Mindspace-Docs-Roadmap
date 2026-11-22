@@ -2,6 +2,12 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 21 2026 - Keep sign-in failures beside their controls
+
+Google startup failures stay beside Google with **Retry Google sign-in**. Retrying preserves typed credentials and returns keyboard focus to the ready control, unless the user has moved elsewhere. Password rejection stays inside its form; a failed provider action does not overwrite it. Shared script loading can recover from failed, silent or unusable loads.
+
+Saved sign-in state also keeps the latest pending snapshot and skips obsolete snapshots ahead of sign-out. Four-profile source/compiled checks and real credential sign-in/restart/sign-out/recovery journeys pass against disposable local backends. Actual Google provider success, older-version/provider lifecycle ordering, the earlier intermittent phone/Stat failure causes and complete self-service erasure remain open. Application changes are local; this update does not deploy the app.
+
 ## November 21 2026 - Resume interrupted sign-out cleanup
 
 When the browser refuses a local sign-out save, a metadata-only cleanup request can survive page closure and reload. Startup retries that exact session before restoring saved sign-in, while preserving newer logins. Recovery distinguishes a saved request from an unsaved request when both storage writes fail, with an explicit retry action.
