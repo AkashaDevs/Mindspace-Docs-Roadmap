@@ -2,6 +2,14 @@
 
 [Overview](README.md) · [Client inventory](CLIENT_FEATURES.md) · [Server inventory](SERVER_FEATURES.md)
 
+## November 21 2026 - Resume interrupted sign-out cleanup
+
+When the browser refuses a local sign-out save, a metadata-only cleanup request can survive page closure and reload. Startup retries that exact session before restoring saved sign-in, while preserving newer logins. Recovery distinguishes a saved request from an unsaved request when both storage writes fail, with an explicit retry action.
+
+A valid server token check followed by a local persistence failure now preserves sign-in and responsive account controls, including during token rotation. Local acceptance includes 2,735 client checks, native and mounted recovery across four profiles, compiled browser checks and four real disposable-backend sign-in/restart/copy/logout journeys. The complete retained set of twelve backend runs has verified zero residue. Original failures and exact corrected replays remain recorded.
+
+Older-version compatibility, provider lifecycle ordering, uncertain server-side sign-out and the complete self-service deletion interface remain open. Application changes are local; this update does not deploy the app.
+
 ## November 21 2026 - Save and clear sign-ins through shared storage
 
 Sign-in and account-cache persistence now use one transactional storage owner. Delayed writes and captured sign-outs preserve newer logins, including a sign-in/sign-out round trip another tab missed. Existing data upgrades without resetting device presentation, and confirmed retirement removes only the selected account's saved sessions.

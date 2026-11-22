@@ -383,7 +383,8 @@ Updated November 21, 2026. Checked and struck-through items have implementation 
     - [x] ~~Keep a newer sign-in safe from delayed account-cache writes and captured sign-outs across tabs, including a missed sign-in/sign-out round trip.~~
     - [x] ~~Migrate existing sign-in data and retire an exact account's saved sessions while preserving other accounts and device presentation.~~
     - [x] ~~Keep the current tab signed out during refused storage cleanup, retry the original clear and wait for its result before deferred redirects.~~
-    - [ ] Recover unfinished sign-in cleanup after a storage-refused page is closed or reloaded.
+    - [x] ~~Recover unfinished sign-in cleanup after a storage-refused page is closed or reloaded.~~ Saved cleanup intent is retried before restoring sign-in; when neither intent nor cleanup can be saved, show an explicit unsaved state and retry action.
+    - [x] ~~Preserve a server-validated sign-in and usable account controls when local persistence fails, including during token rotation.~~
     - [ ] Finish compatibility checks for older open app versions and provider lifecycle ordering.
   - [ ] Include that account's saved device drafts in the erasure journey.
     - [x] ~~Retire registered account drafts across open, resumed and reloaded tabs, with retry after refused storage and other-account preservation.~~
